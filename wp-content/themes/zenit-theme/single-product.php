@@ -24,7 +24,6 @@
 	        console.log("All resources finished loading!");
 	    });
 	}
-
 </script>
 
 <?php
