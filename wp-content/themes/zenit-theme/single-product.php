@@ -1,5 +1,4 @@
 <script language="javascript">
-
 	function adjustColHeight() {
 		var colRight = document.getElementById('single-prod');
 		var colMenu  = document.getElementById('fixed-menu-single-product');
@@ -25,7 +24,6 @@
 	        console.log("All resources finished loading!");
 	    });
 	}
-	
 </script>
 
 <?php
