@@ -1,0 +1,43 @@
+header{
+	
+}
+
+#social-fixed{
+	position:fixed;
+	right:0;
+	top:50%;
+	transform:translateY(-50%);
+	z-index:99;
+	padding:20px 12px;
+	text-align:center;
+	opacity:1;
+	background-image:url('../images/stardust_white.png');
+	background-size: contain;
+	transition:0.5s right ease-in-out, 0.8s opacity ease-in-out;
+	li{
+		margin-bottom:25px;
+		img{
+			height:25px;
+			width:auto;
+		}
+		&:last-of-type{
+			margin-bottom:0px;
+		}
+	}
+
+	&.visually-hidden{
+		right:-50px;
+		opacity:0;
+	}
+}
+
+.cart-icon{
+	width:25px;
+	height:auto;
+}
+
+@media (max-width: 768px) {
+    #social-fixed{
+    	display:none;
+    }
+}

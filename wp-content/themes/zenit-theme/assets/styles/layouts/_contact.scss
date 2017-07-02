@@ -1,0 +1,55 @@
+.row-map{
+    margin-left:-30px;
+    margin-right:-30px;
+}
+
+#map{
+	height:50vh;
+}
+
+body.page-template-page-contact{
+	.main form{
+		width: 90%;
+		margin-bottom: 70px;
+	}
+
+	.container-fluid{
+		h2{
+			padding-left:0;
+		}
+	}
+
+	background-image:url('../images/stardust_white.png');
+	background-size: contain;
+}
+
+@media (max-width: 768px) {
+    html body.page-template-page-contact{
+
+    	padding-top:80px;
+
+    	.container-fluid{
+    		h2{
+    			font-size: 32px;
+    			margin-bottom: 15px;
+    		}
+    	}
+
+    	form{
+    		width:100%;
+    		margin-bottom:35px;
+    	}
+
+    	.page-contact{
+    		.droite{
+    			padding-left:25px;
+    			margin-top:15px;
+    		}
+    	}
+
+    	#map{
+    		margin-left:-30px;
+    		height:25vh;
+    	}
+    }
+}

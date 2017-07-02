@@ -1,0 +1,20 @@
+Fix for language switcher with tabs:
+
+C:\wamp64\www\zenitboards\wp-content\plugins\qtranslate-x\admin\qtx_admin.php
+commented line 573 //add_action('admin_footer', 'qtranxf_admin_footer',999);
+
+C:\wamp64\www\zenitboards\wp-content\themes\zenit-theme\woocommerce\content-single-product.php
+modified line 102-108
+
+
+
+Fix for category subtitle:
+
+C:\wamp64\www\zenitboards\wp-content\themes\zenit-theme\templates\page-boards.php
+
+
+
+design layout change
+
+C:\wamp64\www\zenitboards\wp-content\themes\zenit-theme\single-simple.php
+C:\wamp64\www\zenitboards\wp-content\themes\zenit-theme\single-product.php

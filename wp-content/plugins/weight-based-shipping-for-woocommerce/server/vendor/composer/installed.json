@@ -1,0 +1,404 @@
+[
+    {
+        "name": "dangoodman/boxpacking",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-box-packing.git",
+            "reference": "380f2942c4e246fc7f3837e1b5c7671f1419efb3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/boxpacking/dangoodman-boxpacking-1.0.3-3d4a27.zip",
+            "reference": "380f2942c4e246fc7f3837e1b5c7671f1419efb3",
+            "shasum": "ebc0684e42f5df8d81006696b867e8d0a350947b"
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2016-04-28T10:54:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "BoxPacking\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/class-name-aware",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-class-name-aware.git",
+            "reference": "751c281f1e46d2c4f12c8a1d11879285b1e44bcb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/class-name-aware/dangoodman-class-name-aware-1.0.0-56054d.zip",
+            "reference": "751c281f1e46d2c4f12c8a1d11879285b1e44bcb",
+            "shasum": "1bdcf757e2f52d24b82836609669786b02224220"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2017-01-16T14:39:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "ClassNameAware.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/composer-capsule-runtime",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "D:\\projects\\all\\composer-capsule-runtime",
+            "reference": "c7aa54112dfdc97c3db71fe2aebb526227889e8a"
+        },
+        "require": {
+            "php": "^5.3.0"
+        },
+        "time": "2017-04-22T20:57:56+00:00",
+        "type": "library",
+        "extra": {
+            "composer-capsule": {
+                "processing": {
+                    "skipRuntimeHooks": true
+                }
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "autoload.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/comparator",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-comparator.git",
+            "reference": "e9ed812ea54194bce2800b223b053c1e030b9f94"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/comparator/dangoodman-comparator-1.0.0-ec2078.zip",
+            "reference": "e9ed812ea54194bce2800b223b053c1e030b9f94",
+            "shasum": "beda606616bbb35f16b481695768a8eff948d261"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.3.*"
+        },
+        "time": "2017-01-15T13:38:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Comparator\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/number-unit",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-number-unit.git",
+            "reference": "96cacd38f17f224f2a0471f731d763de2404c698"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/number-unit/dangoodman-number-unit-1.0.0-5b71d3.zip",
+            "reference": "96cacd38f17f224f2a0471f731d763de2404c698",
+            "shasum": "e29fe42bf1ecd6f99baabaafe1b55d883820b6cb"
+        },
+        "require": {
+            "dangoodman/comparator": "^1.0",
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.3.*"
+        },
+        "time": "2017-01-17T06:37:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\NumberUnit\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/simple-properties",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-simple-properties.git",
+            "reference": "4dc103978830f83b655812323966e54cb6006e4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/simple-properties/dangoodman-simple-properties-1.0.0-61db1f.zip",
+            "reference": "4dc103978830f83b655812323966e54cb6006e4e",
+            "shasum": "969bda2ba353d8ef04d410e5e74ee6b54e8add80"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2017-01-15T13:20:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "SimpleProperties.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/range",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-range.git",
+            "reference": "d883da0f503905191070af25169c976520ce4f6a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/range/dangoodman-range-1.0.0-a7064c.zip",
+            "reference": "d883da0f503905191070af25169c976520ce4f6a",
+            "shasum": "58fc7550d94458ce816e164c000331ec61a8cbd9"
+        },
+        "require": {
+            "dangoodman/comparator": "^1.0",
+            "dangoodman/simple-properties": "^1.0",
+            "php": "^5.3"
+        },
+        "time": "2017-01-17T06:20:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Range\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/arrays",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-arrays.git",
+            "reference": "0ba562ebbad45adf287d9d94e3193737523dd24c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/arrays/dangoodman-arrays-1.0.0-60e036.zip",
+            "reference": "0ba562ebbad45adf287d9d94e3193737523dd24c",
+            "shasum": "d5f66322d396b394a8028339d7bbbcc095d38c1e"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2017-01-16T14:29:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Arrays.php"
+            ]
+        }
+    },
+    {
+        "name": "dangoodman/shengine",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-shengine.git",
+            "reference": "df04fcf0e1d1d1e04097dbfb2a9246a50eb1000c"
+        },
+        "require": {
+            "dangoodman/arrays": "^1.0",
+            "dangoodman/boxpacking": "^1.0",
+            "dangoodman/class-name-aware": "^1.0",
+            "dangoodman/comparator": "^1.0",
+            "dangoodman/number-unit": "^1.0",
+            "dangoodman/range": "^1.0",
+            "dangoodman/simple-properties": "^1.0",
+            "php": "^5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.3.*"
+        },
+        "time": "2017-03-24T13:48:17+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Shengine\\": "src/"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Dgm\\Shengine\\Tests\\": "tests/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/deferred",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dangoodman/deferred.git",
+            "reference": "cf0d7d8370c0f7225da872a3a2e3c8f1a5bc4205"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dangoodman/deferred/zipball/cf0d7d8370c0f7225da872a3a2e3c8f1a5bc4205",
+            "reference": "cf0d7d8370c0f7225da872a3a2e3c8f1a5bc4205",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~3.7"
+        },
+        "time": "2017-04-26T11:54:04+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Deferred.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Deferred callback execution based on RAII"
+    },
+    {
+        "name": "dangoodman/shengine-wc-item",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-shengine-wc-item.git",
+            "reference": "d3c972fa8bbf8f357956c50f20a5dd9a62ab81d9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/shengine-wc-item/dangoodman-shengine-wc-item-1.0.0-d92bfe.zip",
+            "reference": "d3c972fa8bbf8f357956c50f20a5dd9a62ab81d9",
+            "shasum": "ec709cf98880163c23ad689ac0673c71c25729eb"
+        },
+        "require": {
+            "dangoodman/arrays": "^1.0",
+            "dangoodman/deferred": "^1.0",
+            "dangoodman/shengine": "^1.0",
+            "php": ">=5.3"
+        },
+        "time": "2017-01-17T13:20:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Shengine\\Woocommerce\\Model\\Item\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/shengine-wc-converters",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-shengine-wc-converters.git",
+            "reference": "e03ebcbef71388d026b50d8e7ee09b194b3be775"
+        },
+        "require": {
+            "dangoodman/arrays": "^1.0",
+            "dangoodman/shengine": "^1.1.0",
+            "dangoodman/shengine-wc-item": "^1.0",
+            "php": ">=5.3"
+        },
+        "time": "2017-04-28T21:55:23+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\Shengine\\Woocommerce\\Converters\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/wc-tools",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-wc-tools.git",
+            "reference": "e64934b6da463a8295b79364d0a4ef2991e5a7c7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "file:///D:/projects/all/private-composer-repo/out/dist/dangoodman/wc-tools/dangoodman-wc-tools-1.0.0-ce7845.zip",
+            "reference": "e64934b6da463a8295b79364d0a4ef2991e5a7c7",
+            "shasum": "0e16af7037d16823163d2a5e0673b9e838d7da93"
+        },
+        "require": {
+            "php": "^5.3"
+        },
+        "time": "2017-01-18T13:49:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dgm\\WcTools\\": "src/"
+            }
+        }
+    },
+    {
+        "name": "dangoodman/wp-prerequisites-check",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:dangoodman/lib-wp-prerequisites-check.git",
+            "reference": "422cf1dd0d940e830b42ee5d222efe037c6c8cc2"
+        },
+        "require": {
+            "php": "^5.0"
+        },
+        "time": "2017-01-15T12:14:59+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "DgmWpPrerequisitesChecker.php"
+            ]
+        }
+    }
+]

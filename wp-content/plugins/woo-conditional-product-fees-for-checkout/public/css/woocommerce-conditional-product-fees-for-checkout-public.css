@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#loader_image_checkout img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+tr#loader_image_checkout {
+    display: none;
+}

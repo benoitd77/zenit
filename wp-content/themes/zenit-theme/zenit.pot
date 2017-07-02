@@ -1,0 +1,145 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-17 20:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the template
+msgid "Custom Template"
+msgstr ""
+
+#: archive-product.php:76 templates/page-boards.php:83
+msgid "Height"
+msgstr ""
+
+#: archive-product.php:77 templates/page-boards.php:84
+msgid "Width"
+msgstr ""
+
+#: archive-product.php:78 templates/page-boutique.php:86
+#: templates/page-boards.php:85
+msgid "Wheelbase"
+msgstr ""
+
+#: single-simple.php:57 single-simple.php:157
+msgid "Add to cart"
+msgstr ""
+
+#: single-simple.php:59 single-simple.php:159 single-simple.php:180
+msgid "Out of stock"
+msgstr ""
+
+#: single-simple.php:150
+msgid "board only"
+msgstr ""
+
+#: single-simple.php:178
+msgid "Customize"
+msgstr ""
+
+#: single-simple.php:196
+msgid "Stats"
+msgstr ""
+
+#: single-simple.php:206
+msgid "Buy"
+msgstr ""
+
+#. Name of the template
+msgid "Template : À propos"
+msgstr ""
+
+#. Name of the template
+msgid "Template : Vidéo"
+msgstr ""
+
+#: templates/header.php:20
+msgid "cart page"
+msgstr ""
+
+#. Name of the template
+msgid "Template : Accueil"
+msgstr ""
+
+#: templates/page-accueil.php:113
+msgid "Share your story with us."
+msgstr ""
+
+#: templates/page-accueil.php:121
+msgctxt "Infolettre"
+msgid "Newsletter"
+msgstr ""
+
+#: templates/page-accueil.php:124
+msgid "Email"
+msgstr ""
+
+#: templates/page-accueil.php:125
+msgid "Send"
+msgstr ""
+
+#. Name of the template
+msgid "Template : Contact"
+msgstr ""
+
+#: templates/page-contact.php:66
+msgid "Contact us"
+msgstr ""
+
+#: templates/page-contact.php:72
+msgid "Find us"
+msgstr ""
+
+#. Name of the template
+msgid "Template : Boutique"
+msgstr ""
+
+#: templates/page-boutique.php:84
+msgid "Longueur"
+msgstr ""
+
+#: templates/page-boutique.php:85
+msgid "Largeur"
+msgstr ""
+
+#. Name of the template
+msgid "Template : Team"
+msgstr ""
+
+#: templates/page-team.php:115
+msgid "Formulaire de candidature"
+msgstr ""
+
+#. Name of the template
+msgid "Template : Boards"
+msgstr ""
+
+#. Name of the theme
+msgid "Zenit Theme"
+msgstr ""
+
+#. Description of the theme
+msgid "Thème de zenitboards basé sur le boilerplate sage (roots)"
+msgstr ""
+
+#. URI of the theme
+msgid "http://francisperreault.com/"
+msgstr ""
+
+#. Author of the theme
+msgid "Francis Perreault"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://franperreault@gmail.com"
+msgstr ""

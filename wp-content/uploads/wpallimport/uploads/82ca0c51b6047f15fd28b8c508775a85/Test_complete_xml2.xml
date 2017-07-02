@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[1065]]></id>
+		<title><![CDATA[Hibiscus complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[332]]></parentproductid>
+		<test><![CDATA[]]></test>
+		<trucks><![CDATA[Paris Street Trucks RAW 169mm TKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[130]]></regularprice>
+		<price><![CDATA[120]]></price>
+		<attributenamepa_test><![CDATA[Test]]></attributenamepa_test>
+		<attributevaluepa_test><![CDATA[]]></attributevaluepa_test>
+		<attributeinvariationspa_test><![CDATA[no]]></attributeinvariationspa_test>
+		<attributeisvisiblepa_test><![CDATA[no]]></attributeisvisiblepa_test>
+		<attributeistaxonomypa_test><![CDATA[no]]></attributeistaxonomypa_test>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[Paris Street Trucks RAW 169mm TKP]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[yes]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[yes]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[yes]]></attributeistaxonomypa_trucks>
+		<attributenamepa_wheels><![CDATA[Wheels]]></attributenamepa_wheels>
+		<attributevaluepa_wheels><![CDATA[Kegels 80a]]></attributevaluepa_wheels>
+		<attributeinvariationspa_wheels><![CDATA[yes]]></attributeinvariationspa_wheels>
+		<attributeisvisiblepa_wheels><![CDATA[yes]]></attributeisvisiblepa_wheels>
+		<attributeistaxonomypa_wheels><![CDATA[yes]]></attributeistaxonomypa_wheels>
+		<imagefilename><![CDATA[]]></imagefilename>
+		<imagetitle><![CDATA[]]></imagetitle>
+		<parentproductid_2><![CDATA[332]]></parentproductid_2>
+	</node>
+	<node>
+		<id><![CDATA[1064]]></id>
+		<title><![CDATA[Hibiscus complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[332]]></parentproductid>
+		<test><![CDATA[]]></test>
+		<trucks><![CDATA[Paris Trucks Black 150mm 50å¡ RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[344]]></regularprice>
+		<price><![CDATA[80]]></price>
+		<attributenamepa_test><![CDATA[Test]]></attributenamepa_test>
+		<attributevaluepa_test><![CDATA[]]></attributevaluepa_test>
+		<attributeinvariationspa_test><![CDATA[no]]></attributeinvariationspa_test>
+		<attributeisvisiblepa_test><![CDATA[no]]></attributeisvisiblepa_test>
+		<attributeistaxonomypa_test><![CDATA[no]]></attributeistaxonomypa_test>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[Paris Trucks Black 150mm 50å¡ RKP]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[yes]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[yes]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[yes]]></attributeistaxonomypa_trucks>
+		<attributenamepa_wheels><![CDATA[Wheels]]></attributenamepa_wheels>
+		<attributevaluepa_wheels><![CDATA[Kegels 80a]]></attributevaluepa_wheels>
+		<attributeinvariationspa_wheels><![CDATA[yes]]></attributeinvariationspa_wheels>
+		<attributeisvisiblepa_wheels><![CDATA[yes]]></attributeisvisiblepa_wheels>
+		<attributeistaxonomypa_wheels><![CDATA[yes]]></attributeistaxonomypa_wheels>
+		<imagefilename><![CDATA[]]></imagefilename>
+		<imagetitle><![CDATA[]]></imagetitle>
+		<parentproductid_2><![CDATA[332]]></parentproductid_2>
+	</node>
+	<node>
+		<id><![CDATA[1063]]></id>
+		<title><![CDATA[Hibiscus complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[332]]></parentproductid>
+		<test><![CDATA[]]></test>
+		<trucks><![CDATA[Paris Trucks Gold 180mm 43å¡ RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[5453]]></regularprice>
+		<price><![CDATA[80]]></price>
+		<attributenamepa_test><![CDATA[Test]]></attributenamepa_test>
+		<attributevaluepa_test><![CDATA[]]></attributevaluepa_test>
+		<attributeinvariationspa_test><![CDATA[no]]></attributeinvariationspa_test>
+		<attributeisvisiblepa_test><![CDATA[no]]></attributeisvisiblepa_test>
+		<attributeistaxonomypa_test><![CDATA[no]]></attributeistaxonomypa_test>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[Paris Trucks Gold 180mm 43å¡ RKP]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[yes]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[yes]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[yes]]></attributeistaxonomypa_trucks>
+		<attributenamepa_wheels><![CDATA[Wheels]]></attributenamepa_wheels>
+		<attributevaluepa_wheels><![CDATA[Kegels 80a]]></attributevaluepa_wheels>
+		<attributeinvariationspa_wheels><![CDATA[yes]]></attributeinvariationspa_wheels>
+		<attributeisvisiblepa_wheels><![CDATA[yes]]></attributeisvisiblepa_wheels>
+		<attributeistaxonomypa_wheels><![CDATA[yes]]></attributeistaxonomypa_wheels>
+		<imagefilename><![CDATA[]]></imagefilename>
+		<imagetitle><![CDATA[]]></imagetitle>
+		<parentproductid_2><![CDATA[332]]></parentproductid_2>
+	</node>
+	<node>
+		<id><![CDATA[1062]]></id>
+		<title><![CDATA[Hibiscus complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[332]]></parentproductid>
+		<test><![CDATA[]]></test>
+		<trucks><![CDATA[Paris Trucks Matt Kienzle Signature 180mm 50å¡ RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[3455]]></regularprice>
+		<price><![CDATA[80]]></price>
+		<attributenamepa_test><![CDATA[Test]]></attributenamepa_test>
+		<attributevaluepa_test><![CDATA[]]></attributevaluepa_test>
+		<attributeinvariationspa_test><![CDATA[no]]></attributeinvariationspa_test>
+		<attributeisvisiblepa_test><![CDATA[no]]></attributeisvisiblepa_test>
+		<attributeistaxonomypa_test><![CDATA[no]]></attributeistaxonomypa_test>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[Paris Trucks Matt Kienzle Signature 180mm 50å¡ RKP]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[yes]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[yes]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[yes]]></attributeistaxonomypa_trucks>
+		<attributenamepa_wheels><![CDATA[Wheels]]></attributenamepa_wheels>
+		<attributevaluepa_wheels><![CDATA[Kegels 80a]]></attributevaluepa_wheels>
+		<attributeinvariationspa_wheels><![CDATA[yes]]></attributeinvariationspa_wheels>
+		<attributeisvisiblepa_wheels><![CDATA[yes]]></attributeisvisiblepa_wheels>
+		<attributeistaxonomypa_wheels><![CDATA[yes]]></attributeistaxonomypa_wheels>
+		<imagefilename><![CDATA[]]></imagefilename>
+		<imagetitle><![CDATA[]]></imagetitle>
+		<parentproductid_2><![CDATA[332]]></parentproductid_2>
+	</node>
+	<node>
+		<id><![CDATA[1059]]></id>
+		<title><![CDATA[Hibiscus complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[332]]></parentproductid>
+		<test><![CDATA[]]></test>
+		<trucks><![CDATA[Paris Trucks Satin Red 180mm 50å¡ RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[345]]></regularprice>
+		<price><![CDATA[80]]></price>
+		<attributenamepa_test><![CDATA[Test]]></attributenamepa_test>
+		<attributevaluepa_test><![CDATA[]]></attributevaluepa_test>
+		<attributeinvariationspa_test><![CDATA[no]]></attributeinvariationspa_test>
+		<attributeisvisiblepa_test><![CDATA[no]]></attributeisvisiblepa_test>
+		<attributeistaxonomypa_test><![CDATA[no]]></attributeistaxonomypa_test>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[Paris Trucks Satin Red 180mm 50å¡ RKP]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[yes]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[yes]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[yes]]></attributeistaxonomypa_trucks>
+		<attributenamepa_wheels><![CDATA[Wheels]]></attributenamepa_wheels>
+		<attributevaluepa_wheels><![CDATA[Kegels 80a]]></attributevaluepa_wheels>
+		<attributeinvariationspa_wheels><![CDATA[yes]]></attributeinvariationspa_wheels>
+		<attributeisvisiblepa_wheels><![CDATA[yes]]></attributeisvisiblepa_wheels>
+		<attributeistaxonomypa_wheels><![CDATA[yes]]></attributeistaxonomypa_wheels>
+		<imagefilename><![CDATA[]]></imagefilename>
+		<imagetitle><![CDATA[]]></imagetitle>
+		<parentproductid_2><![CDATA[332]]></parentproductid_2>
+	</node>
+</data>

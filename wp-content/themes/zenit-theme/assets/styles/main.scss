@@ -1,0 +1,27 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/slick-carousel/slick/slick.scss";
+// endbower
+
+@import "common/global";
+@import "components/buttons";
+@import "components/forms";
+@import "components/grid";
+@import "components/slider";
+@import "layouts/header";
+@import "layouts/home";
+@import "layouts/footer";
+@import "layouts/tinymce";
+@import "layouts/boards";
+@import "layouts/a-propos";
+@import "layouts/nav";
+@import "layouts/nav";
+@import "layouts/boards-list";
+@import "layouts/team";
+@import "layouts/videos";
+@import "layouts/single_product";
+@import "layouts/shop";
+@import "layouts/contact";

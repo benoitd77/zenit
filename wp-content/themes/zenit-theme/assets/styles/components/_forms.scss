@@ -1,0 +1,77 @@
+	input, textarea{
+		margin-bottom: 15px;
+		margin-top: 5px;
+		padding:10px;
+	}
+
+	textarea{
+		resize:none;
+	}
+
+		input[type=text],input[type=email],textarea, input[type="tel"] {
+   		border-radius: 3px 3px 8px 8px;
+	    border-color: transparent;
+	    background-color: #b5b5b5;
+	    width: 100%;
+	    opacity:0.75;
+	    transition:0.3s opacity;
+	    &:focus,&:hover{
+	    	opacity:1;
+	    }
+	}
+	textarea{
+		margin-top: 5px;
+	}
+	body.page-template-page-contact textarea::-webkit-input-placeholder, body.page-template-page-team textarea::-webkit-input-placeholder{
+		color:black;
+	}
+	input[type=submit]{
+		    width: 100px;
+		    background-color: #292929;
+		    color: gainsboro;
+		    border-radius: 5px;
+		    font-weight: 800;
+		    float: right;
+		    border-color:transparent;
+		    opacity:1;
+		    transition:0.5s opacity;
+		    &:hover{
+		    	opacity:0.75;
+		    }
+	}
+
+	input::-webkit-input-placeholder{
+    opacity:1;
+    transform:translateY(0px);
+    transition:0.3s opacity ease-in-out, 0.3s transform ease-in-out!important;
+}
+	body.page-template-page-contact input::-webkit-input-placeholder, body.page-template-page-team input::-webkit-input-placeholder{
+		color:black;
+	}
+
+input:focus::-webkit-input-placeholder{
+    opacity:0;
+    transform:translateY(100%);
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    opacity:1;
+    transform:translateY(0px);
+    transition:0.3s opacity ease-in-out, 0.3s transform ease-in-out!important;
+}
+input:focus:-moz-placeholder {
+    opacity:0;
+    transform:translateY(100%);
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    opacity:1;
+    transform:translateY(0px);
+    transition:0.3s opacity ease-in-out, 0.3s transform ease-in-out!important;
+}
+input:focus::-moz-placeholder {
+    opacity:0;
+    transform:translateY(100%);
+}

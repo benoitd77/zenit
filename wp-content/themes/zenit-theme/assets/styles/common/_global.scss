@@ -1,0 +1,86 @@
+*:focus{
+	outline:none;
+}
+
+html{
+	background-image:url('../images/stardust_white.png');
+	overflow-x:hidden;
+	background-size: contain;
+}
+
+body{
+	overflow-x:hidden;
+	&.no-scroll{
+		overflow:hidden;
+	}
+}
+
+
+h1,h2,h3,h4,h5{
+	font-family:$sucrose;
+	letter-spacing:0.05em;
+	text-transform:uppercase;
+	color:black;
+	font-weight:900;
+	margin-top:0;
+	margin-bottom:0;
+	-webkit-font-smoothing: antialiased;
+
+	&.wht{
+		color:white;
+	}
+}
+
+a,p,li{
+	font-size:18px;
+	letter-spacing:0.05em;
+	font-family:$apercu;
+	-webkit-font-smoothing: antialiased;
+	margin-bottom:0;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+ul{
+	margin-bottom:0;
+	padding-left:0;
+	list-style-type:none;
+}
+
+a{
+	opacity:1;
+	transition:0.5s all ease-in-out;
+	background-color:transparent;
+	backface-visibility: hidden;
+	webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+	&:hover{
+		text-decoration:none;
+		opacity:0.6;
+		background-color:transparent!important;
+	}
+}
+
+#rp_shipping_calculator{
+	max-width:100%!important;
+}
+
+body{
+	#undefined{
+		div.dd-select{
+			//width: 50px;
+		}
+	}
+
+}
+
+
+
+body.page-template-default{
+	h1{
+		margin-bottom:15px;
+	}
+}

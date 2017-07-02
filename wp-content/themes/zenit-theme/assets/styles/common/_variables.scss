@@ -1,0 +1,43 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Colors
+$brand-primary:         #bd9a5c;
+
+
+
+@font-face {
+    font-family: 'sucrose';
+    src: url('../fonts/sucrose-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sucrose-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sucrose';
+    src: url('../fonts/sucrose-boldone-webfont.woff2') format('woff2'),
+         url('../fonts/sucrose-boldone-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'apercu';
+    src: url('../fonts/apercu-regular-webfont.woff2') format('woff2'),
+         url('../fonts/apercu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$apercu : 'apercu';
+$sucrose : 'sucrose';
+
+.clear{
+	clear:both;
+	display:block;
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width:	1200px) and (max-width:	1300px){
+table#tbl-product-fee tr td input#product_fees_conditions_values {width: 20em;}
+}
+
+@media screen and (max-width:	980px){
+	.dots-header-right .logo-detail strong{font-size: 28PX;}
+	.under-table table.table-outer tr td.ur-2 a{margin-bottom: 20px;}
+	.under-table table.table-outer tr td.ur-2 a{margin-bottom: 20px;}
+	.set h2{margin-top: 0;}
+	.set-right {width: 100%;float: left;text-align: left;margin-top: 20px;}
+	.search {float: none;}
+	}
+
+@media screen and (max-width:	768px){
+	.logo-main {display: block;width: 100%;box-sizing: border-box;}
+	.dots-header-right .logo-detail {width: 100%;margin-bottom: 20px;}
+	.dots-header-right .update-blog {float: left;margin-left: 20px;}
+	.menu-main ul li a{padding-left: 17px;padding-right: 17px;}
+	.wcpfc-main-table table.table-outer tr td.fr-2 a.ab {margin-top: 20px;}
+	.under-table table.table-outer tr td.ur-2 p.block.bl {margin-left: 26px;}
+	.under-table table.table-outer tr td.ur-2 input#submit{width: 27% !important;}
+	.foot-rihgt {float: left;margin-top: 20px;width: 100%;}
+	.under-table table.table-outer tr td.ur-2 select { width: 100%;	}
+	.set input#submit {width: 24% !important;}
+}	
+@media screen and (max-width:	559px){
+	.dots-header-right {width: 100%;display: block;}
+	.dots-header-right .logo-detail strong {font-size: 24PX;}
+	.menu-main ul li {width: 100% !important;margin: 0 auto;text-align: center;}
+	.tap {width: 100%;overflow: auto;}
+	.tap table.table-outer.tap-cas {min-width: 640px;}
+	.wcpfc-main-table.none-blog {border-right: 1px solid #ddd;}
+	.wcpfc-main-table.res-cl table.table-outer tr td {font-size: 15px !important;padding: 20px 0px 20px 10px !important;display: block;width: 100%;box-sizing: border-box;}
+	.wcpfc-main-table.res-cl table.table-outer tr td.fr-1 {width: 100%;border-bottom: none;}
+	.wcpfc-main-table.res-cl td.fr-2 {border-top: none !important;}
+	.wcpfc-main-table table.table-outer tr td.fr-2 a.gb{margin-right: 0;}
+	.wcpfc-main-table.res-cl table.table-outer tr td.fr-2 a.cb{margin-top: 20px;}
+	.search {margin-top: 20px;}
+	.under-table table.table-outer tr td.ur-1 {width: 85%;border-bottom: none;}
+	.under-table table.table-outer tr td {width: 85%;display: block;}
+	.wcpfc-main-table table.table-outer tr td.fr-2 a{padding-right: 10px;padding-left: 0;}
+	.under-table table.table-outer tr td.ur-2 {    border-top: none;}
+	
+}

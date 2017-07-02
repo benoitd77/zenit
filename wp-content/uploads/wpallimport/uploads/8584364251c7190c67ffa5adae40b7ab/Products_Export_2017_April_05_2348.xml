@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[2063]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2063]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2064]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2064]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 80a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2065]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2065]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2062]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2062]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 86a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2066]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2066]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2060]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2060]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2056]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2056]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2058]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2058]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2061]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2061]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2059]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2059]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2057]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2057]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 70mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2060]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2060]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks White 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2048]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2048]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2049]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2049]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 86a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2050]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2050]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2054]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2054]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2052]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2052]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2053]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2053]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2051]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2051]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 80a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2045]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2045]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2045]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2045]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2044]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2044]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 70mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2041]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2041]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2040]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2040]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2047]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2047]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2042]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2042]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Onsen 100a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2043]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2043]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2035]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2035]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2033]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2033]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2037]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2037]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2036]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2036]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 86a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2033]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2033]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2032]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2032]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2034]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2034]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2035]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2035]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2029]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2029]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Onsen 100a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2026]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2026]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2027]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2027]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2030]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2030]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2031]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2031]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 70mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2025]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2025]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 80a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2031]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2031]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 70mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2028]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2028]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2026]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2026]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2024]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2024]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2019]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2019]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2020]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2020]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2021]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2021]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2018]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2018]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 70mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2017]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2017]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2016]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2016]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Onsen 100a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2014]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2014]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2013]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2013]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2015]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2015]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2007]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2007]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2004]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2004]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2002]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2002]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2012]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2012]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 80a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2003]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2003]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Onsen 100a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2011]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2011]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2010]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2010]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 86a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2007]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2007]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2011]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2011]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2012]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2012]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 180mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 80a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2002]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2002]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1992]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1992]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 70mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1997]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1997]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 86a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1991]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1991]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1996]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1996]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1995]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1995]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2001]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2001]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1993]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1993]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[2000]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-2000]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1995]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1995]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1991]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1991]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1994]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1994]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal Grey 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1987]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1987]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1981]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1981]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1990]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1990]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Onsen 100a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1982]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1982]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1988]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1988]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1986]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1986]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 80a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1983]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1983]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1990]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1990]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Onsen 100a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1984]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1984]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 86a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1978]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1978]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 60mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1982]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1982]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1979]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1979]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Zenit 78a - 70mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1985]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1985]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Electro Luxe 165mm 43° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1974]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1974]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1968]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1968]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1976]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1976]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1970]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1970]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1967]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1967]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kegels 80a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1975]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1975]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1977]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1977]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Onsen 100a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1969]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1969]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Kilmer 83a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1974]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1974]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Skiffs 86a]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1972]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1972]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 83a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[1971]]></id>
+		<title><![CDATA[Alaia Complete]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[1966-1971]]></sku>
+		<producttype><![CDATA[variable]]></producttype>
+		<parentproductid><![CDATA[1966]]></parentproductid>
+		<trucks><![CDATA[Paris Trucks Savants Gunmetal grey 165mm 50° RKP]]></trucks>
+		<wheels><![CDATA[Orangatang Keanu 86a 66mm]]></wheels>
+		<productattributes><![CDATA[]]></productattributes>
+		<regularprice><![CDATA[22]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[565]]></id>
+		<title><![CDATA[Hibiscus]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[565]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[120]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[564]]></id>
+		<title><![CDATA[Alaia]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[564]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[120]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[563]]></id>
+		<title><![CDATA[MARBLE 40]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[563]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[190]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[562]]></id>
+		<title><![CDATA[MARBLE 38]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[562]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[190]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[561]]></id>
+		<title><![CDATA[ROCKET V2]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[561]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[200]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[560]]></id>
+		<title><![CDATA[JIG]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[560]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[200]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[559]]></id>
+		<title><![CDATA[AB]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[559]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[200]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[558]]></id>
+		<title><![CDATA[Morning Wood]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[558]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[150]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[555]]></id>
+		<title><![CDATA[Cruise]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[555]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[140]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[554]]></id>
+		<title><![CDATA[Choka]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[554]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[120]]></regularprice>
+	</node>
+	<node>
+		<id><![CDATA[566]]></id>
+		<title><![CDATA[Shred]]></title>
+		<content><![CDATA[]]></content>
+		<sku><![CDATA[566]]></sku>
+		<producttype><![CDATA[simple]]></producttype>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<trucks><![CDATA[]]></trucks>
+		<wheels><![CDATA[]]></wheels>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<regularprice><![CDATA[150]]></regularprice>
+	</node>
+</data>

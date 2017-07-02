@@ -1,0 +1,297 @@
+body.page-template-page-accueil{
+
+	.nav-primary{
+		background-image:url('../images/transparent.png');
+
+		#logo{
+			svg,
+            .cls-1{
+				fill:white;
+			}
+		}
+
+		li{
+			a{
+				color:white;
+			}
+		}
+
+		.cart-icon{
+			filter:invert(100%);
+			transition:0.5s filter ease-in-out;
+		}
+		&.fixed{
+			background-image:url('../images/stardust_white.png');
+			background-size: contain;
+			
+			#logo{
+				svg,.cls-1{
+					fill:black;
+				}
+			}
+
+			#btMenu{
+				span{
+					background-color:black;
+				}
+			}
+
+			li{
+				a{
+					color:black;
+				}
+			}
+
+			.cart-icon{
+				filter:invert(0%);
+			}
+		}
+
+		#btMenu{
+			span{
+				background-color:white;
+			}
+		}
+	}
+}
+
+#splash{
+	height:100vh;
+	overflow:hidden;
+	.slider-fullscreen{
+		.slide{
+			height:100vh;
+			position:relative;
+			background-size: cover;
+			background-position:center center;
+			.content{
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform:translate(-48%,-50%);
+				text-align:center;
+				color:white;
+				transform-origin:center center;
+				opacity:0;
+				transition:0.5s all ease-in-out;
+
+				h2{
+					font-size:70px;
+					margin-top:0;
+					margin-bottom:0;
+				}
+
+				.description{
+					color:white;
+					margin-bottom:20px;
+					p{
+						font-weight:bold;
+						font-size:22px;
+					}
+				}
+
+				.bouton{
+					display:table;
+					margin-left:auto;
+					margin-right:auto;
+				}
+
+				&.visible-text{
+					transform:translate(-50%,-50%);
+					opacity:1;
+				}
+			}
+		}
+	}
+}
+
+#info-home{
+	background-image:url('../images/stardust_charcoal.png');
+	background-size: contain;
+	padding: 100px 0 120px;
+    text-align: center;
+    background-color: #000;
+    h2{
+    	color: #fff;
+    	font-size: 40px;
+    	margin-bottom: 15px
+    }
+
+    p{
+    	font-weight: 700;
+    	color: #7b7b7b;
+    }
+}
+
+#instagram{
+	background-image:url('../images/stardust_white.png');
+	background-size: contain;
+	padding-bottom:80px;
+	margin-left:-15px;
+	margin-right:-15px;
+	.content-instagram{
+		text-align: center;
+	    padding-top: 45px;
+	    padding-bottom: 50px;
+		img{
+			width: 25px;
+		    height: 25px;
+		    display: table;
+		    margin-left: auto;
+		    margin-right: auto;
+		    margin-bottom: 15px;
+		}
+
+		h3{
+			font-size: 40px;
+    		margin-bottom: 10px;
+		}
+
+		p{
+			font-size:18px;
+		}
+	}
+
+	.image-instagram{
+		width:250px;
+		height:250px;
+		background-size:cover;
+		background-position:center center;
+		position:relative;
+		.content-background{
+			position:absolute;
+			width:100%;
+			height:100%;
+			text-align:center;
+			opacity:0;
+			background-image:url('../images/stardust_charcoal.png');
+			background-size: contain;
+			cursor:pointer;
+			display:table;
+			padding:15px;
+			transition:0.5s opacity ease-in-out;
+
+			.content{
+				display:table-cell;
+				vertical-align:middle;
+				opacity:0;
+				padding-top:15px;
+				transition:0.8s padding ease-in-out, 0.5s opacity ease-in-out;
+			}
+
+			p{
+				color:white;
+				&:first-of-type{
+					font-weight:bold;
+					font-size:22px;
+					margin-top:0;
+					margin-bottom:5px;
+				}
+
+				&:last-of-type{
+					font-size:12px;
+					margin-top:0;
+				}
+			}
+		}
+
+		&:hover{
+			.content-background{
+				opacity:0.75;
+				.content{
+					padding-top:0;
+					opacity:1;
+				}
+			}
+		}
+	}
+}
+
+#newsletter {
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 100px;
+    text-align: center;
+
+    h3{
+    	font-size: 40px;
+    	margin-bottom: 10px
+    }
+
+    p{
+    	color: #fff;
+	    max-width: 50%;
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #instagram{
+    	.image-instagram{
+    		width:200px;
+    		height:200px;
+    	}
+    }
+}
+
+@media (max-width: 758px) {
+   body.home{
+   	 form{
+   	 	 input[type=submit]{
+   	 	 	display:block;
+   	 	 	margin-left:auto!important;
+   	 	 	margin-right:auto;
+   	 	 }
+   	 }
+   }
+
+   #splash{
+    	 .slider-fullscreen{
+    	 	 .slide{
+    	 	 	 .content{
+    	 	 	 	width:90%;
+
+    	 	 	 	h2{
+    	 	 	 		font-size:40px;
+    	 	 	 	}
+
+    	 	 	 	.bouton{
+    	 	 	 		padding: 10px;
+    					font-size: 12px;
+    	 	 	 	}
+
+    	 	 	 	.description{
+    	 	 	 		margin-bottom:10px;
+    	 	 	 		p{
+    	 	 	 			font-size:14px;
+    	 	 	 		}
+    	 	 	 	}
+    	 	 	 }
+    	 	 }
+    	 }
+    }
+
+    #info-home{
+    	h2{
+    		font-size:25px;
+    	}
+    }
+
+    #instagram{
+    	 .content-instagram h3{
+    	 	font-size:25px;
+    	 }
+    }
+
+    #newsletter{
+    	h3{
+    		font-size:25px;
+    	}
+    	p{
+    		max-width:90%;
+    	}
+    }
+}

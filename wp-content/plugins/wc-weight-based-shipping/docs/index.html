@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Weight based Shipping for WooCommerce Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.toc { text-decoration: none; font-weight: bold; color: #aaa; font-size: 120%; }
+		p.lessbot { margin-bottom: 10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">Weight based Shipping for WooCommerce Documentation</h3>
+		
+		<hr>
+		
+		<h1 class="center">Weight based Shipping for WooCommerce</h1>
+		
+		<div class="borderTop">
+			<div style="font-style: italic">
+				<p class="prepend-top append-0">
+					Thank you for purchasing the plugin. If you have any questions that
+					are beyond the scope of this help file, please feel free to email via my user page contact
+					form <a href="http://codecanyon.net/user/dangoodman" target="_blank">here</a>.
+				</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol>
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#configuration">Configuration</a></li>
+			<li><a href="#quickstart">Quick Start Guide</a></li>
+		</ol>
+
+
+		<hr>
+
+
+		<h3 id="overview"><strong>Overview</strong> <a class="toc" href="#toc">&uArr;</a></h3>
+
+		<p>
+			Weight Based Shipping for WooCommerce is a simple yet flexible shipping method for WooCommerce focused
+			mainly on cart weight to calculate shipping cost. Although it's focused on cart weight it's not
+			limited to weight and can be configured in many various ways.
+		</p>
+
+
+		<hr>
+
+
+		<h3 id="installation"><strong>Installation</strong> <a class="toc" href="#toc">&uArr;</a></h3>
+		<p>
+			There is no any specific procedures required to install this plugin. It can be installed like any other one. Below are detailed instructions on how the regular Wordpress plugin installation looks like.
+		</p>
+
+		<p class="lessbot">
+			Option #1: Install plugin with Wordpress admin panel
+		</p>
+
+		<ol>
+			<li>Go to Plugins > Add New.</li>
+			<li>Click Upload Plugin button.</li>
+			<li>Click choose file and select .zip file containing this plugin from your computer.</li>
+			<li>Click Details for more information about the Plugin and instructions you may wish to print or save to help setup the Plugin.</li>
+			<li>Click Install Now to install the plugin.</li>
+			<li>If successful, click Activate Plugin to activate it, or Return to Plugins Page for further actions.</li>
+		</ol>
+
+		<p class="lessbot">
+			Option #2: Install plugin via FTP
+		</p>
+
+		<ol>
+			<li>Upload "woocommerce-weight-based-shipping" folder from .zip file containing the plugin to the /wp-content/plugins/ directory on your website server.</li>
+			<li>Activate the plugin through the 'Plugins' menu in WordPress.</li>
+		</ol>
+
+
+		<hr>
+
+
+		<h3 id="configuration"><strong>Configuration</strong> <a class="toc" href="#toc">&uArr;</a></h3>
+
+		<p class="lessbot">
+			After plugin install and activation you have to configure it according to your shipping rules.
+		</p>
+
+		<ol>
+			<li>Go to WooCommerce > Settings > Shipping > Weight Based tab.</li>
+			<li>Here you go. Set up Weight Based Shipping options to make it work like you need. You can add one or more additional configurations with "Create additional configuration" button. Each option has an explanatory description near it.</li>
+			<li>After you have configured Weight Based Shipping you can test it from user perspective. Go to the user side of your shop and play with different shopping cart contents to see how shipping price calculated. If you are not satisfied with the results alter plugin options and refresh cart page to see changes.</li>
+		</ol>
+
+
+		<hr>
+
+
+		<h3 id="quickstart"><strong>Quick Start Guide</strong> <a class="toc" href="#toc">&uArr;</a></h3>
+
+		<p>
+			Here is a quick example where you can start from.
+		</p>
+
+		<p>
+			Let's assume you have an organic food store. Weight unit is kg (kilogram) and currency is USD. Your
+			shipping company charges $20 for first 3kg and then $1 for every next 0.5kg. Your overhead for every
+			parcel is $10.
+		</p>
+
+		<p>
+			To achieve this we need to create two Weight Based Shipping profiles. To setup first one go to the admin
+			panel, WooCommerce -> Settings -> Shipping -> Weight Based and fill fields with the following values:
+		</p>
+
+		<p class="lessbot">
+			<i>1. First Weight Based Sipping rule to handle first 3kg of package weight.</i>
+		</p>
+
+		<ul>
+			<li>Enable/Disable (Enable this shipping method): <b>checked</b></li>
+			<li>Profile Name: <b>up to 3kg</b></li>
+			<li>Method Title: <b>Weight Based Shipping</b></li>
+			<li>Handling Fee: <b>30</b> <em class="quiet">($20 charges shipping company + $10 your overhead)</em></li>
+			<li>Max Weight: <b>3</b> <em class="quiet">(handle parcels up to 3kg by this profile)</em></li>
+			<li>(keep default values for other fields)</li>
+		</ul>
+
+		<p>
+			After doing this click Save Changes.
+		</p>
+
+		<p>
+			Now we need to create another profile. For that click Create Additional Configuration button and fill
+			appeared fields with the following values:
+		</p>
+
+		<p class="lessbot">
+			<i>2. Second Weight Based Sipping rule to handle weight above 3kg.</i>
+		</p>
+
+		<ul>
+			<li>Enable/Disable (Enable this shipping method): <b>checked</b></li>
+			<li>Profile Name: <b>above 3kg</b></li>
+			<li>Method Title: <b>Weight Based Shipping</b></li>
+			<li>Handling Fee: <b>30</b> <em class="quiet">($20 charges shipping company + $10 your overhead)</em></li>
+			<li>Min Weight: <b>3.001</b> <em class="quiet">(something a bit more than 3kg to avoid weight range intersection between profiles)</em></li>
+			<li>Weight Step: <b>0.5</b> <em class="quiet">(we want to rate every 0.5kg)</em></li>
+			<li>Shipping Rate: <b>2</b> <em class="quiet">(shipping company charges $1 for each 0.5kg, that means $2 for 1kg)</em></li>
+			<li>Extra Weight Only (Rate weight after Min Weight): <b>checked</b> <em class="quiet">(that means shipping cost for the Min Weight is already included to the Handling Fee)</em></li>
+			<li>(keep default values for other fields)</li>
+		</ul>
+
+		<p>
+			Click Save Changes.
+		</p>
+
+		<p>
+			Now if cart weight is 3kg or less it would be handled with the first profile and if it's above 3kg it
+			would be handled by the second profile.
+		</p>
+
+		<p>
+			Play around with different cart weights to see how it works. Don't forget to setup product weight first.
+		</p>
+
+
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>

@@ -1,0 +1,203 @@
+body.page-template-page-team{
+	padding-top:105px;
+}
+
+.container-team{
+	padding-left:0;
+	padding-right:0;
+}
+
+.row-team{
+	margin-left:0px;
+	margin-right:0px;
+	background-image:url('../images/stardust_white.png');
+	background-size: contain;
+}
+
+.team-member{
+	padding-left:2.5px;
+	padding-right:2.5px;
+	margin-bottom:5px;
+	cursor:pointer;
+
+	.image{
+		position:relative;
+		text-align:center;
+		background-color:#4b4c4b;
+
+		img{
+			opacity:0.5;
+			transition:0.5s opacity ease-in-out;
+			transform: translate3d(0,0,0);
+			backface-visibility: hidden;
+		}
+		h3{
+			position:absolute;
+			color:white;
+			font-size:22px;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+		}
+
+		&:hover{
+			img{
+				opacity:0.33;
+			}
+		}
+	}
+}
+
+.fat-team-section{
+	margin-bottom:5px;
+	transition:0.5s height;
+	overflow:hidden;
+	width:100%;
+
+	&.hidden-section{
+		height:0!important;
+		margin-bottom:0!important
+	}
+
+	.background-image-team{
+		background-size:cover;
+		background-position:center center;
+		border-right:2.5px solid white;
+		min-height:500px;
+	}
+
+	.right-section{
+		padding:45px 45px 0px;
+	}
+
+	h4{
+		color:black;
+		font-size:22px;
+	}
+
+	p.tag-line{
+		color:#aa7341;
+		font-size:13px;
+		font-family:$sucrose;
+		font-style:italic;
+		margin-bottom:22px;
+	}
+
+	.content-team-member{
+		margin-bottom:45px;
+		color:#959595;
+		font-weight:bold;
+		font-size:13px;
+		p{
+			font-size:13px;
+		}
+	}
+
+	.instagram{
+		margin-bottom:45px;
+		img{
+			width:22.5px;
+			height:22.5px;
+			float:left;
+			margin-right:5px;
+		}
+
+		p{
+			font-weight:bold;
+			color:black;
+			font-size:13px;
+			opacity:1;
+			transition:0.5s opacity;
+			transform:translateY(2px);
+			&:hover{
+				opacity:0.6;
+			}
+		}
+	}
+
+	.close-team{
+		position:absolute;
+		top:40px;
+		cursor:pointer;
+		right:33px;
+		transition:0.5s opacity;
+		opacity:1;
+
+		span{
+			width:22px;
+			height:3px;
+			background-color:black;
+			display:block;
+
+			&:nth-child(1){
+				transform:rotate(45deg);
+			}
+
+			&:nth-child(2){
+				transform: rotate(-45deg) translate(2px,-2px);
+			}
+		}
+
+		&:hover{
+			opacity:0.5;
+		}
+	}
+
+	.map{
+		height:250px;
+		margin-left:-45px;
+		margin-right:-45px;
+	}
+}
+
+#candidature{
+	padding:160px 15px 90px;
+	h3{
+		margin-bottom:15px;
+		text-align:center;
+	}
+
+	form{
+		width:100%;
+	}
+	.wpcf7-checkbox > span{
+		display:block;
+		clear:both;
+		margin-left: 0;
+   		margin-bottom: 5px;
+	}
+
+	.wpcf7-list-item{
+		&.first{
+			margin-top:30px;
+		}
+	}
+}
+
+
+@media (max-width: 768px) {
+   body.page-template-page-team{
+		padding-top:80px;
+
+	   .wpcf7-checkbox{
+	   	span{
+	   		font-size:12px;
+	   	}
+	   }
+
+	   .wpcf7-list-item{
+	   	margin-bottom:15px!important;
+	   }
+	}
+
+   .fat-team-section{
+   	.background-image-team{
+   		min-height:250px;
+   	}
+   	.close-team{
+   		top:30px;
+   		right:40px;
+   	}
+   }
+
+}
