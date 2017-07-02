@@ -1,4 +1,19 @@
 body.page-template-page-accueil{
+    ::-webkit-input-placeholder {
+        color: white;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        color: white;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: white;
+    }
+
+    :-ms-input-placeholder {
+        color: white;
+    }
 
 	.nav-primary{
 		background-image:url('../images/transparent.png');
@@ -20,6 +35,7 @@ body.page-template-page-accueil{
 			filter:invert(100%);
 			transition:0.5s filter ease-in-out;
 		}
+
 		&.fixed{
 			background-image:url('../images/stardust_white.png');
 			background-size: contain;
@@ -58,12 +74,14 @@ body.page-template-page-accueil{
 #splash{
 	height:100vh;
 	overflow:hidden;
+
 	.slider-fullscreen{
 		.slide{
 			height:100vh;
 			position:relative;
 			background-size: cover;
 			background-position:center center;
+
 			.content{
 				position:absolute;
 				top:50%;
@@ -84,6 +102,7 @@ body.page-template-page-accueil{
 				.description{
 					color:white;
 					margin-bottom:20px;
+
 					p{
 						font-weight:bold;
 						font-size:22px;
@@ -111,6 +130,7 @@ body.page-template-page-accueil{
 	padding: 100px 0 120px;
     text-align: center;
     background-color: #000;
+
     h2{
     	color: #fff;
     	font-size: 40px;
@@ -129,10 +149,12 @@ body.page-template-page-accueil{
 	padding-bottom:80px;
 	margin-left:-15px;
 	margin-right:-15px;
+
 	.content-instagram{
 		text-align: center;
 	    padding-top: 45px;
 	    padding-bottom: 50px;
+
 		img{
 			width: 25px;
 		    height: 25px;
@@ -149,60 +171,6 @@ body.page-template-page-accueil{
 
 		p{
 			font-size:18px;
-		}
-	}
-
-	.image-instagram{
-		width:250px;
-		height:250px;
-		background-size:cover;
-		background-position:center center;
-		position:relative;
-		.content-background{
-			position:absolute;
-			width:100%;
-			height:100%;
-			text-align:center;
-			opacity:0;
-			background-image:url('../images/stardust_charcoal.png');
-			background-size: contain;
-			cursor:pointer;
-			display:table;
-			padding:15px;
-			transition:0.5s opacity ease-in-out;
-
-			.content{
-				display:table-cell;
-				vertical-align:middle;
-				opacity:0;
-				padding-top:15px;
-				transition:0.8s padding ease-in-out, 0.5s opacity ease-in-out;
-			}
-
-			p{
-				color:white;
-				&:first-of-type{
-					font-weight:bold;
-					font-size:22px;
-					margin-top:0;
-					margin-bottom:5px;
-				}
-
-				&:last-of-type{
-					font-size:12px;
-					margin-top:0;
-				}
-			}
-		}
-
-		&:hover{
-			.content-background{
-				opacity:0.75;
-				.content{
-					padding-top:0;
-					opacity:1;
-				}
-			}
 		}
 	}
 }
@@ -226,6 +194,47 @@ body.page-template-page-accueil{
 	    margin-right: auto;
 	    margin-bottom: 25px;
     }
+
+    form{
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+
+        input{
+            border-radius: 5px;
+            border: 2px solid #fff;
+            background-color: transparent;
+            width: 179px;
+            text-align: center;
+            color:white;
+        }
+
+        input[type=submit] {
+            width: 100px;
+            background-color: white;
+            color: black;
+            font-weight: 800;
+            margin-left: 30px;
+            float: none;
+            border-color: transparent;
+            -webkit-transition:  500ms ease-in-out ;
+            -moz-transition:  500ms ease-in-out ;
+            -o-transition:  500ms ease-in-out ;
+            transition: 500ms ease-in-out ;
+        }
+
+        input[type=submit]:hover {
+            width: 100px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-weight: 800;
+            margin-left: 30px;
+            float: none;
+            border-color: transparent;
+        }
+    }
 }
 
 @media (max-width: 1000px) {
@@ -238,21 +247,21 @@ body.page-template-page-accueil{
 }
 
 @media (max-width: 758px) {
-   body.home{
-   	 form{
-   	 	 input[type=submit]{
-   	 	 	display:block;
-   	 	 	margin-left:auto!important;
-   	 	 	margin-right:auto;
-   	 	 }
-   	 }
-   }
+    body.home{
+   	    form{
+   	 	    input[type=submit]{
+                display:block;
+                margin-left:auto!important;
+                margin-right:auto;
+   	 	    }
+   	    }
+    }
 
-   #splash{
-    	 .slider-fullscreen{
-    	 	 .slide{
-    	 	 	 .content{
-    	 	 	 	width:90%;
+    #splash{
+    	.slider-fullscreen{
+    	 	.slide{
+                .content{
+                    width:90%;
 
     	 	 	 	h2{
     	 	 	 		font-size:40px;
@@ -265,13 +274,14 @@ body.page-template-page-accueil{
 
     	 	 	 	.description{
     	 	 	 		margin-bottom:10px;
+
     	 	 	 		p{
     	 	 	 			font-size:14px;
     	 	 	 		}
     	 	 	 	}
-    	 	 	 }
-    	 	 }
-    	 }
+    	 	    }
+    	 	}
+    	}
     }
 
     #info-home{
@@ -290,6 +300,7 @@ body.page-template-page-accueil{
     	h3{
     		font-size:25px;
     	}
+
     	p{
     		max-width:90%;
     	}
