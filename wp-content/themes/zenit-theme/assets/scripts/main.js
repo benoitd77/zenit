@@ -46,17 +46,6 @@
         return time;
     }
 
-    //function resizeInstagram() {
-    //    $('.image-instagram').each(function(){
-    //        $(this).height('auto');
-    //    });
-    //
-    //    $('.image-instagram').each(function(){
-    //        var currentWidth = $(this).width();
-    //        $(this).height(currentWidth);
-    //    });
-    //}
-
     function configurer() {
         $(function() {
             // initialize skrollr if the window width is large enough
@@ -90,7 +79,6 @@
         } else {
             if ($('.board').length > 0) {
                 $('.board').click(function() {
-
                     $(this).find('.hover').css('opacity', '1');
                 });
             }
@@ -123,16 +111,16 @@
                 parent.find('.variation.current').removeClass('current');
 
                 $(this).addClass('current');
-
             });
         });
 
         $('#fixed-menu-single-product a').click(function() {
             var current = $(this);
+
             $('#fixed-menu-single-product .current').each(function() {
                 $(this).removeClass('current');
-
             });
+
             setTimeout(function() {
                 current.addClass('current');
             }, 850);
@@ -202,74 +190,6 @@
         $('#social-fixed').removeClass('visually-hidden');
 
         if ($('body').hasClass('home')) {
-            //$.ajax({
-            //    type: "GET",
-            //    dataType: "jsonp",
-            //    url: "https://api.instagram.com/v1/users/13754559/media/recent/?access_token=13754559.1677ed0.df157d21b47d4606b91f0c3e73fa078b&count=8",
-            //
-            //    success: function(res) {
-            //
-            //        var contenuTexte = $('.instagram-quote').text();
-            //        var contenuButton = $('.instagram-button').text();
-            //
-            //        var squareInfo = "<div class='col-lg-2 col-md-3 col-sm-4 col-xs-12 square-info'><div class='image-instagram texte'><h3>#hookeqc</h3><p>" + contenuTexte + "</p></div></div>";
-            //
-            //        for (i = 0; i < 8; i++) {
-            //            var imgUrl = res.data[i].images.thumbnail.url;
-            //
-            //            if (imgUrl.indexOf('/s150x150') !== -1) {
-            //                imgUrl = imgUrl.replace('/s150x150', '/s640x640');
-            //            }
-            //            var user = res.data[i].user.full_name;
-            //
-            //            var date = timeConverter(res.data[i].created_time);
-            //
-            //            var imageInta = "<div class=''><a target='_blank' class='image-cont' href='" + res.data[i].link + "'><div class='image-instagram' style='background-image:url(" + imgUrl + ");'><div class='content-background'><div class='content'><p>@" + user + "</p><p>" + date + "</p></div></div></div></a></div>";
-            //
-            //            $('.instagram').append(imageInta);
-            //        }
-            //
-            //        $('.instagram').slick({
-            //            dots: false,
-            //            infinite: true,
-            //            speed: 500,
-            //            cssEase: 'ease-in-out',
-            //            arrows: false,
-            //            slidesToShow: 5,
-            //            centerMode: true,
-            //            responsive: [
-            //                {
-            //                    breakpoint: 1550,
-            //                    settings: {
-            //                        slidesToShow: 4
-            //                    }
-            //                },
-            //                {
-            //                    breakpoint: 1430,
-            //                    settings: {
-            //                        slidesToShow: 3
-            //                    }
-            //                },
-            //                {
-            //                    breakpoint: 780,
-            //                    settings: {
-            //                        slidesToShow: 2
-            //                    }
-            //                },
-            //                {
-            //                    breakpoint: 550,
-            //                    settings: {
-            //                        slidesToShow: 1
-            //                    }
-            //                }
-            //
-            //
-            //            ]
-            //        });
-            //    }
-            //
-            //});
-
             //Transition du slider d'accueil
             $('#splash .slider-fullscreen .slide:eq(0) .content').addClass('visible-text');
 
@@ -282,24 +202,15 @@
             $('#splash .slider-fullscreen ').on('afterChange', function(event, slick, currentSlide, nextSlide) {
                 $('#splash .slider-fullscreen .slide:eq(' + currentSlide + ') .content').addClass('visible-text');
             });
-
-            //resizeInstagram();
-            //
-            //$(win).on('resize', function(e) {
-            //    resizeInstagram();
-            //});
         }
 
         $(win).on('scroll', function(e) {
             var div = $('body');
             var divfrfx = $('html');
-            //alert( $(win).scrollTop());
 
             if ($(win).scrollTop() === 0) {
-
                 $('.nav-primary').removeClass('fixed');
             } else {
-
                 $('.nav-primary').addClass('fixed');
             }
         });
@@ -309,15 +220,14 @@
             $('#specs .title-meter').on('mouseenter', function() {
                 var currentId = $(this).attr('data-id');
                 $('#specs .description-meter[data-id-desc="' + currentId + '"').css('display', 'block').hide().fadeIn();
-                //$('#specs .description-meter[data-id-desc="'+currentId+'"').fadeIn();
             });
 
             $('#specs .title-meter').on('mouseleave', function() {
                 var currentId = $(this).attr('data-id');
                 $('#specs .description-meter[data-id-desc="' + currentId + '"').fadeOut();
             });
-
         }
+
         if ($('body').hasClass('page-template-page-team')) {
             var roadAtlasStyles = [{
                 "featureType": "water",
@@ -449,10 +359,6 @@
                         lng: lng
                     };
 
-                    console.log(lat);
-                    console.log(lng);
-
-
                     var mapOptions = {
                         zoom: 6,
                         center: myLatLng,
@@ -464,22 +370,16 @@
                         disableDefaultUI: true
                     };
 
-
-
                     var map = new google.maps.Map(document.getElementById("map-" + currentId), mapOptions);
                     var mapZenit = new google.maps.StyledMapType(roadAtlasStyles);
                     map.mapTypes.set('map-zenit', mapZenit);
                     map.setMapTypeId('map-zenit');
 
-
                     var marker = new google.maps.Marker({
                         position: myLatLng,
                         map: map
                     });
-
                 }
-
-
             });
 
             $('.fat-team-section').each(function() {
@@ -493,7 +393,6 @@
                 var currentId = $(this).attr('data-id');
                 var open = false;
 
-
                 if (!$('#' + currentId).hasClass('hidden-section')) {
                     open = true;
                 }
@@ -501,7 +400,6 @@
                 $('.fat-team-section').each(function() {
                     $(this).addClass('hidden-section');
                 });
-
 
                 if (open === false) {
                     $('#' + currentId).removeClass('hidden-section');
@@ -511,8 +409,6 @@
                         }, 500);
                     }, 500);
                 }
-
-
             });
 
             $('.close-team').on('click', function() {
@@ -521,9 +417,6 @@
                     scrollTop: $(".row-team").offset().top - 105
                 }, 500);
             });
-
-
-
         }
 
         $('#video-lightbox').on('click', function() {
@@ -535,16 +428,14 @@
             }, 600);
         });
 
-
         //Au clique d'un trigger video
         $('.videoTrigger').click(function() {
-
             //Si c'est un vidéo
             $('#video-lightbox').removeClass('hidden-lightbox');
+
             setTimeout(function() {
                 $('#video-lightbox').addClass('open');
             }, 500);
-
 
             var idVideo = $(this).attr('data-id');
             var debutString = "";
@@ -561,7 +452,6 @@
                 idVideo.trim();
             }
 
-
             $('#video-lightbox .video').html(debutString + idVideo + finString);
             $('body').addClass('no-scroll');
 
@@ -576,7 +466,6 @@
             $('#video-lightbox iframe').height(largeur / ratio);
         });
 
-
         //Close video lightbox, on click on close-button
         $('.close-videoPanel').click(function() {
             $('#video-lightbox').removeClass('open');
@@ -585,9 +474,7 @@
                 $('body').removeClass('no-scroll');
                 $('#video-lightbox').addClass('hidden-lightbox');
             }, 600);
-
         });
-
     }
 
     win.onload = configurer;
