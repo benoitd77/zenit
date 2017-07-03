@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 392 392" style="enable-background:new 0 0 392 392;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0.1" width="391.9" height="392"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<defs>
+			<rect id="SVGID_3_" width="392" height="392"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st1" d="M170.2,254.2V137.8L255,196L170.2,254.2z M274.6,189.1l-108.1-73.9c-3.4-2.5-12.3-2.5-13,6.9v147.8
+			c0.8,9.4,9.9,9.5,13,6.9l108.1-73.9C277.4,201.2,281.2,194.3,274.6,189.1z"/>
+		<path class="st1" d="M196,375.3c-98.9,0-179.3-80.4-179.3-179.3S97.1,16.7,196,16.7S375.3,97.1,375.3,196S294.9,375.3,196,375.3z
+			 M196,0C87.9,0,0,87.9,0,196s87.9,196,196,196s196-87.9,196-196S304.1,0,196,0z"/>
+	</g>
+</g>
+</svg>
