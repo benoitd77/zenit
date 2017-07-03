@@ -22,6 +22,9 @@
             }
         },
         loadEvents: function() {
+            // Make height adjustments to the bottom sale section
+            adjustColHeight();
+
             // Fire common init JS
             UTIL.fire('common');
 
@@ -36,6 +39,17 @@
         }
     };
 
+    function adjustColHeight() {
+        if ($('body').hasClass('single-product')) {
+            var colRight = $('#single-prod');
+            var colMenu  = $('#fixed-menu-single-product');
+
+            if (colRight.length > 0 && colMenu.length > 0) {
+                colMenu.css('height', colRight.height);
+            }
+        }
+    }
+
     function timeConverter(UNIX_timestamp) {
         var a = new Date(UNIX_timestamp * 1000);
         var months = ['Janvier', 'Février', 'Mars', 'Avris', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
@@ -47,6 +61,9 @@
     }
 
     function configurer() {
+        // Make height adjustments to the bottom sale section
+        adjustColHeight();
+
         $(function() {
             // initialize skrollr if the window width is large enough
             if ($(win).width() > 768) {
@@ -213,6 +230,11 @@
             } else {
                 $('.nav-primary').addClass('fixed');
             }
+        });
+
+        $(win).resize(function() {
+            // Make height adjustments to the bottom sale section
+            adjustColHeight();
         });
 
         // infobulle
