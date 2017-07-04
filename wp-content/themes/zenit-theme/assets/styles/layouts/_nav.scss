@@ -17,7 +17,7 @@
 			color:black;
 			font-family:'sucrose';
 			font-weight:bold;
-			font-size:13px;
+			font-size:16px;
 			text-transform: uppercase;
 			letter-spacing:0.125em;
 			padding:0;
@@ -38,15 +38,15 @@
 		left:50%;
 		top:50%;
 		transform:translate(-50%,-50%);
-		width:130px;
-		max-width: 130px;
+		width:160px;
+		max-width:160px;
 		margin-top:5px;
 		transition:0.5s all ease-in;
 
 		svg{
 			fill:black;
-			width:130px;
-			max-width:130px;
+			width:160px;
+			max-width:160px;
 			height:auto;
 			transition:0.5s all ease-in;
 		}
@@ -59,8 +59,20 @@
 
 	.transactionnal{
 		float:right;
-        margin-top:-5px;
+        margin-top:-8px;
+
+        .currency-changer {
+            .dd-container,
+            .dd-select {
+                width: 75px !important;
+            }
+        }
 	}
+
+    .menu-menu-secondaire-container {
+        float: right;
+        margin-right: 40px;
+    }
 
 	#btMenu{
 		width:25px;
@@ -100,17 +112,19 @@
 		}
 
 		#logo{
-			max-width: 100px;
-			width:100px;
-			transition:0.5s opacity ease-in-out, 0.5s width ease-in-out, 0.3s fill;
+			max-width:130px;
+			width:130px;
 
 			svg{
-				max-width: 100px;
-				width:100px;
-				transition:0.5s opacity ease-in-out, 0.5s width ease-in-out, 0.3s fill;
+				max-width:130px;
+				width:130px;
 			}
 		}
 	}
+
+    .language-chooser > li {
+        margin-right: 0;
+    }
 }
 
 
@@ -132,10 +146,6 @@
     	.nav{
     		margin-left:135px;
     	}
-    }
-
-    .language-chooser > li {
-        margin-right: 0;
     }
 }
 

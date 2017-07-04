@@ -25,6 +25,10 @@
 				</ul>
 			</div>
 
+			<?php
+				wp_nav_menu(['menu' => 'Menu secondaire', 'menu_class' => 'nav']);
+			?>
+
 			<span class="clear"></span>
 
 			<div id="btMenu">
