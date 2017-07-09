@@ -17,11 +17,17 @@
 				<ul>
 					<li><?php qtranxf_generateLanguageSelectCode(array('type' => 'text', 'hide-title' => true)); ?></li>
 					<li class="currency-changer"><?php echo do_shortcode("[woocs width='45px']"); ?></li>
-					<li>
+					<li class="shopping-cart">
 						<a href="<?php echo $woocommerce->cart->get_cart_url(); ?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/dist/images/cart.svg" class="cart-icon" alt="<?php _e('cart page','zenit') ?>"/>
 						</a>
 					</li>
+				</ul>
+			</div>
+
+			<div class="menu-menu-secondaire-container">
+				<ul id="menu-menu-secondaire">
+					<li><a href="<?php echo get_page_link(35); ?>"><?php echo get_the_title(35); ?></a></li>
 				</ul>
 			</div>
 
