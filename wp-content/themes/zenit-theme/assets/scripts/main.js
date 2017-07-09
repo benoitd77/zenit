@@ -183,6 +183,7 @@
 
         //Animation des ancres
         $('a[href^="#"]').on('click touchend', function() {
+
             //Si l'ancre sert à autre chose (sous-menu produits)
             if ($(this).hasClass('not-anchor') || $(this).parent().hasClass('not-anchor') || $(this).parent().parent().parent().attr('id') === 'menu-gris' || $(this).parent().attr('id') === 'menu-item-99' || $(this).is('[data-id]') || $(this).is('[data-lat]')) {
                 // Do nothing
@@ -227,8 +228,10 @@
 
             if ($(win).scrollTop() === 0) {
                 $('.nav-primary').removeClass('fixed');
+                $('body').removeClass('fixed-menu');
             } else {
                 $('.nav-primary').addClass('fixed');
+                $('body').addClass('fixed-menu');
             }
         });
 
@@ -497,6 +500,41 @@
                 $('#video-lightbox').addClass('hidden-lightbox');
             }, 600);
         });
+
+        function toggleMobileMenu(menu) {
+            var submenu    = menu.next(),
+                menuParent = menu.parent();
+
+            if (menu.hasClass('opened')) {
+                submenu.slideUp('fast');
+                menu.removeClass('opened');
+                menuParent.removeClass('opened');
+            } else {
+                submenu.slideDown('fast');
+                menu.addClass('opened');
+                menuParent.addClass('opened');
+            }
+        }
+
+        $('.menu-second-level a').click(function (e) {
+            toggleMobileMenu($(this));
+        });
+
+        $('.menu-third-level').click(function (e) {
+            toggleMobileMenu($(this).find('>a'));
+        });
+
+        $('.menu-second-level').hover(
+            function(){
+                if ($(document).width() > 858) {
+                    $(this).find('>.sub-menu').stop().fadeIn(500);
+                }
+            }, function() {
+                if ($(document).width() > 858) {
+                    $(this).find('>.sub-menu').stop().fadeOut(500);
+                }
+            }
+        );
     }
 
     win.onload = configurer;

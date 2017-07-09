@@ -17,7 +17,7 @@
 	
 		foreach($terms as $term){ ?>
 			<div class="row">
-				<div class="col-sm-12">
+				<div id="<?php echo $term->slug; ?>" class="col-sm-12 board-category">
 					<?php
 						$translations = explode($langTag, $term->description);
 						$translation  = substr($translations[1], 0, strpos($translations[1], '[:'));

@@ -5,12 +5,12 @@
 			<li><img src="<?php echo get_template_directory_uri(); ?>/dist/images/email.svg" alt="email" /><a href="mailto:phil@zenitboards.com">phil@zenitboards.com</a></li>
 			<li><img src="<?php echo get_template_directory_uri(); ?>/dist/images/telphone.svg" alt="phone" /><a href="+tel:15143187332">514 316-7332</a></li>
 		</ul>
-		
-		<ul id="menu-navigation-pied-de-page" class="nav">
-			<li><a href="<?php echo get_page_link(43); ?>"><?php echo get_the_title(43); ?></a></li>
-			<li><a href="<?php echo get_page_link(45); ?>"><?php echo get_the_title(45); ?></a></li>
-			<li><a href="<?php echo get_page_link(47); ?>"><?php echo get_the_title(47); ?></a></li>
-		</ul>
+
+		<?php
+			if (has_nav_menu('footer_nav')) :
+				wp_nav_menu(['theme_location' => 'footer_nav', 'menu_class' => 'nav']);
+			endif;
+		?>
 	</div>
 
 	<div class="bottom container-fluid">

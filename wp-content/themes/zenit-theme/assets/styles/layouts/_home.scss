@@ -14,68 +14,19 @@ body.page-template-page-accueil{
     :-ms-input-placeholder {
         color: white;
     }
-
-	.nav-primary{
-		background-image:url('../images/transparent.png');
-
-		#logo{
-			svg,
-            .cls-1{
-				fill:white;
-			}
-		}
-
-		li{
-			a{
-				color:white;
-			}
-		}
-
-		.cart-icon{
-			filter:invert(100%);
-			transition:0.5s filter ease-in-out;
-		}
-
-		&.fixed{
-			background-image:url('../images/stardust_white.png');
-			background-size: contain;
-			
-			#logo{
-				svg,.cls-1{
-					fill:black;
-				}
-			}
-
-			#btMenu{
-				span{
-					background-color:black;
-				}
-			}
-
-			li{
-				a{
-					color:black;
-				}
-			}
-
-			.cart-icon{
-				filter:invert(0%);
-			}
-		}
-
-		#btMenu{
-			span{
-				background-color:white;
-			}
-		}
-	}
 }
 
 #splash{
-	height:100vh;
+	height:108vh;
 	overflow:hidden;
+    padding-top: 108px;
+    transition: 0.5s padding ease-in-out;
 
 	.slider-fullscreen{
+        .slick-dots {
+            bottom: 148px;
+        }
+
 		.slide{
 			height:100vh;
 			position:relative;
@@ -122,6 +73,20 @@ body.page-template-page-accueil{
 			}
 		}
 	}
+}
+
+.fixed-menu {
+    #splash {
+        padding-top: 78px;
+    }
+
+    .nav-primary {
+        .menu-second-level {
+            > .sub-menu {
+                top: 80px;
+            }
+        }
+    }
 }
 
 #info-home{
@@ -243,6 +208,19 @@ body.page-template-page-accueil{
     		width:200px;
     		height:200px;
     	}
+    }
+}
+
+@media (max-width: 858px) {
+    #splash {
+        height: 107vh;
+        padding-top: 88px;
+    }
+
+    &.fixed-menu {
+        #splash {
+            padding-top: 70px;
+        }
     }
 }
 
