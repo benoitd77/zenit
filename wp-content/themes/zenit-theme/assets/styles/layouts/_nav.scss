@@ -1,14 +1,14 @@
 .nav-primary{
-	position:fixed;
-	top:0;
-	left:0;
-	background-image:url('../images/stardust_white.png');
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url('../images/stardust_white.png');
 	background-size: contain;
-	z-index:99;
-    height: 108px;
-	width:100vw;
-	padding:40px 40px 0 40px;
-	transition:0.5s background ease-in-out, 0.5s padding ease-in-out, 0.5s height ease-in-out;
+	z-index: 99;
+    height: 88px;
+	width: 100vw;
+	padding: 30px 40px 0 40px;
+	transition: 0.5s background ease-in-out, 0.5s padding ease-in-out, 0.5s height ease-in-out;
 
 	li{
 		display:inline-block;
@@ -42,7 +42,7 @@
 		transform:translate(-50%,-50%);
 		width:160px;
 		max-width:160px;
-		margin-top:5px;
+		margin-top:3px;
 		transition:0.5s all ease-in;
 
 		svg{
@@ -59,7 +59,7 @@
 		margin-top:3px;
 
         > li {
-            padding-bottom: 45px;
+            padding-bottom: 33px;
             position: initial;
         }
 	}
@@ -71,14 +71,14 @@
             position: absolute;
             left: 0;
             padding: 20px 40px;
-            top: 108px;
+            top: 88px;
             transition: 0.5s top ease-in-out;
             width: 100%;
 
             > li {
-                margin-left: 4%;
+                margin-left: 20px;
                 margin-right: 0;
-                width: 21%;
+                width: 265px;
 
                 > a {
                     font-size: 20px;
@@ -176,7 +176,7 @@
 	}
 
 	&.fixed{
-        height: 80px;
+        height: 73px;
 		padding: 25px 40px;
 
 		#btMenu{
@@ -215,8 +215,8 @@
     .nav-primary {
         .menu-second-level {
             > .sub-menu > li {
-                margin-left: 3%;
-                width: 22%;
+                width: 20%;
+                margin-left: 2%;
 
                 > a {
                     font-size: 18px;
@@ -231,6 +231,12 @@
         li {
             a {
                 font-size: 13px;
+            }
+        }
+
+        .menu-second-level {
+            > .sub-menu > li {
+                width: 23%;
             }
         }
     }
@@ -260,8 +266,12 @@
         }
 
         .menu-second-level {
-            > .sub-menu > li > a {
-                font-size: 17px;
+            > .sub-menu > li {
+                margin-left: 1%;
+
+                > a {
+                    font-size: 17px;
+                }
             }
         }
 
@@ -276,10 +286,6 @@
 @media (max-width: 858px) {
     .nav-primary{
         height: 88px;
-
-        &.fixed {
-            height: 70px;
-        }
 
     	#logo{
     		left:50%;
