@@ -299,15 +299,15 @@
     	.nav{
     		position: fixed;
 		    top: -3px;
-		    left:-205%;
-		    background-image:url('../images/stardust_white.png');
+		    left: -205%;
+		    background-image: url('../images/stardust_white.png');
 			background-size: contain;
 		    width: 100vw;
 		    height: 100vh;
 		    margin-left: 0;
 		    z-index: 999;
-		    padding:40px;
-		    transition:0.5s left ease-in-out;
+		    padding: 40px;
+		    transition: 0.5s left ease-in-out;
 
             > li {
                 padding-bottom: 0;
@@ -326,7 +326,8 @@
     	.transactionnal{
     		z-index: 999;
     		position: fixed;
-		    bottom: 50px;
+		    bottom: 15px;
+            left: 192px;
 		    opacity: 0;
 		    transition: opacity 1s;
 
@@ -362,7 +363,8 @@
         .menu-menu-secondaire-container {
             z-index: 999;
             position: fixed;
-            bottom: 155px;
+            bottom: 125px;
+            left: 192px;
             opacity: 0;
             transition: opacity 1s;
         }
@@ -436,7 +438,7 @@
             > .sub-menu {
                 background: none;
                 display: none;
-                padding: 20px 0 20px 25px;
+                padding: 10px 0 5px 25px;
                 position: initial;
                 left: auto;
                 top: auto;
@@ -466,7 +468,7 @@
 
             > .sub-menu {
                 display: none;
-                padding: 15px 0 15px 20px;
+                padding: 10px 0 5px 20px;
             }
         }
     }
