@@ -79,6 +79,7 @@
             transform: translateY(6px);
             overflow: hidden;
             display: table;
+
             @media (max-width: 1440px) {
                 transform: translateY(-5px);
                 overflow: hidden;
@@ -92,9 +93,11 @@
                 background-color: #b7b4b2;
                 opacity: 1;
                 margin-right: 3px;
+
                 &:first-of-type {
                     border-radius: 5px 0px 0px 5px;
                 }
+
                 &:last-of-type {
                     margin-right: 0;
                     border-radius: 0px 5px 5px 0px;
@@ -317,12 +320,10 @@
                     }
                 }
             }
-
         }
     }
 
     .board {
-
         .content-board {
             position: relative;
             background-color: #f2f2f2;
@@ -344,9 +345,11 @@
                 top: 50%;
                 transform: translateY(-50%);
                 background-color:#f2f2f2;
+
                 img {
                     transition: 0.5s transform;
                 }
+
                 &:after {
                     position: absolute;
                     content: '';
@@ -389,12 +392,14 @@
             .spec-bottom {
                 display: table;
                 margin: 50px auto 60px;
+
                 li {
                     display: inline-block;
                     font-size: 14px;
                     color: #858585;
                     text-align: center;
                     font-family: $apercu;
+
                     span {
                         color: #504949;
                     }
@@ -410,6 +415,7 @@
                 display: table;
                 margin-left: auto;
                 margin-right: auto;
+
                 button {
                     float: left;
                     opacity: 0.75;
@@ -421,52 +427,10 @@
                     border: 0;
                     transition: 0.5s opacity;
                     background-color: #aa7341;
-                }
+                    margin-left: 20px;
 
-                .pop-up-acheter {
-                    position: absolute;
-                    transform: translateX(-50%) translateY(-100%);
-                    margin-top: -30px;
-                    width: 75%;
-                    left: 50%;
-                    text-align: center;
-                    background-color: white;
-                    padding: 2em;
-                    border-radius: 10px;
-                    opacity: 0;
-                    transition: 0.5s opacity;
-                    ul {
-                        li {
-                            display: inline-block;
-                            margin-right: 15px;
-                            &:last-of-type {
-                                margin-right: 0;
-                            }
-                        }
-                    }
-                    button {
-                        font-size: 14px;
-                        background-color: black;
-                    }
-
-                    &:after {
-                        content: '';
-                        display: block;
-                        width: 0;
-                        height: 0;
-                        border-left: 20px solid transparent;
-                        border-right: 20px solid transparent;
-                        border-top: 20px solid white;
-                        position: absolute;
-                        bottom: -15px;
-                        left: 50%;
-                        transform: translateX(-50%);
-                    }
-                }
-
-                &:hover, &:focus {
-                    .pop-up-acheter {
-                        opacity: 1;
+                    &:first-child {
+                        margin-left: 0;
                     }
                 }
             }
@@ -475,6 +439,7 @@
                 display: table;
                 margin-left: auto;
                 margin-right: auto;
+
                 button {
                     float: left;
                     opacity: 0.75;
@@ -485,6 +450,7 @@
                     border-radius: 5px;
                     border: 0;
                     transition: 0.5s opacity;
+
                     &:first-of-type {
                         background-color: black;
                         margin-right: 45px;
@@ -507,6 +473,7 @@
                     img {
                         transform: translateY(-15px);
                     }
+
                     &:after {
                         width: 65%;
                     }
@@ -523,7 +490,6 @@
 @media (max-width: 1440px) {
     #boards-list {
         .spec-top {
-
             li {
                 span {
                     float: none;
@@ -555,7 +521,6 @@
         .board{
             padding-bottom:75px;
         }
-
     }
 }
 
@@ -565,18 +530,21 @@
             font-size: 12px;
             width: 120px;
         }
+
         .meter.single li {
             height: 6px;
             width: 15px;
         }
+
         .board {
             .hover {
-
                 padding: 80px 15px 25px;
+
                 .btn-boards button {
                     padding: 10px 15px;
                     font-size: 14px;
                 }
+
                 .spec-bottom {
                     margin: 0px auto;
 
@@ -596,21 +564,26 @@
             font-size: 12px;
             width: 120px;
         }
+
         .board {
             width:50%;
+
             .hover {
                 .btn-boards button{
                     padding: 12px 25px;
                 }
+
                 .spec-top{
                     display:none;
                 }
+
                 .spec-bottom{
                     li{
                         display:block;
                     }
 
                 }
+
                 .btn-boards button {
                     display: table;
                     margin: auto;
@@ -645,6 +618,7 @@
             font-size: 12px;
             margin-bottom: 15px;
         }
+
         .board {
             margin-bottom: 0px;
             width:50%;
@@ -664,27 +638,25 @@
 
             .content-board {
                 padding: 15px 5px;
+
                 .image-board:after {
                     display: none;
                 }
 
                 .section-top{
-                    padding-top:0;
                     margin-top:0;
-                    padding-bottom:15px;
-                    padding-left:15px;
-                    padding-right:15px;
+                    padding: 0 15px 15px 15px;
                 }
 
                 .image-board{
                     max-width: 66.66%;
                     padding-bottom: 25px;
                 }
-
             }
 
             .hover{
                 padding:0;
+
                 .spec-bottom{
                     margin: 45px auto 60px;
                 }
@@ -709,7 +681,6 @@
 
 @media (max-width: 370px) {
     #boards-list {
-
         .board {
             .hover {
                 .spec-bottom {

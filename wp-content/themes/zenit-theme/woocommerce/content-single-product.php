@@ -1,25 +1,7 @@
 <?php
-/**
- * The template for displaying product content in the single-product.php template
- *
- * This template can be overridden by copying it to yourtheme/woocommerce/content-single-product.php.
- *
- * HOWEVER, on occasion WooCommerce will need to update template files and you
- * (the theme developer) will need to copy the new files to your theme to
- * maintain compatibility. We try to do this as little as possible, but it does
- * happen. When this occurs the version of the template file will be bumped and
- * the readme will list any important changes.
- *
- * @see 	    https://docs.woocommerce.com/document/template-structure/
- * @author 		WooThemes
- * @package 	WooCommerce/Templates
- * @version     1.6.4
- */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
+	if ( ! defined( 'ABSPATH' ) ) {
+		exit; // Exit if accessed directly
+	}
 ?>
 
 <?php
@@ -28,12 +10,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 *
 	 * @hooked wc_print_notices - 10
 	 */
-	 do_action( 'woocommerce_before_single_product' );
+	do_action( 'woocommerce_before_single_product' );
 
-	 if ( post_password_required() ) {
-	 	echo get_the_password_form();
-	 	return;
-	 }
+	if ( post_password_required() ) {
+		echo get_the_password_form();
+		return;
+	}
+
+	global $product;
 ?>
 
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -49,87 +33,92 @@ if ( ! defined( 'ABSPATH' ) ) {
 	?>
 
 	<div class="summary entry-summary">
-	<h1><?php echo get_the_title(); ?></h1>
-	<?php if(get_field('s-titre')){ ?>
-			<h4><?php echo get_field('s-titre'); ?></h4>
-		<?php } ?>
-		  <?php if(get_field('recommended_setup')){ ?>
-			<p><?php echo get_field('recommended_setup'); ?></p>
-		<?php } ?>
+		<h1><?php echo get_the_title(); ?></h1>
+
+		<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+			<p class="price"><?php echo $product->get_price_html(); ?></p>
+
+			<meta itemprop="price" content="<?php echo esc_attr( $product->get_display_price() ); ?>" />
+			<meta itemprop="priceCurrency" content="<?php echo esc_attr( get_woocommerce_currency() ); ?>" />
+			<link itemprop="availability" href="http://schema.org/<?php echo $product->is_in_stock() ? 'InStock' : 'OutOfStock'; ?>" />
+
+		</div>
+
 		<div id="list-variations" class="container">
 			<?php
-				global $product;
-				// Get product attributes
-				$attributes = $product->get_attributes();
+			global $product;
 
-				if ( ! $attributes ) {
-				    echo "No attributes";
-				}
+			// Get product attributes
+			$attributes = $product->get_attributes();
 
-				foreach ( $attributes as $attribute ) {
+			if ( ! $attributes ) {
+				echo "No attributes";
+			}
 
-			        $attributeName =  $attribute['name'];
-			        $values = get_terms($attributeName);
+			foreach ( $attributes as $attribute ) :
+				$attributeName =  $attribute['name'];
+				$values = get_terms($attributeName);
+				$term = get_taxonomy($attributeName);
+				?>
 
-					echo "<div class='row'>";
+				<div class="row">
+					<div class="variation-list clearfix">
+						<?php foreach ( $values as $value ) :
+							$metas = get_term_meta($value->term_taxonomy_id);
+							$out_of_stock = $metas['out_of_stock'];
 
-					$term = get_taxonomy($attributeName);
+							if(!$out_of_stock[0]): ?>
+								<div class="variation variation-size" data-slug="<?php echo $value->slug; ?>" data-list="<?php echo $value->taxonomy; ?>">
+									<!--image id is stored as term meta-->
+									<div class="variation-cont">
+										<?php
+										$image_id = get_term_meta( $value->term_id, 'image', true );
 
+										// image data stored in array, second argument is which image size to retrieve
+										$image_data = wp_get_attachment_image_src( $image_id, 'full' );
 
-					echo "<h5>".$term->labels->name."</h5>";
-					echo "<div class='variation-list'>";
-					foreach ( $values as $value ) {
+										// image url is the first item in the array (aka 0)
+										$image = $image_data[0];
 
-						$metas = get_term_meta($value->term_taxonomy_id);
-						$out_of_stock = $metas['out_of_stock'];
+										if ( ! empty( $image ) ) : ?>
+											<img src="<?php echo esc_url( $image ); ?>">
+										<?php endif; ?>
 
-						if(!$out_of_stock[0]){
-							echo "<div class='variation col-sm-4 col-xs-6' data-slug='".$value->slug."' data-list='".$value->taxonomy."'>";
-							// image id is stored as term meta
-							echo "<div class='variation-cont'>";
-							$image_id = get_term_meta( $value->term_id, 'image', true );
+										<p><?php _e($value->name); ?></p>
 
-							// image data stored in array, second argument is which image size to retrieve
-							$image_data = wp_get_attachment_image_src( $image_id, 'full' );
-
-							// image url is the first item in the array (aka 0)
-							$image = $image_data[0];
-
-							if ( ! empty( $image ) ) {
-							    echo '<img src="' . esc_url( $image ) . '" />';
-							}
-
-							echo "<p>";
-							_e($value->name);
-							echo  "</p>";
-
-							echo "<p class='small'>";
-							_e($value->description);
-							echo "</p>";
-
-							echo "</div></div>";
-						}
-					}
-					echo "</div></div>";
-				} ?>
-			</div>
-		<div id="recap_variable">
-		<h2><?php _e('Summary','sage'); ?></h2>
-		<?php
-			/**
-			 * woocommerce_single_product_summary hook.
-			 *
-			 * @hooked woocommerce_template_single_title - 5
-			 * @hooked woocommerce_template_single_rating - 10
-			 * @hooked woocommerce_template_single_price - 10
-			 * @hooked woocommerce_template_single_excerpt - 20
-			 * @hooked woocommerce_template_single_add_to_cart - 30
-			 * @hooked woocommerce_template_single_meta - 40
-			 * @hooked woocommerce_template_single_sharing - 50
-			 */
-			do_action( 'woocommerce_single_product_summary' );
-		?>
+										<p class="small"><?php _e($value->description); ?></p>
+									</div>
+								</div>
+							<?php endif; ?>
+						<?php endforeach; ?>
+					</div>
+				</div>
+			<?php endforeach; ?>
 		</div>
+
+		<div id="recap_variable">
+			<h2><?php _e('Summary','sage'); ?></h2>
+			<?php
+				/**
+				 * woocommerce_single_product_summary hook.
+				 *
+				 * @hooked woocommerce_template_single_title - 5
+				 * @hooked woocommerce_template_single_rating - 10
+				 * @hooked woocommerce_template_single_price - 10
+				 * @hooked woocommerce_template_single_excerpt - 20
+				 * @hooked woocommerce_template_single_add_to_cart - 30
+				 * @hooked woocommerce_template_single_meta - 40
+				 * @hooked woocommerce_template_single_sharing - 50
+				 */
+				do_action( 'woocommerce_single_product_summary' );
+			?>
+		</div>
+
+		<div class="prod-desc">
+			<p><?php echo $product->post->post_content; ?></p>
+		</div>
+
 	</div><!-- .summary -->
 
 	<?php
@@ -140,7 +129,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		 * @hooked woocommerce_upsell_display - 15
 		 * @hooked woocommerce_output_related_products - 20
 		 */
-		do_action( 'woocommerce_after_single_product_summary' );
+		//do_action( 'woocommerce_after_single_product_summary' );
 	?>
 
 	<meta itemprop="url" content="<?php the_permalink(); ?>" />

@@ -259,57 +259,12 @@ if (!class_exists('rp_shipping_calculator')) {
 
         public function wp_head()
         {
-            /* register jquery */
-            wp_enqueue_script('jquery');
-
-            $buttonAlign = "left";
-            if ($this->get_setting('button_align') == 0)
-                $buttonAlign = "left";
-            else if ($this->get_setting('button_align') == 1)
-                $buttonAlign = "right";
-            else if ($this->get_setting('button_align') == 2)
-                $buttonAlign = "center";
-
-            $buttonBorder = $this->get_setting('button_border_size');
-            $buttonSize = ($buttonBorder != "") ? $buttonBorder . "px" : "0px";
-            $buttonColor = $this->get_setting('button_border_color');
-            $defaultOpen = ($this->get_setting('default_open') == 1) ? "block" : "none";
             ?>
+
             <script type="text/javascript">
                 var rp_ajax_url = "<?php echo admin_url("admin-ajax.php") ?>";
             </script>
-            <style type="text/css">
-                #rp_shipping_calculator{margin-top:10px;max-width: <?php echo $this->get_setting('max_width') ? $this->get_setting('max_width') : 400 ?>px;}
-                .rp_shipping_button{
-                    margin-bottom:10px;
-                    text-align: <?php echo $buttonAlign; ?>
-                }
-                .rp_shiiping_form{
-                    display:<?php echo $defaultOpen; ?>;
-                }
-                .loaderimage{
-                    display:none;
-                    margin-left:5px;
-                }
-                .rp_message{margin-bottom:10px;}
-                .rp_error{color:red;}
-                .rp_success{color:green;}
-                .rp_shipping_button .btn_shipping{
-                    padding:8px 10px;
-                    text-align: center;
-                    display:inline-block;
-                    border:<?php echo $buttonSize ?> <?php echo $buttonColor ?> solid;
-                    border-radius: <?php echo $this->get_setting('button_border_radius'); ?>px;
-                    color:<?php echo $this->get_setting('button_text_color'); ?>;
-                    background-color: <?php echo $this->get_setting('button_bg_color'); ?>;
-                    cursor:pointer;
-                }
-            <?php
-            if ($this->get_setting('custom_css') != ""):
-                echo $this->get_setting('custom_css');
-            endif;
-            ?>
-            </style>
+
             <?php
         }
 
