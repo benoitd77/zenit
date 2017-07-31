@@ -17,9 +17,9 @@ body.page-template-page-accueil{
 }
 
 #splash{
-	height:108vh;
+	height:107vh;
 	overflow:hidden;
-    padding-top: 108px;
+    padding-top: 88px;
     transition: 0.5s padding ease-in-out;
 
 	.slider-fullscreen{
@@ -77,13 +77,13 @@ body.page-template-page-accueil{
 
 .fixed-menu {
     #splash {
-        padding-top: 78px;
+        padding-top: 73px;
     }
 
     .nav-primary {
         .menu-second-level {
             > .sub-menu {
-                top: 80px;
+                top: 73px;
             }
         }
     }
@@ -215,12 +215,6 @@ body.page-template-page-accueil{
     #splash {
         height: 107vh;
         padding-top: 88px;
-    }
-
-    &.fixed-menu {
-        #splash {
-            padding-top: 70px;
-        }
     }
 }
 
