@@ -1,0 +1,110 @@
+#page-default {
+    .variable-product {
+        margin-top: 140px;
+        padding: 40px;
+        margin-bottom: 40px;
+
+        div.product div.images {
+            float: left;
+            width: 48%;
+
+            > img {
+                padding: 0 40px;
+                width: 80%;
+            }
+
+            img {
+                float: right;
+            }
+
+            div.thumbnails {
+                float: left;
+                width: 20%;
+                padding: 7% 3%;
+
+                a {
+                    width: 100%;
+                }
+            }
+        }
+
+        .variation-size {
+            background-color: #ccc;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            width: 40px;
+            float: left;
+            text-align: center;
+            margin-right: 10px;
+
+            &.current{
+                border: 1px solid #000;
+            }
+        }
+
+        #sidebar, #footer, #header,
+        .woocommerce-tabs,
+        .woocommerce-breadcrumb,
+        .product_meta,
+        .quantity,
+        .reset_variations {
+            display: none !important;
+        }
+
+        .variations {
+            width: 50%;
+
+            .label {
+                color: #000;
+                font-size: 18px;
+                padding-right: 50px !important;
+            }
+        }
+
+        table {
+            td, th {
+                padding: 0!important;
+            }
+        }
+
+        select {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            background: #ededed;
+            border: none;
+            border-radius: 0;
+            padding: 7px;
+            margin-bottom: 15px;
+            font-family: apercu;
+            font-size: 14px;
+            font-weight: 700;
+            width: 100%;
+        }
+
+        .summary > [itemprop="offers"] {
+            display: block;
+        }
+
+        .prod-desc {
+            padding: 30px 10px;
+        }
+    }
+
+    &.single-product {
+        .pp_pic_holder {
+            .ppt,
+            .pp_gallery,
+            .pp_play,
+            .pp_next,
+            .pp_previous {
+                display: none !important;
+            }
+        }
+
+        .pp_arrow_previous,
+        .pp_arrow_next {
+            position: relative;
+            top: 4px;
+        }
+    }
+}

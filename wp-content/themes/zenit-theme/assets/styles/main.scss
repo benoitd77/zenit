@@ -11,6 +11,7 @@
 @import "components/forms";
 @import "components/grid";
 @import "components/slider";
+@import "layouts/common";
 @import "layouts/header";
 @import "layouts/home";
 @import "layouts/footer";
@@ -19,9 +20,11 @@
 @import "layouts/a-propos";
 @import "layouts/nav";
 @import "layouts/nav";
-@import "layouts/_boards-list";
+@import "layouts/boards-list";
+@import "layouts/product-list";
 @import "layouts/team";
 @import "layouts/videos";
-@import "layouts/single_product";
 @import "layouts/shop";
+@import "layouts/single_product_default";
+@import "layouts/single_product_board";
 @import "layouts/contact";

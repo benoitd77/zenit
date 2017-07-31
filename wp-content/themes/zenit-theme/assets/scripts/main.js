@@ -99,9 +99,19 @@
                     $(this).find('.hover').css('opacity', '1');
                 });
             }
+            if ($('.default-product').length > 0) {
+                $('.default-product').click(function() {
+                    $(this).find('.hover').css('opacity', '1');
+                });
+            }
 
             $(win).on('scroll', function() {
                 $('.board').each(function() {
+                    $(this).find('.hover').removeAttr('style');
+                });
+            });
+            $(win).on('scroll', function() {
+                $('.default-product').each(function() {
                     $(this).find('.hover').removeAttr('style');
                 });
             });

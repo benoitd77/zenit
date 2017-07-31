@@ -1,0 +1,103 @@
+.bottom-section {
+    background-color: #f2f2f2;
+
+    .col-sm-4 {
+        text-align: center;
+        padding: 65px 15px 60px;
+
+        img {
+            height: 30px;
+            width: auto;
+            margin-bottom: 25px;
+        }
+
+        h5 {
+            font-size: 17px;
+            font-family: $apercu;
+            text-transform: none;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #a6a6a6;
+            font-size: 14px;
+            font-weight: bold;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 25px;
+        }
+
+        &:nth-child(2) {
+            background-color: #e6e6e6;
+        }
+
+        &:last-of-type {
+            img {
+                height: 20px;
+            }
+        }
+    }
+
+    #rp_shipping_calculator {
+        color: #313131;
+        margin-top: 10px;
+        max-width: 500px;
+
+        .rp_shipping_button {
+            text-align: center;
+            width: 60%;
+            margin: 0 auto 14px;
+        }
+
+        .rp_shiiping_form{
+            display: none;
+        }
+
+        .shipping_postcode {
+            input {
+                box-sizing: border-box;
+                width: 100% !important;
+                margin: 0;
+                border: 1px solid #a6a6a6 !important;
+                outline: 2px;
+                line-height: 1;
+                padding: 2px 7px !important;
+                border-radius: 3px;
+                background-color: white;
+                border-radius: 5px;
+            }
+        }
+
+        .loaderimage{
+            display:none;
+            margin-left:5px;
+        }
+
+        button.button {
+            background-color: #bd9a5c;
+            color: white;
+            margin-top: 15px;
+        }
+
+        .rp_message {
+            margin-bottom:10px;
+        }
+
+        .rp_error {
+            color: red;
+        }
+
+        .rp_success {
+            color:green;
+        }
+
+        .rp_shipping_button .btn_shipping {
+            padding: 8px 10px;
+            text-align: center;
+            display: inline-block;
+            border: 0px solid;
+            cursor: pointer;
+        }
+    }
+}
