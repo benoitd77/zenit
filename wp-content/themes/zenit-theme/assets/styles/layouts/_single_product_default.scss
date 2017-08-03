@@ -4,26 +4,35 @@
         padding: 40px;
         margin-bottom: 40px;
 
-        div.product div.images {
-            float: left;
-            width: 48%;
-
-            > img {
-                padding: 0 40px;
-                width: 80%;
+        div.product {
+            form.cart .button {
+                padding: 13px 35px;
             }
 
-            img {
-                float: right;
-            }
-
-            div.thumbnails {
+            div.images {
                 float: left;
-                width: 20%;
-                padding: 7% 3%;
+                width: 48%;
 
-                a {
-                    width: 100%;
+                section:first-child {
+                    float: right;
+                    padding: 0 40px;
+                    width: 80%;
+                }
+
+                #wpis-gallery {
+                    float: left;
+                    width: 20%;
+                    padding: 7% 3%;
+
+                    .slick-track {
+                        width: 100% !important;
+                    }
+
+                    .slick-slide {
+                        float: left;
+                        margin-bottom: 15px;
+                        width: 100% !important;
+                    }
                 }
             }
         }
@@ -52,12 +61,12 @@
         }
 
         .variations {
-            width: 50%;
+            width: 35%;
 
             .label {
                 color: #000;
                 font-size: 18px;
-                padding-right: 50px !important;
+                // padding-right: 50px !important;  <---- Why?? o.O
             }
         }
 
@@ -73,12 +82,12 @@
             background: #ededed;
             border: none;
             border-radius: 0;
-            padding: 7px;
+            padding: 6px 5px 5px 0;
             margin-bottom: 15px;
             font-family: apercu;
             font-size: 14px;
             font-weight: 700;
-            width: 100%;
+            // width: 100%;
         }
 
         .summary > [itemprop="offers"] {
