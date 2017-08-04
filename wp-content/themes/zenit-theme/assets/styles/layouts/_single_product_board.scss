@@ -328,16 +328,25 @@
                 }
             }
 
-            &.video .play-video {
-                width: 75px;
-                height: 75px;
-                opacity: 1;
-                transition: opacity .5s ease-in-out;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                -webkit-transform: translate(-50%,-50%);
-                transform: translate(-50%,-50%);
+            &.video {
+                .play-video {
+                    width: 75px;
+                    height: 75px;
+                    opacity: 1;
+                    transition: opacity .5s ease-in-out;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%,-50%);
+                    transform: translate(-50%,-50%);
+                }
+
+                .col-sm-12 {
+                    padding: 0 15px;
+                    cursor: pointer;
+                    min-height: 50vh;
+                    position: relative;
+                }
             }
 
             &.text-fw {
