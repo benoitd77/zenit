@@ -68,6 +68,7 @@
 
 									<div class="btn-default-prod">
 										<button class="btn-acheter" onclick="window.location.href='<?php echo $urlSingle; ?>'">Info</button>
+										<button class="btn-acheter" onclick="window.location.href='<?php echo $url; ?>'"><?php echo get_field('buy_button'); ?></button>
 									</div>
 								</div>
 							</div>
