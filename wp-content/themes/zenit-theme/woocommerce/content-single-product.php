@@ -139,3 +139,23 @@
 </div><!-- #product-<?php the_ID(); ?> -->
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
+
+<div class="container-fluid bottom-section">
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="<?php echo get_field('1_icone','option'); ?>" alt="Icone 1"/>
+			<h5><?php echo get_field('1_titre','option'); ?></h5>
+			<p><?php echo get_field('1_description','option'); ?></p>
+		</div>
+		<div class="col-sm-4">
+			<img src="<?php echo get_field('2_icone','option'); ?>" alt="Icone 2"/>
+			<h5><?php echo get_field('2_titre','option'); ?></h5>
+			<p><?php echo get_field('2_description','option'); ?></p>
+		</div>
+		<div class="col-sm-4">
+			<img src="<?php echo get_field('3_icone','option'); ?>" alt="Icone 3"/>
+			<h5><?php echo get_field('3_titre','option'); ?></h5>
+			<p><?php echo get_field('3_description','option'); ?></p>
+		</div>
+	</div>
+</div>

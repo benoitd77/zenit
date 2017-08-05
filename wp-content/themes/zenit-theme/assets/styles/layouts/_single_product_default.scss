@@ -1,10 +1,21 @@
 #page-default {
     .variable-product {
         margin-top: 140px;
-        padding: 40px;
-        margin-bottom: 40px;
+        padding: 40px 40px 0;
 
         div.product {
+            margin-bottom: 50px;
+
+            &:before,
+            &:after {
+                content: "";
+                display: table;
+            }
+
+            &:after {
+                clear: both;
+            }
+
             form.cart .button {
                 padding: 13px 35px;
             }
