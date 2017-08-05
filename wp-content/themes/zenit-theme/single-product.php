@@ -54,16 +54,9 @@ if ($catSlug === 'board') :
 	/*---------------------------------*/
 	// PAGE DEFAULT
 	/*---------------------------------*/ ?>
-
 	<div id="single-prod" class="single-product">
-		<?php
-			if ($_product->is_type('variable')) : ?>
-				<div class="variable-product clearfix">
-					<?php get_template_part('single-variable'); ?>
-				</div>
-			<?php else :
-				get_template_part('single-simple');
-			endif;
-		?>
+		<div class="variable-product clearfix">
+			<?php get_template_part('single-variable'); ?>
+		</div>
 	</div>
 <?php endif; ?>

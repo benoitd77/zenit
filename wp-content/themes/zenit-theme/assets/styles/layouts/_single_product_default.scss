@@ -92,6 +92,11 @@
 
         .summary > [itemprop="offers"] {
             display: block;
+            margin-top: 10px;
+
+            p.price {
+                font-size: 16px;
+            }
         }
 
         .prod-desc {

@@ -56,49 +56,47 @@
 			// Get product attributes
 			$attributes = $product->get_attributes();
 
-			if ( ! $attributes ) {
-				echo "No attributes";
-			}
+			if (!empty($attributes) && $attributes) :
+				foreach ( $attributes as $attribute ) :
+					$attributeName =  $attribute['name'];
+					$values = get_terms($attributeName);
+					$term = get_taxonomy($attributeName);
+					?>
 
-			foreach ( $attributes as $attribute ) :
-				$attributeName =  $attribute['name'];
-				$values = get_terms($attributeName);
-				$term = get_taxonomy($attributeName);
-				?>
+					<div class="row">
+						<div class="variation-list clearfix">
+							<?php foreach ( $values as $value ) :
+								$metas = get_term_meta($value->term_taxonomy_id);
+								$out_of_stock = $metas['out_of_stock'];
 
-				<div class="row">
-					<div class="variation-list clearfix">
-						<?php foreach ( $values as $value ) :
-							$metas = get_term_meta($value->term_taxonomy_id);
-							$out_of_stock = $metas['out_of_stock'];
+								if(!$out_of_stock[0]): ?>
+									<div class="variation variation-size" data-slug="<?php echo $value->slug; ?>" data-list="<?php echo $value->taxonomy; ?>">
+										<!--image id is stored as term meta-->
+										<div class="variation-cont">
+											<?php
+											$image_id = get_term_meta( $value->term_id, 'image', true );
 
-							if(!$out_of_stock[0]): ?>
-								<div class="variation variation-size" data-slug="<?php echo $value->slug; ?>" data-list="<?php echo $value->taxonomy; ?>">
-									<!--image id is stored as term meta-->
-									<div class="variation-cont">
-										<?php
-										$image_id = get_term_meta( $value->term_id, 'image', true );
+											// image data stored in array, second argument is which image size to retrieve
+											$image_data = wp_get_attachment_image_src( $image_id, 'full' );
 
-										// image data stored in array, second argument is which image size to retrieve
-										$image_data = wp_get_attachment_image_src( $image_id, 'full' );
+											// image url is the first item in the array (aka 0)
+											$image = $image_data[0];
 
-										// image url is the first item in the array (aka 0)
-										$image = $image_data[0];
+											if ( ! empty( $image ) ) : ?>
+												<img src="<?php echo esc_url( $image ); ?>">
+											<?php endif; ?>
 
-										if ( ! empty( $image ) ) : ?>
-											<img src="<?php echo esc_url( $image ); ?>">
-										<?php endif; ?>
+											<p><?php _e($value->name); ?></p>
 
-										<p><?php _e($value->name); ?></p>
-
-										<p class="small"><?php _e($value->description); ?></p>
+											<p class="small"><?php _e($value->description); ?></p>
+										</div>
 									</div>
-								</div>
-							<?php endif; ?>
-						<?php endforeach; ?>
+								<?php endif; ?>
+							<?php endforeach; ?>
+						</div>
 					</div>
-				</div>
-			<?php endforeach; ?>
+				<?php endforeach;
+			endif; ?>
 		</div>
 
 		<div id="recap_variable">
