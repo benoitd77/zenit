@@ -8,10 +8,10 @@
 
 .woocommerce div.product p.price, .woocommerce div.product span.price{
 	color:#7f7f7f;
-	font-size:14px;
+	font-size:20px;
 	font-weight:700;
 	display:block;
-	margin-bottom:50px;
+	margin-bottom:0;
 }
 
 .page-board .summary.entry-summary{
@@ -65,7 +65,7 @@
 
 .woocommerce-variation-price{
 	.price{
-		margin-bottom:35px!important;
+		//margin-bottom:35px!important;
 	}
 }
 

@@ -44,7 +44,7 @@
 				?>
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					<?php $_product = wc_get_product( get_the_ID() ); ?>
-					<div class="col-sm-4 col-xs-6 board">
+					<div class="col-sm-3 col-xs-6 board">
 						<div class="content-board">
 
 							<div class="section-top">

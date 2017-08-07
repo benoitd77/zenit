@@ -327,7 +327,7 @@
         .content-board {
             position: relative;
             background-color: #f2f2f2;
-            padding: 30px 30px 100px;
+            padding: 30px 30px 65px;
             overflow: hidden;
             height:100%;
 
@@ -350,21 +350,21 @@
                     transition: 0.5s transform;
                 }
 
-                &:after {
-                    position: absolute;
-                    content: '';
-                    background-color: black;
-                    width: 85%;
-                    display: block;
-                    height: 15px;
-                    opacity: 1;
-                    border-radius: 100%;
-                    left: 50%;
-                    bottom: -60px;
-                    transform: translateX(-50%);
-                    transition: 0.5s width;
-                    filter: blur(15px);
-                }
+//                &:after {
+//                    position: absolute;
+//                    content: '';
+//                    background-color: black;
+//                    width: 85%;
+//                    display: block;
+//                    height: 15px;
+//                    opacity: 1;
+//                    border-radius: 100%;
+//                    left: 50%;
+//                    bottom: -60px;
+//                    transform: translateX(-50%);
+//                    transition: 0.5s width;
+//                    filter: blur(15px);
+//                }
             }
         }
 
