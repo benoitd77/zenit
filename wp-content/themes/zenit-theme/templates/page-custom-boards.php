@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template : Custom Boards
+ * Template Name: Template : Vetements
  */
 ?>
 
