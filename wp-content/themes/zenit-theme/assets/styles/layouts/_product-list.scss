@@ -65,6 +65,8 @@
     }
 
     .default-product {
+        margin-bottom: 30px;
+
         .content-default {
             position: relative;
             background-color: #f2f2f2;
@@ -79,7 +81,6 @@
 
             .image-product {
                 display: table;
-                //max-width: 33.33%;
                 margin-left: auto;
                 margin-right: auto;
                 position: relative;
@@ -90,22 +91,6 @@
                 img {
                     transition: 0.5s transform;
                 }
-
-//                &:after {
-//                    position: absolute;
-//                    content: '';
-//                    background-color: black;
-//                    width: 85%;
-//                    display: block;
-//                    height: 15px;
-//                    opacity: 1;
-//                    border-radius: 100%;
-//                    left: 50%;
-//                    bottom: -60px;
-//                    transform: translateX(-50%);
-//                    transition: 0.5s width;
-//                    filter: blur(15px);
-//                }
             }
         }
 
@@ -120,9 +105,8 @@
             background-color: rgba(242, 242, 242, 0.9);
             transition: 0.5s opacity;
             overflow-y: auto;
-            padding: 80px 15px 50px 15px;
+            padding: 80px 15px 50px;
             height: 100%;
-            overflow-y: scroll;
 
             .cont{
                 position: relative;
@@ -175,37 +159,6 @@
                     }
                 }
             }
-
-//            .bts-boards {
-//                display: table;
-//                margin-left: auto;
-//                margin-right: auto;
-//
-//                button {
-//                    float: left;
-//                    opacity: 0.75;
-//                    color: white;
-//                    padding: 7px 0px;
-//                    min-width: 115px;
-//                    font-size: 18px;
-//                    border-radius: 5px;
-//                    border: 0;
-//                    transition: 0.5s opacity;
-//
-//                    &:first-of-type {
-//                        background-color: black;
-//                        margin-right: 45px;
-//                    }
-//
-//                    &:last-of-type {
-//                        background-color: #aa7341;
-//                    }
-//
-//                    &:hover {
-//                        opacity: 1;
-//                    }
-//                }
-//            }
         }
 
         &:hover, &:focus {
