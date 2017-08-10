@@ -56,7 +56,7 @@ if ($catSlug === 'board') :
 	/*---------------------------------*/ ?>
 	<div id="single-prod" class="single-product">
 		<div class="variable-product clearfix">
-			<?php get_template_part('single-variable'); ?>
+			<?php get_template_part('single-default'); ?>
 		</div>
 	</div>
 <?php endif; ?>
