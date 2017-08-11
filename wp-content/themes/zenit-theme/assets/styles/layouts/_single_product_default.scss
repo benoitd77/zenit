@@ -61,10 +61,11 @@
             background-color: #ccc;
             border: 1px solid #ccc;
             cursor: pointer;
-            width: 40px;
             float: left;
             text-align: center;
             margin-right: 10px;
+            min-width: 55px;
+            padding: 3px 10px;
 
             &.current{
                 border: 1px solid #000;
