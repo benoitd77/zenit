@@ -34,6 +34,10 @@
 
 }
 
+#list-variations {
+    margin-bottom: 50px;
+}
+
 .variable-product{
 	.variations_form select{
 		background-color:#ededed;
@@ -45,7 +49,6 @@
 }
 
 #recap_variable{
-	margin-top:50px;
 	background-color:#ededed;
 	padding:25px 25px 1px;
 
@@ -63,18 +66,13 @@
 	}
 }
 
-.woocommerce-variation-price{
-	.price{
-		//margin-bottom:35px!important;
-	}
-}
-
 .cont-woocommerce-message{
 	position: fixed;
     top: 140px;
     right: 20px;
     z-index: 99;
     background-color:#f7f6f7;
+
     .woocommerce-message{
     	padding:2em!important;
     	padding-bottom:0!important;
@@ -107,7 +105,8 @@
 		top: 15px;
 	    right: 5px;
 	    z-index: 2;
-	    cursor:pointer;
+	    cursor: pointer;
+
 	    &:after,&:before{
 	    	width:75%;
 	    	height:2.5px;
@@ -162,8 +161,6 @@ body.page-template-page-accueil{
 	width:75px!important;
 }
 
- 
-
 .currency-changer{
 	transform:translateY(10px);
 	.dd-pointer{
@@ -213,6 +210,7 @@ body.page-template-page-accueil{
 
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
 	background-color: $brand-primary;
+
 	&:hover{
 		background-color:$brand-primary!important;
 	}
@@ -220,6 +218,7 @@ body.page-template-page-accueil{
 
 .woocommerce a.remove{
 	padding-left:2px;
+
 	&:hover{
 		background-color:red!important;
 	}
@@ -301,6 +300,7 @@ body.page-template-page-accueil{
 
 	.woocommerce-cart .coupon{
 		padding:0 20px;
+
 		#coupon_code{
 			width: 100%!important;
     		margin-bottom: 20px;
@@ -311,11 +311,10 @@ body.page-template-page-accueil{
 		width:150px!important;
 	}
 
-
-		input[name="update_cart"]{
-			width: 90%!important;
-		    margin-top: 40px!important;
-		    margin-left: auto!important;
-		    margin-right: auto!important;
-		}
+    input[name="update_cart"]{
+        width: 90%!important;
+        margin-top: 40px!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
 }

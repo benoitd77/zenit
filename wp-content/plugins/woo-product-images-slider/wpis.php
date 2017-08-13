@@ -25,7 +25,7 @@ function wpis_enqueue_scripts() {
 			wp_enqueue_style('wpis-fancybox-css', plugins_url('assets/css/fancybox.css', __FILE__),'1.0', true);
 			wp_enqueue_style('wpis-fontawesome-css', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css','1.0', true);
 			wp_enqueue_style('wpis-front-css', plugins_url('assets/css/wpis-front.css', __FILE__),'1.0', true);
-			wp_register_script('wpis-front-js', plugins_url('assets/js/wpis.front.js', __FILE__),array('jquery'),'1.0', true);
+			wp_register_script('wpis-front-js', plugins_url('assets/js/wpis.front.js', __FILE__),array('jquery'),'1.1', true);
 			
 			$options = get_option('wpis_options');
 			

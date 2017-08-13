@@ -9,22 +9,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $post, $product, $woocommerce;
 $version = '3.0';
+
+$category = wp_get_post_terms( get_the_ID(), 'product_cat' );
+$catSlug  = '';
+$zoomClass = '';
+
+foreach ($category as $cat) {
+	$catSlug = $cat->slug;
+	if ($catSlug === 'accessoires') {
+		$zoomClass = 'no-zoom';
+	}
+}
+
 ?>
 
-
-<!--<div class="images">-->
-<!--	--><?php
-//		if ( has_post_thumbnail() ) {
-//			the_post_thumbnail('full');
-//		}
-//
-//		get_template_part( 'single-product-thumbnails' );
-//	?>
-<!--</div>-->
-
-
-
-<div class="images">
+<div class="images clearfix">
 	<?php
 	if ( has_post_thumbnail() )
 	{
@@ -53,7 +52,7 @@ $version = '3.0';
 		$html  = '<section class="slider wpis-slider-for">';
 
 		$html .= sprintf(
-			'<div class="zoom">%s%s<a href="%s" class="wpis-popup fa fa-camera" data-fancybox="product-gallery"></a></div>',
+			'<div class="zoom '. $zoomClass .'">%s%s<a href="%s" class="wpis-popup fa fa-camera" data-fancybox="product-gallery"></a></div>',
 			$fullimage,
 			$image,
 			$image_link
@@ -62,7 +61,7 @@ $version = '3.0';
 		foreach( $attachment_ids as $attachment_id ) {
 			$imgfull_src = wp_get_attachment_image_src( $attachment_id,'full');
 			$image_src   = wp_get_attachment_image_src( $attachment_id,'shop_single');
-			$html .= '<div class="zoom"><img src="'.$imgfull_src[0].'" /><img src="'.$image_src[0].'" /><a href="'.$imgfull_src[0].'" class="wpis-popup fa fa-camera" data-fancybox="product-gallery"></a></div>';
+			$html .= '<div class="zoom '. $zoomClass .'"><img src="'.$imgfull_src[0].'" /><img src="'.$image_src[0].'" /><a href="'.$imgfull_src[0].'" class="wpis-popup fa fa-camera" data-fancybox="product-gallery"></a></div>';
 		}
 
 		$html .= '</section>';

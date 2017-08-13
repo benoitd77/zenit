@@ -88,7 +88,6 @@
             .label {
                 color: #000;
                 font-size: 18px;
-                // padding-right: 50px !important;  <---- Why?? o.O
             }
         }
 
@@ -109,7 +108,6 @@
             font-family: apercu;
             font-size: 18px;
             font-weight: 700;
-            // width: 100%;
         }
 
         .summary > [itemprop="offers"] {
@@ -141,6 +139,53 @@
         .pp_arrow_next {
             position: relative;
             top: 4px;
+        }
+    }
+
+    @media (max-width: 1492px) {
+        .variable-product {
+            margin-top: 100px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .variable-product {
+            div.product {
+                div.images {
+                    float: none;
+                    margin-bottom: 50px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 511px) {
+        .variable-product {
+            div.product {
+                div.images {
+                    margin-bottom: 10px;
+
+                    section:first-child {
+                        float: none;
+                        width: 100%;
+                    }
+
+                    #wpis-gallery {
+                        float: none;
+                        padding: 7% 0;
+                        width: 100%;
+
+                        .slick-slide {
+                            max-width: 25%!important;
+                        }
+                    }
+                }
+            }
+
+            .variation-size {
+                margin-bottom: 10px;
+            }
         }
     }
 }
