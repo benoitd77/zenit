@@ -13,7 +13,7 @@
         padding: 40px 40px 0;
 
         div.product {
-            margin-bottom: 50px;
+            margin-bottom: 30px;
 
             &:before,
             &:after {
@@ -94,7 +94,7 @@
 
         table {
             td, th {
-                padding: 0!important;
+                padding: 0 !important;
             }
         }
 
@@ -152,6 +152,8 @@
     @media (max-width: 768px) {
         .variable-product {
             div.product {
+                margin-bottom: 0;
+
                 div.images {
                     float: none;
                     margin-bottom: 50px;
