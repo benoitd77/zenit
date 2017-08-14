@@ -545,6 +545,22 @@
                 }
             }
         );
+
+
+        function toggleBoardSelect () {
+            $('.board-select-item').removeClass('selected');
+            $(this).addClass('selected');
+
+            var button = $(this).data('btn');
+
+            $('.cstmz-brd-btns').hide();
+            $('#'+button).css({
+                display: 'block'
+            });
+        }
+
+
+        $('.board-select-item').on('click', toggleBoardSelect);
     }
 
     win.onload = configurer;

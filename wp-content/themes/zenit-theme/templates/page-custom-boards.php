@@ -1,31 +1,15 @@
 <?php
 /**
- * Template Name: Template : Vetements
+ * Template Name: Template : Custom Boards
  */
 ?>
 
 <section id="product-list" class="container-fluid">
-
-
-	<?php
-		$currentLang = qtrans_getLanguage();
-
-		if ($currentLang === 'fr'): ?>
-			<h1 style="text-align: center;">Cette page sera bientôt disponible</h1>
-		<?php else: ?>
-			<h1 style="text-align: center;">This page is coming soon</h1>
-		<?php endif;
-	?>
-
-
-
-
-
 	<?php
 	wc_print_notices();
 
-	if (get_field('selected_cat', 8260)) :
-		$terms       = get_field('selected_cat', 8260);
+	if (get_field('selected_cat', 8210)) :
+		$terms       = get_field('selected_cat', 8210);
 		$currentLang = qtrans_getLanguage();
 		$langTag     = "[:" . $currentLang . "]";
 
@@ -61,7 +45,7 @@
 				<?php while ( $loop->have_posts() ) : $loop->the_post();
 					$_product = wc_get_product( get_the_ID() ); ?>
 
-					<div class="col-sm-4 col-xs-6 default-product">
+					<div class="col-sm-3 col-xs-6 default-product">
 						<div class="content-default">
 							<div class="section-top">
 								<h3><?php echo get_the_title(); ?></h3>

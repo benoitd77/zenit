@@ -26,6 +26,17 @@ if ( ! $product->is_purchasable() ) {
 	return;
 }
 
+$category = wp_get_post_terms( get_the_ID(), 'product_cat' );
+$isCustomBrd = false;
+$catSlug  = '';
+
+foreach ($category as $cat) {
+	$catSlug = $cat->slug;
+	if ($catSlug === 'custom-boards') {
+		$isCustomBrd = true;
+	}
+}
+
 ?>
 
 <?php
@@ -55,7 +66,7 @@ if ( ! $product->is_purchasable() ) {
 
 	 	<input type="hidden" name="add-to-cart" value="<?php echo esc_attr( $product->id ); ?>" />
 
-	 	<button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+	 	<button id="addtocart-btn" type="submit" class="single_add_to_cart_button button alt <?php echo $isCustomBrd ? 'cstmz-brd-btns' : ''; ?>"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 	</form>

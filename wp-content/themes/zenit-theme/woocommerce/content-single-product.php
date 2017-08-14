@@ -99,6 +99,25 @@
 			endif; ?>
 		</div>
 
+		<?php if (get_field('link_complete')) : ?>
+
+			<?php
+				$currentLang   = qtrans_getLanguage();
+				$boardOnly     = $currentLang === 'fr' ? 'Planche seulement' : 'Board Only';
+				$boardComplete = $currentLang === 'fr' ? 'Planche complète personnalisée' : 'Customized Complete Board';
+			?>
+
+			<div class="board-select-wrapper">
+				<div class="board-selector">
+					<ul>
+						<li class="board-select-item selected" data-btn="addtocart-btn"><?php echo $boardOnly; ?></li>
+						<li class="board-select-item" data-btn="customize-board-btn"><?php echo $boardComplete; ?></li>
+					</ul>
+				</div>
+			</div>
+
+		<?php endif; ?>
+
 		<div id="recap_variable">
 			<h2><?php _e('Summary','sage'); ?></h2>
 			<?php
@@ -116,6 +135,20 @@
 				do_action( 'woocommerce_single_product_summary' );
 			?>
 		</div>
+
+		<?php if (get_field('link_complete')) : ?>
+
+			<?php
+				// Get the link for the board complete
+				$id_complete = get_field('link_complete');
+				$id_complete = $id_complete[0];
+				$url = do_shortcode('[add_to_cart_url id="'.$id_complete.'"]');
+			?>
+
+			<!-- Lien vers le complete -->
+			<a id="customize-board-btn" href="<?php echo $url; ?>" class="button cstmz-brd-btns"><?php echo get_field('button_customize'); ?></a>
+
+		<?php endif; ?>
 
 		<div class="prod-desc">
 			<p><?php echo $product->post->post_content; ?></p>
