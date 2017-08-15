@@ -10,12 +10,14 @@
 	 *
 	 * @hooked wc_print_notices - 10
 	 */
-	 do_action( 'woocommerce_before_single_product' );
+	do_action( 'woocommerce_before_single_product' );
 
-	 if ( post_password_required() ) {
-	 	echo get_the_password_form();
-	 	return;
-	 }
+	if ( post_password_required() ) {
+		echo get_the_password_form();
+		return;
+	}
+
+	$currentLang = qtrans_getLanguage();
 ?>
 
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -101,7 +103,7 @@
 				} ?>
 			</div>
 		<div id="recap_variable">
-			<h2><?php _e('Summary','sage'); ?></h2>
+			<h2><?php echo $currentLang === 'fr' ? 'Sommaire' : 'Summary'; ?></h2>
 			<?php
 				/**
 				 * woocommerce_single_product_summary hook.

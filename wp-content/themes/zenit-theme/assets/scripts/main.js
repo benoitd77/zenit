@@ -548,10 +548,15 @@
 
 
         function toggleBoardSelect () {
+
             $('.board-select-item').removeClass('selected');
             $(this).addClass('selected');
 
-            var button = $(this).data('btn');
+            var button = $(this).data('btn'),
+                type   = $(this).data('type');
+
+            $('.price-slct').hide();
+            $('.price-'+type).show();
 
             $('.cstmz-brd-btns').hide();
             $('#'+button).css({
