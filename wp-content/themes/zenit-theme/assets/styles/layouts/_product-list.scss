@@ -184,6 +184,18 @@
     }
 }
 
+#page-default {
+    &.page-template-page-custom-boards {
+        #product-list {
+            .default-product {
+                .content-default {
+                    background-color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1440px) {
     #product-list {
         .spec-top {

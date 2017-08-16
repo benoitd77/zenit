@@ -133,7 +133,7 @@ global $product;
 
 			<?php
 			$boardOnly     = $currentLang === 'fr' ? 'Planche seulement' : 'Board Only';
-			$boardComplete = $currentLang === 'fr' ? 'Planche complète personnalisée' : 'Customized Complete Board';
+			$boardComplete = $currentLang === 'fr' ? 'Planche complète' : 'Complete Board';
 			?>
 
 			<div class="board-select-wrapper">
