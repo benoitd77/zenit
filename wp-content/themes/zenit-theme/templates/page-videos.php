@@ -19,7 +19,14 @@
 		                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/play-button.svg" class="play-video" alt="Play video" />
 		                    <h2><?php the_sub_field('titre'); ?></h2>
 		                    <h3><?php the_sub_field('s-titre'); ?></h3>
-					        <a href="<?php echo get_permalink(get_sub_field('board_utilise_dans_le_video')); ?>" class="seebrdtxt"><?php echo $seeBoardTxt; ?></a>
+
+			                <?php
+			                    $boardInVideo = get_sub_field('board_utilise_dans_le_video');
+
+			                if(!$boardInVideo): ?>
+			                    <a href="<?php echo get_permalink($boardInVideo); ?>" class="seebrdtxt"><?php echo $seeBoardTxt; ?></a>
+				                <?php
+			                endif; ?>
 		                </div>
 		            </div>
 		        </div>
