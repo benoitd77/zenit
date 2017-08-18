@@ -1,5 +1,5 @@
 body.page-template-page-videos{
-	padding-top:105px;
+	padding-top: 88px;
 }
 
 #list-videos{
@@ -7,11 +7,12 @@ body.page-template-page-videos{
 		height:55vh;
 		width:100%;
 		position:relative;
-		cursor:pointer;
+		cursor: pointer;
 		padding-left:0;
 		padding-right:0;
 		background-color:#2d2d2d;
 		overflow:hidden;
+
 		.background-image{
 			background-position:center center;
 			background-size:cover;
@@ -56,6 +57,13 @@ body.page-template-page-videos{
 				font-weight:900;
 				font-size:19px;
 			}
+
+            .seebrdtxt {
+                color: #ffffff;
+                font-family: sucrose, Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                text-decoration: underline;
+            }
 
 			.play-video{
 				

@@ -233,9 +233,6 @@
         }
 
         $(win).on('scroll', function(e) {
-            var div = $('body');
-            var divfrfx = $('html');
-
             if ($(win).scrollTop() === 0) {
                 $('.nav-primary').removeClass('fixed');
                 $('body').removeClass('fixed-menu');
@@ -461,6 +458,10 @@
                 $('body').removeClass('no-scroll');
                 $('#video-lightbox').addClass('hidden-lightbox');
             }, 600);
+        });
+
+        $('.seebrdtxt').click(function(e) {
+            e.stopPropagation();
         });
 
         //Au clique d'un trigger video
