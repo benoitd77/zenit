@@ -23,7 +23,7 @@
 			                <?php
 			                    $boardInVideo = get_sub_field('board_utilise_dans_le_video');
 
-			                if(!$boardInVideo): ?>
+			                if($boardInVideo): ?>
 			                    <a href="<?php echo get_permalink($boardInVideo); ?>" class="seebrdtxt"><?php echo $seeBoardTxt; ?></a>
 				                <?php
 			                endif; ?>
