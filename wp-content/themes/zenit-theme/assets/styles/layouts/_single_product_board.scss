@@ -629,8 +629,13 @@
     /* PAGE BOARD (CUSTOMIZE VIEW)
     /*-------------------------------------------*/
     .variable-product {
-        #list-variations {
+        .variation-container {
+            float: right;
+            margin-top: 60px;
+            width: 68%;
+
             .row {
+                margin: 0;
                 padding-left: 0;
                 padding-right: 0;
                 width: 100%;
@@ -645,8 +650,6 @@
             .variation-list {
                 display: flex;
                 flex-wrap: wrap;
-                margin-left: -20px;
-                margin-right: -20px;
                 width: 100%;
             }
 
@@ -658,12 +661,16 @@
                     border-radius: 10px;
                     padding: 20px;
                     transition: 0.25s border;
+
+                    img {
+                        width: 100%;
+                    }
                 }
 
                 p {
                     color: black;
                     font-family: sucrose;
-                    margin: 15px 25px 0 25px;
+                    margin: 15px 0 0;
                     text-align: center;
 
                     &.small {
@@ -680,9 +687,13 @@
             }
         }
 
-        #recap_variable{
+        #recap_variable {
             background-color: #ededed;
+            float: left;
+            margin-top: 60px;
             padding: 25px 25px 1px;
+            position: relative;
+            width: 28%;
 
             h2{
                 margin-bottom: 30px;
@@ -694,12 +705,16 @@
                 display: none;
             }
 
+            .current-setup {
+                border-bottom: 1px solid #000;
+                margin-bottom: 10px;
+            }
         }
 
         .images {
             background-color: #ededed;
             float: none !important;
-            margin: 0px auto 100px !important;
+            margin: 0px auto 80px !important;
             opacity: 1;
             padding: 50px 15px;
             width: 100% !important;
@@ -742,6 +757,20 @@
             margin: 0px auto 80px !important;
             padding-left: 15px;
             padding-right: 15px;
+            width: auto !important;
+
+            h1, h4, > p {
+                width: 800px;
+                margin: 0 auto;
+            }
+
+            h1 {
+                margin-bottom: 15px;
+            }
+
+            h4 {
+                margin-bottom: 10px;
+            }
         }
 
         select {
@@ -765,8 +794,59 @@
             padding: 0 !important;
         }
 
+        @media (max-width: 1180px) {
+            .variation-container {
+                width: 58%;
+
+                .col-sm-4 {
+                    padding-left: 0;
+                    width: 50%;
+                }
+
+                .variation {
+                    .variation-cont {
+                        padding: 15px;
+                    }
+                }
+            }
+
+            #recap_variable {
+                width: 38%;
+            }
+        }
+
+        @media (max-width: 980px) {
+            .variable-product {
+                .summary {
+                    > p, h1, h4 {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .variation-container {
+                float: none;
+                width: auto;
+
+                .col-sm-4 {
+                    padding-left: 15px;
+                    width: 33.3333333333%;
+                }
+
+                .variation {
+                    .variation-cont {
+                        padding: 10px;
+                    }
+                }
+            }
+
+            #recap_variable {
+                width: auto;
+            }
+        }
+
         @media (max-width: 768px) {
-            #list-variations.container{
+            .variation-container {
                 padding-left: 0;
                 padding-right: 0;
 
@@ -779,7 +859,7 @@
                     margin-bottom: 10px;
 
                     .variation-cont {
-                        padding: 5px;
+                        padding: 7px;
 
                         img{
                             margin-bottom: 10px;
@@ -788,12 +868,25 @@
 
                     p {
                         font-size: 12px;
-                        margin: 0 0 10px 0;
+                        margin: 0 0 10px;
+
                         &.small{
                             margin-bottom: 0;
                         }
                     }
+                }
+            }
 
+            #list-variations .row {
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+
+        @media (max-width: 648px) {
+            .variation-container {
+                .col-sm-4 {
+                    width: 50%;
 
                     &:nth-child(odd) {
                         padding-left: 0;
@@ -804,10 +897,14 @@
                     }
                 }
             }
+        }
 
-            #list-variations .row {
-                margin-right: 0;
-                margin-left: 0;
+        @media (max-width: 460px) {
+            .variation-container {
+                .col-sm-4 {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
             }
         }
     }

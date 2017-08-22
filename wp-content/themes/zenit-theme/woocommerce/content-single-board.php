@@ -34,7 +34,7 @@
 		wc_get_template( 'single-product/product-image-board.php' );
 	?>
 
-	<div class="summary entry-summary">
+	<div class="summary entry-summary clearfix">
 		<h1><?php echo get_the_title(); ?></h1>
 
 		<?php if(get_field('s-titre')){ ?>
@@ -45,7 +45,7 @@
 			<p><?php echo get_field('recommended_setup'); ?></p>
 		<?php } ?>
 
-		<div id="list-variations" class="container">
+		<div id="list-variations" class="variation-container">
 			<?php
 				global $product;
 				// Get product attributes

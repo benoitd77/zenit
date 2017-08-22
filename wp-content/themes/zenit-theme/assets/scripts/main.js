@@ -1,4 +1,4 @@
-(function(win, $) {
+(function(win, $, undefined) {
 
     // Use this variable to set up the common and page specific functions. If you
     // rename this variable, you will also need to rename the namespace below.
@@ -63,6 +63,13 @@
     function configurer() {
         // Make height adjustments to the bottom sale section
         adjustColHeight();
+
+        var summaryFromTop = null;
+
+        if ($('body#page-board').length > 0 && $('#recap_variable').length > 0 && $('.board-select-wrapper').length === 0) {
+            setSummaryTop();
+        }
+
 
         $(function() {
             // initialize skrollr if the window width is large enough
@@ -240,12 +247,34 @@
                 $('.nav-primary').addClass('fixed');
                 $('body').addClass('fixed-menu');
             }
+
+            scrollSummary();
         });
 
         $(win).resize(function() {
             // Make height adjustments to the bottom sale section
             adjustColHeight();
         });
+
+        // Scroll the fixed position of the summary section on the left in the board page
+        function scrollSummary () {
+            if ($('body#page-board').length < 1 || $('#recap_variable').length < 1 || $('.board-select-wrapper').length > 0) {
+                return false;
+            }
+
+            var scrollTop = $(win).scrollTop(),
+                position  = 0;
+
+
+            if (scrollTop > 735 && $(window).width() > 980) {
+                position = scrollTop - 735;
+            }
+
+            $('#recap_variable').css({
+                top : position
+            });
+
+        }
 
         // infobulle
         if ($('body').hasClass('single-product')) {
@@ -546,6 +575,14 @@
                 }
             }
         );
+
+
+        function setSummaryTop () {
+            // set a global variable necessary for the floating summary in the board page
+            if (summaryFromTop === null) {
+                summaryFromTop = $('#recap_variable').position().top;
+            }
+        }
 
 
         function toggleBoardSelect () {
