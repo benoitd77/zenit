@@ -55,7 +55,9 @@ global $product;
 
 				$variationPrices = [];
 				foreach ($brdVariations as $brdVariation) {
-					$variationPrices[] = $brdVariation['display_price'];
+					if ($brdVariation['display_price'] > 150) {
+						$variationPrices[] = $brdVariation['display_price'];
+					}
 				}
 
 				$priceLow  = min($variationPrices);
