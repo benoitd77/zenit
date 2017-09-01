@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 extract( $variation_data );
+
 ?>
 <div class="woocommerce_variation wc-metabox closed">
 	<h3>
@@ -84,6 +85,8 @@ extract( $variation_data );
 					<label><input type="checkbox" class="checkbox variable_manage_stock" name="variable_manage_stock[<?php echo $loop; ?>]" <?php checked( isset( $_manage_stock ) ? $_manage_stock : '', 'yes' ); ?> /> <?php _e( 'Manage stock?', 'woocommerce' ); ?> <?php echo wc_help_tip( __( 'Enable this option to enable stock management at variation level', 'woocommerce' ) ); ?></label>
 
 				<?php endif; ?>
+
+				<label><input type="checkbox" class="checkbox variable_config_recom" name="variable_config_recom[<?php echo $loop; ?>]" <?php checked( isset( $_config_recom ) ? $_config_recom : '', 'yes' ); ?> /> <?php _e( 'Configuration Recommandée', 'woocommerce' ); ?> <?php echo wc_help_tip( __( 'Cochez cette case pour faire de cette variation une configuration recommandée', 'woocommerce' ) ); ?></label>
 
 				<?php do_action( 'woocommerce_variation_options', $loop, $variation_data, $variation ); ?>
 			</p>

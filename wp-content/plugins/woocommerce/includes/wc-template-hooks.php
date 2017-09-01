@@ -146,6 +146,14 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_e
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50 );
 
+
+/**
+ * Board Summary Box.
+ *
+ * @see woocommerce_template_single_board_description()
+ */
+add_action( 'woocommerce_single_board_summary', 'woocommerce_template_single_excerpt', 40 );
+
 /**
  * Reviews
  *
@@ -170,6 +178,7 @@ add_action( 'woocommerce_review_comment_text', 'woocommerce_review_display_comme
  * @see woocommerce_single_variation()
  * @see woocommerce_single_variation_add_to_cart_button()
  */
+add_action( 'woocommerce_single_board_summary', 'woocommerce_template_single_add_to_cart', 30 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 add_action( 'woocommerce_simple_add_to_cart', 'woocommerce_simple_add_to_cart', 30 );
 add_action( 'woocommerce_grouped_add_to_cart', 'woocommerce_grouped_add_to_cart', 30 );

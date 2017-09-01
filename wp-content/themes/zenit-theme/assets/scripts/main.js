@@ -64,13 +64,6 @@
         // Make height adjustments to the bottom sale section
         adjustColHeight();
 
-        var summaryFromTop = null;
-
-        if ($('body#page-board').length > 0 && $('#recap_variable').length > 0 && $('.board-select-wrapper').length === 0) {
-            setSummaryTop();
-        }
-
-
         $(function() {
             // initialize skrollr if the window width is large enough
             if ($(win).width() > 768) {
@@ -127,13 +120,13 @@
         $('#list-variations .variation').each(function() {
             var valSelect = $(this).attr('data-slug');
             var idSelect = $(this).attr('data-list');
-            var current = $(this);
+            var thisElement = $(this);
 
             if ($(".variations select option[value='" + valSelect + "']").length <= 0) {
-                current.fadeOut();
+                thisElement.hide();
             }
 
-            current.click(function() {
+            thisElement.click(function() {
                 $('#' + idSelect).find('option').attr('selected', false);
                 $('#' + idSelect + ' option[value="' + valSelect + '"]').attr('selected', true);
                 var liste = $('#' + idSelect).html();
@@ -146,6 +139,52 @@
 
                 $(this).addClass('current');
             });
+
+            thisElement.hover(
+                function () {
+                    // mouse enter
+
+                }, function () {
+                    // mouse leave
+                    $('.zoomed-elmnt').remove();
+                }
+            );
+
+            thisElement.mousemove(function( event ) {
+                var zoomedElement = null;
+
+                if ($(win).width() > 1024) {
+                    if ($('.zoom-wrapper'+valSelect).length > 0) {
+                        // The element already exist, no need to render it again
+                        // Position the element relatively to the mouse cursor
+                        $('.zoomed-elmnt').css({
+                            top: event.pageY - 75,
+                            left: event.pageX + 75
+                        });
+
+                    } else {
+                        // The element doesn't exist, create it
+                        var boardName = $(this).attr('data-name');
+                        var boardDesc = $(this).attr('data-desc');
+                        var imgSource = thisElement.find('img').attr('src');
+                        zoomedElement = '<div class="zoom-wrapper'+valSelect+' zoomed-elmnt"><img src="'+imgSource+'"><p>'+boardName+'</p><p>'+boardDesc+'</p></div>';
+
+                        // Append the element to the body
+                        $('body').append(zoomedElement);
+
+                        // Position the element relatively to the mouse cursor
+                        $('.zoomed-elmnt').css({
+                            top: event.pageY - 75,
+                            left: event.pageX + 75
+                        });
+                    }
+                }
+            });
+        });
+
+        $('.board-setup').click(function () {
+            $('.board-setup').removeClass('selected-setup');
+            $(this).addClass('selected-setup');
         });
 
         $('#fixed-menu-single-product a').click(function() {
@@ -159,6 +198,7 @@
                 current.addClass('current');
             }, 850);
         });
+
 
         if ($('body').hasClass('single-product')) {
             $(win).on('scroll', function() {
@@ -247,34 +287,12 @@
                 $('.nav-primary').addClass('fixed');
                 $('body').addClass('fixed-menu');
             }
-
-            scrollSummary();
         });
 
         $(win).resize(function() {
             // Make height adjustments to the bottom sale section
             adjustColHeight();
         });
-
-        // Scroll the fixed position of the summary section on the left in the board page
-        function scrollSummary () {
-            if ($('body#page-board').length < 1 || $('#recap_variable').length < 1 || $('.board-select-wrapper').length > 0) {
-                return false;
-            }
-
-            var scrollTop = $(win).scrollTop(),
-                position  = 0;
-
-
-            if (scrollTop > 735 && $(window).width() > 980) {
-                position = scrollTop - 735;
-            }
-
-            $('#recap_variable').css({
-                top : position
-            });
-
-        }
 
         // infobulle
         if ($('body').hasClass('single-product')) {
@@ -575,14 +593,6 @@
                 }
             }
         );
-
-
-        function setSummaryTop () {
-            // set a global variable necessary for the floating summary in the board page
-            if (summaryFromTop === null) {
-                summaryFromTop = $('#recap_variable').position().top;
-            }
-        }
 
 
         function toggleBoardSelect () {

@@ -777,11 +777,13 @@ class WC_Meta_Box_Product_Data {
 		$product_type    = empty( $_POST['product-type'] ) ? 'simple' : sanitize_title( stripslashes( $_POST['product-type'] ) );
 		$is_downloadable = isset( $_POST['_downloadable'] ) ? 'yes' : 'no';
 		$is_virtual      = isset( $_POST['_virtual'] ) ? 'yes' : 'no';
+		$config_recom    = isset( $_POST['_config_recom'] ) ? 'yes' : 'no';
 
 		// Product type + Downloadable/Virtual
 		wp_set_object_terms( $post_id, $product_type, 'product_type' );
 		update_post_meta( $post_id, '_downloadable', $is_downloadable );
 		update_post_meta( $post_id, '_virtual', $is_virtual );
+		update_post_meta( $post_id, '_config_recom', $config_recom );
 
 		// Update post meta
 		if ( isset( $_POST['_tax_status'] ) ) {
@@ -1263,6 +1265,7 @@ class WC_Meta_Box_Product_Data {
 			$variable_is_downloadable       = isset( $_POST['variable_is_downloadable'] ) ? $_POST['variable_is_downloadable'] : array();
 
 			$variable_manage_stock          = isset( $_POST['variable_manage_stock'] ) ? $_POST['variable_manage_stock'] : array();
+			$variable_config_recom          = isset( $_POST['variable_config_recom'] ) ? $_POST['variable_config_recom'] : array();
 			$variable_stock                 = isset( $_POST['variable_stock'] ) ? $_POST['variable_stock'] : array();
 			$variable_backorders            = isset( $_POST['variable_backorders'] ) ? $_POST['variable_backorders'] : array();
 			$variable_stock_status          = isset( $_POST['variable_stock_status'] ) ? $_POST['variable_stock_status'] : array();
@@ -1284,6 +1287,7 @@ class WC_Meta_Box_Product_Data {
 				$is_downloadable = isset( $variable_is_downloadable[ $i ] ) ? 'yes' : 'no';
 				$post_status     = isset( $variable_enabled[ $i ] ) ? 'publish' : 'private';
 				$manage_stock    = isset( $variable_manage_stock[ $i ] ) ? 'yes' : 'no';
+				$config_recom    = isset( $variable_config_recom[ $i ] ) ? 'yes' : 'no';
 
 				// Generate a useful post title
 				$variation_post_title = sprintf( __( 'Variation #%s of %s', 'woocommerce' ), absint( $variation_id ), esc_html( get_the_title( $post_id ) ) );
@@ -1352,6 +1356,7 @@ class WC_Meta_Box_Product_Data {
 				update_post_meta( $variation_id, '_thumbnail_id', absint( $upload_image_id[ $i ] ) );
 				update_post_meta( $variation_id, '_virtual', wc_clean( $is_virtual ) );
 				update_post_meta( $variation_id, '_downloadable', wc_clean( $is_downloadable ) );
+				update_post_meta( $variation_id, '_config_recom', wc_clean( $config_recom ) );
 
 				if ( isset( $variable_weight[ $i ] ) ) {
 					update_post_meta( $variation_id, '_weight', ( '' === $variable_weight[ $i ] ) ? '' : wc_format_decimal( $variable_weight[ $i ] ) );

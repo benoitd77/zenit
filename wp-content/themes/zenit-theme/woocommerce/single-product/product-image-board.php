@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $post, $product;
 ?>
-<div class="images">
+<div class="board-images">
 	<?php
 		if ( has_post_thumbnail() ) {
 			 the_post_thumbnail('full');
