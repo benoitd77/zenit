@@ -86,8 +86,6 @@ extract( $variation_data );
 
 				<?php endif; ?>
 
-				<label><input type="checkbox" class="checkbox variable_config_recom" name="variable_config_recom[<?php echo $loop; ?>]" <?php checked( isset( $_config_recom ) ? $_config_recom : '', 'yes' ); ?> /> <?php _e( 'Configuration Recommandée', 'woocommerce' ); ?> <?php echo wc_help_tip( __( 'Cochez cette case pour faire de cette variation une configuration recommandée', 'woocommerce' ) ); ?></label>
-
 				<?php do_action( 'woocommerce_variation_options', $loop, $variation_data, $variation ); ?>
 			</p>
 
