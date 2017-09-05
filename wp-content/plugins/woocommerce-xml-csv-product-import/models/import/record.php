@@ -650,6 +650,7 @@ class PMWI_Import_Record extends PMWI_Model_Record {
 
 		$is_downloadable 	= $product_downloadable[$i];
 		$is_virtual 		= $product_virtual[$i];
+		$is_recommended     = $product_recommended[$i];
 		$is_featured 		= $product_featured[$i];
 
 		// Product type + Downloadable/Virtual
@@ -667,6 +668,7 @@ class PMWI_Import_Record extends PMWI_Model_Record {
 
 		$this->pushmeta($pid, '_downloadable', ($is_downloadable == "yes") ? 'yes' : 'no' );
 		$this->pushmeta($pid, '_virtual', ($is_virtual == "yes") ? 'yes' : 'no' );
+		$this->pushmeta($pid, '_recommended', ($is_recommended == "yes") ? 'yes' : 'no' );
 
 		// Update post meta
 		$this->pushmeta($pid, '_regular_price', ($product_regular_price[$i] == "") ? '' : stripslashes( $product_regular_price[$i] ) );

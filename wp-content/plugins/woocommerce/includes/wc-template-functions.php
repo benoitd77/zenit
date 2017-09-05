@@ -305,6 +305,9 @@ function wc_product_post_class( $classes, $class = '', $post_id = '' ) {
 		if ( $product->is_virtual() ) {
 			$classes[] = 'virtual';
 		}
+		if ( $product->is_recommended() ) {
+			$classes[] = 'recommended';
+		}
 		if ( $product->is_sold_individually() ) {
 			$classes[] = 'sold-individually';
 		}

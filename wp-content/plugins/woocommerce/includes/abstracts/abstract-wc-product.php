@@ -23,6 +23,7 @@
  * @property    string $stock Stock amount
  * @property    string $downloadable Shows/define if the product is downloadable
  * @property    string $virtual Shows/define if the product is virtual
+ * @property    string $recommended Shows/define if the product is recommended
  * @property    string $sold_individually Allow one item to be bought in a single order
  * @property    string $tax_status Tax status
  * @property    string $tax_class Tax class
@@ -368,6 +369,15 @@ class WC_Product {
 	 */
 	public function is_downloadable() {
 		return $this->downloadable == 'yes' ? true : false;
+	}
+
+	/**
+	 * Checks if a product is recommended.
+	 *
+	 * @return bool
+	 */
+	public function is_recommended() {
+		return $this->recommended == 'yes' ? true : false;
 	}
 
 	/**

@@ -43,6 +43,7 @@ class WC_Product_Variation extends WC_Product {
 		'downloadable'          => 'no',
 		'virtual'               => 'no',
 		'manage_stock'          => 'no',
+		'recommended'           => 'no',
 		'sale_price_dates_from' => '',
 		'sale_price_dates_to'   => '',
 		'price'                 => '',

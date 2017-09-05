@@ -182,11 +182,6 @@
             });
         });
 
-        $('.board-setup').click(function () {
-            $('.board-setup').removeClass('selected-setup');
-            $(this).addClass('selected-setup');
-        });
-
         $('#fixed-menu-single-product a').click(function() {
             var current = $(this);
 
@@ -594,6 +589,34 @@
             }
         );
 
+        function autoSelectVariations () {
+            // Get the trucks and wheels data
+            var trucks = $('.selected-setup').data('trucks');
+            var wheels = $('.selected-setup').data('wheels');
+
+            // Trigger a click on the trucks
+            $('[data-slug='+trucks+']').trigger('click');
+
+            // Trigger a click on the wheels
+            $('[data-slug='+wheels+']').trigger('click');
+        }
+
+        // Page board customization - Recommended Setup triggers 2 clicks on trucks and wheels
+        if ($('#page-board').length > 0 && $('.selected-setup').length > 0) {
+            var interval = setInterval(function () {
+                if ($('.variation.current').length > 0) {
+                    clearInterval(interval);
+                } else {
+                    autoSelectVariations();
+                }
+            }, 200);
+        }
+
+        $('.board-setup').click(function () {
+            $('.board-setup').removeClass('selected-setup');
+            $(this).addClass('selected-setup');
+            autoSelectVariations();
+        });
 
         function toggleBoardSelect () {
 
@@ -611,7 +634,6 @@
                 display: 'block'
             });
         }
-
 
         $('.board-select-item').on('click', toggleBoardSelect);
     }

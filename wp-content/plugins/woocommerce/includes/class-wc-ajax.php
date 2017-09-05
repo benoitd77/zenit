@@ -805,6 +805,7 @@ class WC_AJAX {
 				'_downloadable_files'    => '',
 				'_downloadable'          => '',
 				'_virtual'               => '',
+				'_recommended'           => '',
 				'_thumbnail_id'          => '',
 				'_sale_price_dates_from' => '',
 				'_sale_price_dates_to'   => '',
@@ -2531,6 +2532,7 @@ class WC_AJAX {
 					'_downloadable_files'    => '',
 					'_downloadable'          => '',
 					'_virtual'               => '',
+					'_recommended'           => '',
 					'_thumbnail_id'          => '',
 					'_sale_price_dates_from' => '',
 					'_sale_price_dates_to'   => '',
@@ -2663,6 +2665,21 @@ class WC_AJAX {
 			$_virtual   = get_post_meta( $variation_id, '_virtual', true );
 			$is_virtual = 'no' === $_virtual ? 'yes' : 'no';
 			update_post_meta( $variation_id, '_virtual', wc_clean( $is_virtual ) );
+		}
+	}
+
+	/**
+	 * Bulk action - Toggle Recommended Checkbox.
+	 * @access private
+	 * @used-by bulk_edit_variations
+	 * @param  array $variations
+	 * @param  array $data
+	 */
+	private static function variation_bulk_action_toggle_recommended( $variations, $data ) {
+		foreach ( $variations as $variation_id ) {
+			$_recommended   = get_post_meta( $variation_id, '_recommended', true );
+			$is_recommended = 'no' === $_recommended ? 'yes' : 'no';
+			update_post_meta( $variation_id, '_recommended', wc_clean( $is_recommended ) );
 		}
 	}
 
@@ -2984,6 +3001,7 @@ class WC_AJAX {
 	 * @uses WC_AJAX::variation_bulk_action_toggle_manage_stock()
 	 * @uses WC_AJAX::variation_bulk_action_toggle_virtual()
 	 * @uses WC_AJAX::variation_bulk_action_toggle_downloadable()
+	 * @uses WC_AJAX::variation_bulk_action_toggle_recommended()
 	 * @uses WC_AJAX::variation_bulk_action_toggle_enabled
 	 */
 	public static function bulk_edit_variations() {
