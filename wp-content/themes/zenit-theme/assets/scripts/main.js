@@ -123,7 +123,7 @@
             var thisElement = $(this);
 
             if ($(".variations select option[value='" + valSelect + "']").length <= 0) {
-                thisElement.hide();
+                //thisElement.hide();
             }
 
             thisElement.click(function() {
