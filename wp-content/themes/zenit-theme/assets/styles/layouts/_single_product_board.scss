@@ -664,7 +664,7 @@
                 margin: 0 30px;
                 padding: 20px;
                 text-align: center;
-                width: 380px;
+                width: 26%;
 
                 img {
                     height: auto;
@@ -758,10 +758,18 @@
         width: 420px;
 
         h2 {
-            border-bottom: 1px solid #aaa;
             font-size: 36px;
-            margin-bottom: 20px;
-            padding-bottom: 30px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            border-bottom: 1px solid #aaa;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        form.cart {
+            padding: 20px;
         }
 
         .variations {
@@ -807,7 +815,7 @@
                 .button {
                     float: none;
                     font-size: 20px;
-                    padding: 20px 100px;
+                    padding: 20px 92px;
                 }
             }
         }
@@ -825,6 +833,13 @@
         @media (max-width: 1440px) {
             .main-panel {
                 padding-right: 395px;
+
+                .recommended-setup {
+                    .board-setup {
+                        margin: 0 15px;
+                        width: 28%;
+                    }
+                }
 
                 .variation-container {
                     .row {

@@ -23,7 +23,6 @@ $currencySymbol = get_woocommerce_currency_symbol();
 
 global $product;
 
-
 $variations = new WC_Product_Variable( $product->id);
 $variables = $variations->get_available_variations();
 
@@ -34,7 +33,7 @@ foreach ($variables as $variable) {
 		$recommended_setups[] = $variable;
 	}
 }
-//var_dump($recommended_setups);
+
 ?>
 
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -123,7 +122,7 @@ foreach ($variables as $variable) {
 
 	<div id="recap_variable" class="side-panel">
 		<h2><?php echo $currentLang === 'fr' ? 'Sommaire' : 'Summary'; ?></h2>
-
+		<h3><?php echo $product->post->post_title; ?></h3>
 		<?php
 			/**
 			 * woocommerce_single_board_summary hook.

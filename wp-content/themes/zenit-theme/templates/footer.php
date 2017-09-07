@@ -16,8 +16,8 @@
 	<div class="bottom container-fluid">
 		<p>Copyright © 2016 Les équipements Zenit Longboard All rights reserved.</p>
 		<ul class="social">
-			<li><a href="https://www.facebook.com/ZENitCustomBoards/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/instagram.svg" alt="instagram" /></a></li>
-			<li><a href="https://www.instagram.com/zenit.boards/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/facebook-logo.svg" alt="facebook" /></a></li>
+			<li><a href="https://www.instagram.com/zenit.boards/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/instagram.svg" alt="instagram" /></a></li>
+			<li><a href="https://www.facebook.com/ZENitCustomBoards/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/facebook-logo.svg" alt="facebook" /></a></li>
 		</ul>
 		<a id="back-to-top" href="#top-anchor">Back to top</a>
 	</div>
