@@ -34,6 +34,33 @@ foreach ($variables as $variable) {
 	}
 }
 
+/* Get the trucks */
+$truckQuery = new WP_Query(array('product_cat' => 'trucks', 'post_type' => 'product', 'orderby' => 'title'));
+$trucksNwheels = [];
+if($truckQuery->have_posts()) {
+	foreach ($truckQuery->posts as $truck) {
+		$_truck = wc_get_product($truck->ID);
+		$truckPrice = $_truck->get_price();
+		$trucksNwheels[$truck->post_name]['price'] = $truckPrice;
+	}
+}
+
+/* Get the wheels */
+$wheelsArgs = array(
+	'product_cat' => 'wheels',
+	'post_type' => 'product',
+	'orderby' => 'title',
+);
+
+$wheelsQuery = new WP_Query($wheelsArgs);
+if($wheelsQuery->have_posts()) {
+	foreach ($wheelsQuery->posts as $wheel) {
+		$_wheel = wc_get_product($wheel->ID);
+		$wheelPrice = $_wheel->get_price();
+		$trucksNwheels[$wheel->post_name]['price'] = $wheelPrice;
+	}
+}
+
 ?>
 
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -74,53 +101,46 @@ foreach ($variables as $variable) {
 					echo "No attributes";
 				}
 
-				foreach ( $attributes as $attribute ) {
-
+				foreach ( $attributes as $attribute ) :
 					$attributeName =  $attribute['name'];
 					$values = get_terms($attributeName);
-
-					echo "<div class='row'>";
-
 					$term = get_taxonomy($attributeName);
+					?>
 
+					<div class='row'>
+						<h5><?php echo $term->labels->name; ?></h5>
+						<div class='variation-list'>
+							<?php foreach ( $values as $value ) :
+								$metas = get_term_meta($value->term_taxonomy_id);
+								$out_of_stock = $metas['out_of_stock'];
+								$image_id = get_term_meta( $value->term_id, 'image', true );
+								$image_data = wp_get_attachment_image_src( $image_id, 'full' );
+								$image = $image_data[0];
+								$variation_price = $trucksNwheels[$value->slug]['price'];
+								$variation_price = number_format($variation_price,2);
 
-					echo "<h5>".$term->labels->name."</h5>";
-					echo "<div class='variation-list'>";
-					foreach ( $values as $value ) {
+								if (!$out_of_stock[0]) : ?>
 
-						$metas = get_term_meta($value->term_taxonomy_id);
-						$out_of_stock = $metas['out_of_stock'];
+									<div class="variation col-sm-4 col-xs-6" data-name="<?php _e($value->name); ?>" data-desc="<?php _e($value->description); ?>" data-slug="<?php echo $value->slug; ?>" data-list="<?php echo $value->taxonomy; ?>">
+										<div class='variation-cont'>
+											<?php if ( ! empty( $image ) ) : ?>
+												<img src="<?php echo esc_url( $image ); ?>" />
+												<p><?php _e($value->name); ?></p>
+												<p class="variation-price"><?php echo ($currencySymbol == '&euro;') ? $currencySymbol . ' ' . $variation_price : $variation_price . $currencySymbol; ?></p>
+											<?php endif; ?>
+										</div>
+									</div>
 
-						if(!$out_of_stock[0]){
-							echo "<div class='variation col-sm-4 col-xs-6' data-name='".__($value->name)."' data-desc='".__($value->description)."' data-slug='".$value->slug."' data-list='".$value->taxonomy."'>";
-							// image id is stored as term meta
-							echo "<div class='variation-cont'>";
-							$image_id = get_term_meta( $value->term_id, 'image', true );
-
-							// image data stored in array, second argument is which image size to retrieve
-							$image_data = wp_get_attachment_image_src( $image_id, 'full' );
-
-							// image url is the first item in the array (aka 0)
-							$image = $image_data[0];
-
-							if ( ! empty( $image ) ) {
-								echo '<img src="' . esc_url( $image ) . '" />';
-							}
-
-							echo "<p>";
-							_e($value->name);
-							echo  "</p>";
-
-							echo "</div></div>";
-						}
-					}
-					echo "</div></div>";
-				}
+								<?php endif;
+							endforeach;	?>
+						</div>
+					</div>
+				<?php endforeach;
 			?>
 		</div>
 	</div><!-- .main-panel -->
 
-	<div id="recap_variable" class="side-panel">
+	<div id="recap_variable" class="side-panel fixed">
 		<h2><?php echo $currentLang === 'fr' ? 'Sommaire' : 'Summary'; ?></h2>
 		<h3><?php echo $product->post->post_title; ?></h3>
 		<?php

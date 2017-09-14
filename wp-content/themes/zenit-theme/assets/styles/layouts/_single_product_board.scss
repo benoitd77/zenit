@@ -722,10 +722,19 @@
             .variation-cont {
                 border: 2px solid white;
                 height: 100%;
+                position: relative;
                 transition: 0.25s border;
 
                 img {
                     padding: 25px;
+                    width: 100%;
+                }
+
+                .variation-price {
+                    bottom: 0;
+                    font-size: 18px;
+                    padding-bottom: 0;
+                    position: absolute;
                     width: 100%;
                 }
             }
@@ -734,7 +743,7 @@
                 color: black;
                 font-size: 14px;
                 margin: 10px 0;
-                padding: 0 10px;
+                padding: 0 10px 40px;
                 text-align: center;
 
                 &.small {
@@ -750,12 +759,15 @@
         background-color: #ededed;
         margin-right: 35px;
         padding: 60px 25px 0;
-        position: fixed;
-        top: 70px;
-        right: 0;
         text-align: center;
         height: 1000px;
         width: 420px;
+
+        &.fixed {
+            position: fixed;
+            top: 70px;
+            right: 0;
+        }
 
         h2 {
             font-size: 36px;
@@ -836,14 +848,15 @@
 
                 .recommended-setup {
                     .board-setup {
-                        margin: 0 15px;
+                        margin: 0 10px;
                         width: 28%;
                     }
                 }
 
                 .variation-container {
                     .row {
-                        padding: 0 25px;
+                        margin: 0 30px 20px;
+                        padding: 0;
                     }
 
                     .variation {
@@ -903,6 +916,38 @@
 
         @media (max-width: 580px) {
             .main-panel {
+                .recommended-setup {
+                    .board-setup {
+                        text-align: left;
+                        width: calc(100% - 15px);
+
+                        img {
+                            width: 15%;
+                        }
+
+                        img, h4, span {
+                            float: left;
+                        }
+
+                        h4 {
+                            margin: 6px 7%;
+                            width: 50%;
+
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+
+                        > span {
+                            width: 21%;
+                        }
+
+                        span {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
                 .variation-container {
                     .variation {
                         width: 50%;
@@ -916,6 +961,22 @@
         }
 
         @media (max-width: 436px) {
+            .main-panel {
+                .recommended-setup {
+                    .board-setup {
+                        h4 {
+                            p {
+                                font-size: 12px;
+                            }
+                        }
+
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
             .side-panel {
                 .variations {
                     select {
@@ -948,7 +1009,6 @@
 .zoomed-elmnt {
     background: #ffffff;
     position: absolute;
-    width: 340px;
     padding: 20px;
     border: 2px solid #999;
     text-align: center;
@@ -956,6 +1016,7 @@
     p {
         font-size: 14px;
         margin-top: 10px;
+        width: 300px;
 
         &:first-of-type {
             font-size: 18px;

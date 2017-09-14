@@ -275,6 +275,7 @@
         }
 
         $(win).on('scroll', function(e) {
+            adjustBoardSummary();
             if ($(win).scrollTop() === 0) {
                 $('.nav-primary').removeClass('fixed');
                 $('body').removeClass('fixed-menu');
@@ -288,6 +289,29 @@
             // Make height adjustments to the bottom sale section
             adjustColHeight();
         });
+
+        function adjustBoardSummary() {
+            // If we're not on the Board Summary page, or the document is less than 859px wide, bail out!
+            if ($('body#page-board').length < 1 || $('#recap_variable').length < 1 || $(document).width() <= 858) {
+                return false;
+            }
+
+            var top = $('#recap_variable').offset().top;
+            var footTop = $('footer').offset().top;
+            var maxY = footTop - $('#recap_variable').outerHeight() + 54;
+            var y = $(this).scrollTop();
+
+            if (y < maxY) {
+                $('#recap_variable').addClass('fixed').removeAttr('style');
+            } else {
+                var posTop = maxY - 18;
+                $('#recap_variable').removeClass('fixed').css({
+                    position: 'absolute',
+                    top: posTop + 'px',
+                    right: 0
+                });
+            }
+        }
 
         // infobulle
         if ($('body').hasClass('single-product')) {
