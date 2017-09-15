@@ -295,7 +295,7 @@
             if ($('body#page-board').length < 1 || $('#recap_variable').length < 1 || $(document).width() <= 858) {
                 return false;
             }
-
+            console.log('scrolled');
             var top = $('#recap_variable').offset().top;
             var footTop = $('footer').offset().top;
             var maxY = footTop - $('#recap_variable').outerHeight() + 54;
@@ -304,10 +304,9 @@
             if (y < maxY) {
                 $('#recap_variable').addClass('fixed').removeAttr('style');
             } else {
-                var posTop = maxY - 18;
                 $('#recap_variable').removeClass('fixed').css({
                     position: 'absolute',
-                    top: posTop + 'px',
+                    top: (maxY - 18) + 'px',
                     right: 0
                 });
             }

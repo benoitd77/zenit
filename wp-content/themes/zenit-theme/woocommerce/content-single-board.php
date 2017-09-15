@@ -46,13 +46,7 @@ if($truckQuery->have_posts()) {
 }
 
 /* Get the wheels */
-$wheelsArgs = array(
-	'product_cat' => 'wheels',
-	'post_type' => 'product',
-	'orderby' => 'title',
-);
-
-$wheelsQuery = new WP_Query($wheelsArgs);
+$wheelsQuery = new WP_Query(array('product_cat' => 'wheels', 'post_type' => 'product', 'orderby' => 'title'));
 if($wheelsQuery->have_posts()) {
 	foreach ($wheelsQuery->posts as $wheel) {
 		$_wheel = wc_get_product($wheel->ID);
