@@ -123,10 +123,10 @@
             var thisElement = $(this);
 
             if ($(".variations select option[value='" + valSelect + "']").length <= 0) {
-                //thisElement.hide();
+                thisElement.hide();
             }
 
-            thisElement.click(function() {
+            thisElement.click(function(e) {
                 $('#' + idSelect).find('option').attr('selected', false);
                 $('#' + idSelect + ' option[value="' + valSelect + '"]').attr('selected', true);
                 var liste = $('#' + idSelect).html();
@@ -295,7 +295,7 @@
             if ($('body#page-board').length < 1 || $('#recap_variable').length < 1 || $(document).width() <= 858) {
                 return false;
             }
-            console.log('scrolled');
+
             var top = $('#recap_variable').offset().top;
             var footTop = $('footer').offset().top;
             var maxY = footTop - $('#recap_variable').outerHeight() + 54;
@@ -612,7 +612,17 @@
             }
         );
 
-        function autoSelectVariations () {
+        // Click on a truck/wheel removes the recommended setup selection
+        function bindVariationClicks () {
+            $('#list-variations .variation').click(function (e) {
+                // Remove recommended setup selection
+                if (e.originalEvent !== undefined) {
+                    $('.board-setup').removeClass('selected-setup');
+                }
+            });
+        }
+
+        function setVariationSelect () {
             // Get the trucks and wheels data
             var trucks = $('.selected-setup').data('trucks');
             var wheels = $('.selected-setup').data('wheels');
@@ -624,21 +634,32 @@
             $('[data-slug='+wheels+']').trigger('click');
         }
 
+        function selectVariations () {
+            // Trigger clicks on recommended trucks and wheels
+            setVariationSelect();
+        }
+
+        function initVariationSelect () {
+            setVariationSelect();
+            bindVariationClicks();
+        }
+
         // Page board customization - Recommended Setup triggers 2 clicks on trucks and wheels
         if ($('#page-board').length > 0 && $('.selected-setup').length > 0) {
             var interval = setInterval(function () {
                 if ($('.variation.current').length > 0) {
                     clearInterval(interval);
                 } else {
-                    autoSelectVariations();
+                    initVariationSelect();
                 }
             }, 200);
         }
 
+        // Click event on a Recommended Setup
         $('.board-setup').click(function () {
             $('.board-setup').removeClass('selected-setup');
             $(this).addClass('selected-setup');
-            autoSelectVariations();
+            selectVariations();
         });
 
         function toggleBoardSelect () {
