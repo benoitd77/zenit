@@ -241,9 +241,10 @@ function pmxe_wp_ajax_wpae_filtering_count(){
 			ob_start();
 			// get custom post type records depends on filters			
 			add_filter('posts_where', 'wp_all_export_posts_where', 10, 1);
-			add_filter('posts_join', 'wp_all_export_posts_join', 10, 1);										
-				
-			$exportQuery = new WP_Query( array( 'post_type' => $cpt, 'post_status' => 'any', 'orderby' => 'ID', 'order' => 'ASC', 'posts_per_page' => -1 ));
+			add_filter('posts_join', 'wp_all_export_posts_join', 10, 1);
+
+			$exportQuery = new WP_Query( array( 'post_type' => $cpt, 'post_status' => 'any', 'orderby' => 'ID', 'order' => 'ASC', 'posts_per_page' => 10 ));
+
 			if ( ! empty($exportQuery->found_posts)) 
 			{
 				$found_records = $exportQuery->found_posts;	
