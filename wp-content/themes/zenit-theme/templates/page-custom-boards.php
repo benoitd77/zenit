@@ -22,9 +22,10 @@
 						$translation  = trim($translation);
 					?>
 
-					<h2><?php echo $currentLang === 'fr' ? 'Boards Personnalisés' : 'Custom Boards'; ?></h2>
+					<h2><?php echo $currentLang === 'fr' ? 'Boards Expérimentaux' : 'Experimental Boards'; ?></h2>
+
 					<?php if($term->description): ?>
-						 <p class="description"><?php echo !empty($translation) ? $translation : $term->description; ?></p>
+						<p class="description"><?php echo !empty($translation) ? $translation : $term->description; ?></p>
 					<?php endif; ?>
 				</div>
 
