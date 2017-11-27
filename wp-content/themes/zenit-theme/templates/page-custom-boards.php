@@ -54,7 +54,10 @@
 								<p itemprop="price" class="price"><?php echo $product->get_price_html(); ?></p>
 							</div>
 							<div class="image-product">
-								<?php the_post_thumbnail(); ?>
+								<?php
+									//the_post_thumbnail();
+									echo get_the_post_thumbnail( $product->ID, array( 480, 640) );
+								?>
 							</div>
 
 							<div class="hover">

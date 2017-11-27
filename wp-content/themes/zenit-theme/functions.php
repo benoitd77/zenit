@@ -70,3 +70,7 @@ function ikreativ_tiny_mce_fix( $init )
 add_filter('tiny_mce_before_init', 'ikreativ_tiny_mce_fix');
 
 unset($file, $filepath);
+
+add_image_size( 'custom-size', 480, 640, true );
+add_image_size( 'custom-size500', 500, 500, false );
+add_image_size( 'custom-size720', 540, 720, true );
