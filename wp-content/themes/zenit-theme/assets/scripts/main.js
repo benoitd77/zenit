@@ -622,6 +622,52 @@
             });
         }
 
+        function bindZoomEvent () {
+            $('.recommended-setup .board-setup').each(function() {
+                var valSelect = $(this).attr('data-trucks');
+                var thisElement = $(this);
+
+                thisElement.hover(
+                    function () {
+                        // mouse enter
+
+                    }, function () {
+                        // mouse leave
+                        $('.zoomed-elmnt').remove();
+                    }
+                );
+
+                thisElement.mousemove(function( event ) {
+                    var zoomedElement = null;
+
+                    if ($(win).width() > 1024) {
+                        if ($('.zoom-wrapper'+valSelect).length > 0) {
+                            // The element already exist, no need to render it again
+                            // Position the element relatively to the mouse cursor
+                            $('.zoomed-elmnt').css({
+                                top: event.pageY - 75,
+                                left: event.pageX + 75
+                            });
+                        } else {
+                            // The element doesn't exist, create it
+                            var setupName = $(this).find('h4 p').text();
+                            var imgSource = thisElement.find('img').attr('src');
+                            zoomedElement = '<div class="zoom-wrapper'+valSelect+' zoomed-elmnt"><img src="'+imgSource+'"><p style="font-size:24px; text-transform: uppercase; margin-top:30px;">'+setupName+'</p></div>';
+
+                            // Append the element to the body
+                            $('body').append(zoomedElement);
+
+                            // Position the element relatively to the mouse cursor
+                            $('.zoomed-elmnt').css({
+                                top: event.pageY - 75,
+                                left: event.pageX + 75
+                            });
+                        }
+                    }
+                });
+            });
+        }
+
         function setVariationSelect () {
             // Get the trucks and wheels data
             var trucks = $('.selected-setup').data('trucks');
@@ -642,6 +688,7 @@
         function initVariationSelect () {
             setVariationSelect();
             bindVariationClicks();
+            bindZoomEvent();
         }
 
         // Page board customization - Recommended Setup triggers 2 clicks on trucks and wheels
