@@ -285,8 +285,6 @@
 
 @media (max-width: 858px) {
     .nav-primary{
-        height: 88px;
-
     	#logo{
     		left:50%;
     		transform:translate(-50%,-50%);
@@ -324,12 +322,11 @@
     	}
 
     	.transactionnal{
-    		z-index: 999;
     		position: fixed;
 		    bottom: 15px;
-            left: 192px;
-		    opacity: 0;
-		    transition: opacity 1s;
+            left: -205%;
+		    transition: left .5s ease-in-out;
+            z-index: 999;
 
             .currency-changer {
                 .dd-container,
@@ -361,12 +358,11 @@
     	}
 
         .menu-menu-secondaire-container {
-            z-index: 999;
             position: fixed;
             bottom: 125px;
-            left: 192px;
-            opacity: 0;
-            transition: opacity 1s;
+            left: -205%;
+            transition: left .5s ease-in-out;
+            z-index: 999;
         }
 
     	&.visually-visible{
@@ -374,17 +370,14 @@
     			left:0;
     		}
 
-    		.transactionnal{
-    			opacity:1;
+    		.transactionnal,
+            .menu-menu-secondaire-container {
+                left: 192px;
     		}
 
     		li a{
     			color:black!important;
     		}
-
-            .menu-menu-secondaire-container {
-                opacity: 1;
-            }
 
     		#btMenu{
     			span{
