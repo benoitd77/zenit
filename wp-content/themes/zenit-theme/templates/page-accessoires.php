@@ -8,8 +8,8 @@
 	<?php
 	wc_print_notices();
 
-	if (get_field('selected_cat', 8206)) :
-		$terms       = get_field('selected_cat', 8206);
+	if (get_field('selected_cat', 8258)) :
+		$terms       = get_field('selected_cat', 8258);
 		$currentLang = qtrans_getLanguage();
 		$langTag     = "[:" . $currentLang . "]";
 
