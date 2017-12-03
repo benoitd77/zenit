@@ -74,3 +74,4 @@ unset($file, $filepath);
 add_image_size( 'custom-size', 480, 640, true );
 add_image_size( 'custom-size500', 500, 500, false );
 add_image_size( 'custom-size720', 540, 720, true );
+add_image_size( 'custom-size720', 375, 500, true );

@@ -56,7 +56,7 @@
 							<div class="image-product">
 								<?php
 									//the_post_thumbnail();
-									echo get_the_post_thumbnail( $product->ID, array( 480, 640) );
+									echo get_the_post_thumbnail( $product->ID, array(375, 500) );
 								?>
 							</div>
 
