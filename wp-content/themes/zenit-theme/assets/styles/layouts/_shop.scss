@@ -144,9 +144,23 @@ body.page-template-page-accueil{
 
 	table{
 		border:0!important;
+
 		th,td{
 			padding:20px 0px!important;
 		}
+
+        th.product-price {
+            width: 100px;
+        }
+
+        th.product-quantity {
+            text-align: center;
+            width: 100px;
+        }
+
+        th.product-subtotal {
+            width: 80px;
+        }
 	}
 
 	#coupon_code{

@@ -62,7 +62,6 @@ do_action( 'woocommerce_before_cart' ); ?>
 								esc_attr( $_product->get_sku() )
 							), $cart_item_key );
 						?>
-						<span class="remove-cart-label"><?php echo get_field('remove_item'); ?></span>
 					</td>
 
 					<td class="product-thumbnail">

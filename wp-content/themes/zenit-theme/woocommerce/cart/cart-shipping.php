@@ -47,7 +47,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php elseif ( ! WC()->customer->has_calculated_shipping() ) : ?>
 			<?php echo wpautop( __( 'Shipping costs will be calculated once you have provided your address.', 'woocommerce' ) ); ?>
 		<?php else : ?>
-			<?php echo apply_filters( is_cart() ? 'woocommerce_cart_no_shipping_available_html' : 'woocommerce_no_shipping_available_html', wpautop( get_field('calculate_your_shipping_cost') ) ); ?>
+			<?php // echo apply_filters( is_cart() ? 'woocommerce_cart_no_shipping_available_html' : 'woocommerce_no_shipping_available_html', wpautop( get_field('calculate_your_shipping_cost') ) ); ?>
 		<?php endif; ?>
 
 		<?php if ( $show_package_details ) : ?>
