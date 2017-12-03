@@ -1,0 +1,183 @@
+Version 2.0.1 - 24 October 2017
+-Fixed issue where discounts were not showing up in the minicart
+-Fixed issue where the discounts applied to related products was not working
+-Fixed issue where mailchimp and sendinblue discount NOT IN conditions was not working
+-Fixed issue where the ability to disable discounts on products pages was not working
+
+Version 2.0 - 02 October 2017
+-Added licence verification feature
+-Fixed issue with shipping and billing countries and states if the "Ship to a different address" property is checked on the checkout page
+-Fixed issue where "NOT IN" operator was not working for ""If Customer reviewed any product" rule
+-Fixed issue where "Previously ordered products" rule was not working
+-Removed "If Customer reviewed a product" rule since "If Customer reviewed any product" can do exactly the same things
+
+Version 1.19 - 19 September 2017
+-Fixed where discounts based on products in cart was not working since the last update
+
+Version 1.18 - 17 September 2017
+-Optimized request to gain some speed
+-Fixed free gift issue when checking out
+-Enabled new algorithm by default
+-Removed cache feature
+
+Version 1.17 - 11 September 2017
+-Improved free gift list table to display product name with variation attributes
+-Added controls to make sure only the variations linked to actual variable products are fetched while extracting the list products
+
+Version 1.16 - 22 August 2017
+-Added ability to select more than 1 gift among the gifts list
+-Added ability to apply a discount based on the shipping method
+-Added ability to enable/disable taxable discounts
+-Fixed discount not showing up for tags pages using the new algorithm
+-Fixed discount inactive issue when the start date is set and the end date is empty.
+-Fixed issue where the values excluded using the product list exclude field are still included in the products to check the discount against
+
+Version 1.15 - 24 May 2017
+-Disabled default usage of the new algorithm
+-Fixed bug with free gifts that was making the plugin include the gift price in the subtotal.
+-Fixed issue where bulk discounts was not applied on variations
+-Upgraded Hybrid Auth and fixed Facebook discount issue
+
+Version 1.13 - 24 May 2017
+-Fixed issue related to the previous order count when the customer is not logged in
+
+Version 1.12 - 7 May 2017
+-Added ability to apply discounts based on the customers emails domains
+-Added new algorithm that will make the plugin way faster for large shops (should be carefully tested)
+
+Version 1.11 - 7 May 2017
+-Fixed issue price display issue with variable products
+
+Version 1.10 - 25 April 2017
+-Added ability to set discount by hours
+-Fixed issues where variations sales prices calculated by the plugin was not applied on the cart and checkout pages
+
+Version 1.9 - 12 April 2017
+-Fixed compatibility issues with WooCommerce 3.0 and WooCommerce 3.0.1
+-Fixed previous order count issue when the customer has no order
+-Added ability to include shipping in taxes or not
+
+Version 1.8 - 26 March 2017
+-Added ability to define a discount based on the number of different products in the cart
+-Added ability to disable the display of discounted prices on all pages except cart and checkout for a discount
+-Added control to check if the class Hybrid_Auth already exists before trying to include ours.
+-Added ability to select non logged in users in customers roles rule while creating a discount
+-Disabled taxes application on the subtotal if the products prices includes taxes and the discount is including taxes
+-Fixed issue with the cart subtotal inc taxes calculation
+-Fixed issue where some terms was not retrieved
+-Fixed wrong calculation on the pricing tables when another discount applies to the products where they are displayed.
+
+Version 1.7 - 28 November 2016
+-Added ability to define buy N get X for free type of discounts on products individually
+-Added ability to evaluate an order item count in list discount by products independantly
+
+Version 1.6 - 7 November 2016
+-Added ability to set a fixed price for a discounted product
+-Optimized user groups based discounts to avoid unecessary database usage
+-Optimized reviewed products conditions discounts to avoid unecessary database usage
+-Optimized cart subtotal including taxes calculation to avoid unecessary database usage
+
+Version 1.5 - 17 October 2016
+-Replaced home_url by site_url in utils to avoid the language code in the URL when retrieving the pictures URLs
+-Fixed compatibility issue with AELIA currency switcher
+
+Version 1.4 - 13 August 2016
+-Fixed customer role based discounts bug
+-Fixed rounding issue which causes errors when paypal is used as payment method
+-Fixed bug where checkboxes are checked even if there is no data available.
+
+Version 1.3 - August 19th, 2016
+-Added ability to display itemized cart discounts on cart page
+-Added ability to add a discount based on the subtotal of some products only.
+-Added ability to add a discount based on the shop currency (useful for currency switchers)
+-Fixed bug for get_customer_orders when customer is not logged in.
+-Optimized customer role extraction to avoid unnecessary requests and improve speed
+-Optimized customer order items extraction to avoid unnecessary requests and improve speed
+
+Version 1.2 - July 08th, 2016
+-Fixed wrong prices labels for the variable products on the product page
+-Fixed issue with social description fields when the html code is escaped and makes it unusable.
+
+Version 1.1 - June 29th, 2016
+-Added ability to define a discount based on the shipping and billing state
+-Added ability to define a discount based on previously purchased products
+-Added ability to define which order statuses should be considered as completed
+-Added error message for wrongly defined rules for conditions "customer-role", "customer", "payment-gateway", "billing-country", "shipping-country"
+-Fixed bug on previous order count when the user email adress is not the billing adress
+-Fixed bug on variable products where the onsale badge is not displayed.
+-Fixed bug on free gifts calculations when the taxes are active 
+Fixed issue where discounts are 0 when coupons are used.
+
+Version 1.0 - May 20th, 2016
+-Fixed issue: products loaded via ajax does not show the discounts
+-Fixed issue: The free gifts list contains the featured images attached to the gifts in the available gifts lists
+-Fixed issue: Taxes discounts miscalculations
+
+Version 0.9 - March 08th, 2016
+-Added: ability to combine the conditions order items counts and products in cart to create new types of conditions
+-Added: ability to cache the discounts in order to reduce the database requests
+-Added: ability to apply a discount for every reviewed products
+-Added: ability to apply a discount on a list of product if the customer reviews at least one of them
+-Removed: scrollable input for discount dates
+
+Version 0.8 - February 23rd, 2016
+-Fixed issue: products in cart condition is not working for variations
+-Added empty as jocker for the quantity based pricing on the product page
+
+Version 0.7 - February 03rd, 2016
+-Added ability to set a discount if the customer is following an affiliation link
+-Added ability to set a discount if the customer subscribed to a mailchimp newsletter
+-Added ability to set a discount if the customer subscribed to a sendinblue newsletter
+-Fixed issue: sale icon does not show up on variable products when a variation has a discount
+-Fixed issue: conflict with Woocommerce Product Designer when using the social networks data extractions feature
+-Fixed issue: discounts are not applied on variable products
+-Fixed issue: discounts amount are miscalculated on the order details page when the shipping is active
+
+Version 0.6 - December 21st, 2015
+
+-Fixed issue with quantity based pricing checkboxes
+-Improved speed in discounts application
+
+Version 0.5.2 - November 24th, 2015
+
+-Added new condition: Order subtotal including taxes
+-Added new action: Percentage off order subtotal including taxes
+-Fixed issue with taxes
+
+Version 0.5.1 - November 05th, 2015
+-Fixed date format bug which disables new discounts created in the version 0.5
+
+Version 0.5 - November 04th, 2015
+-Added ability to apply a discount for specific users
+-Updated ORION library to the latest version
+
+Version 0.4 - October 19th, 2015
+-New feature: ability to apply discounts based on the quantity purchased (every X items purchased)
+-New feature: ability to use multiples in the conditions instead of normal numeric operators only.
+-Improvements: Start and End dates are not mandatory anymore. When not filled, the discount is active everytime.
+-Added date picker to ease the dates selection.
+-Fixed total cart discount is not displayed on the order details pages (admin and front)
+-User manual update
+
+Version 0.3.1 - October 9th, 2015
+-Fixed error message when creating group of rules
+
+Version 0.3 - October 8th, 2015
+-New feature: ability to apply a discount for every shared product on facebook
+-New improvement: added field to describe the social networks connect buttons on the cart page to let customers know what to do with them.
+-Added checkbox to enable/disable the quantity based pricing
+-Fixed lists and discounts requests limitation (nopaging issue)
+
+Version 0.2 - September 14th, 2015
+-New feature: ability to apply a discount based on the payment gateway selected
+-New feature: ability to apply a discount based on the order billing country
+-New feature: ability to apply a discount based on the ordder shipping country
+-New feature: ability to apply a discount based on the quantity ordered per product (manageable from the product admin page)
+-New feature: ability to apply a discount based on groups managed by https://wordpress.org/plugins/groups/
+-New feature: ability to apply a discount based on newsletter subscribers managed by https://wordpress.org/plugins/newsletter/
+-New feature: ability to update the plugin directly from the dashboard
+-New feature: ability to define periodic discounts which are applied automatically
+
+Version 0.1 - September 1st, 2015
+
+-Initial release

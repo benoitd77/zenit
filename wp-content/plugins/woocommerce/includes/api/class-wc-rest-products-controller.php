@@ -498,7 +498,6 @@ class WC_REST_Products_Controller extends WC_REST_Posts_Controller {
 			'total_sales'           => (int) get_post_meta( $product->id, 'total_sales', true ),
 			'virtual'               => $product->is_virtual(),
 			'downloadable'          => $product->is_downloadable(),
-			'recommended'           => $product->is_recommended(),
 			'downloads'             => $this->get_downloads( $product ),
 			'download_limit'        => '' !== $product->download_limit ? (int) $product->download_limit : -1,
 			'download_expiry'       => '' !== $product->download_expiry ? (int) $product->download_expiry : -1,
@@ -578,7 +577,6 @@ class WC_REST_Products_Controller extends WC_REST_Posts_Controller {
 				'visible'            => $variation->is_visible(),
 				'virtual'            => $variation->is_virtual(),
 				'downloadable'       => $variation->is_downloadable(),
-				'recommended'        => $variation->is_recommended(),
 				'downloads'          => $this->get_downloads( $variation ),
 				'download_limit'     => '' !== $variation->download_limit ? (int) $variation->download_limit : -1,
 				'download_expiry'    => '' !== $variation->download_expiry ? (int) $variation->download_expiry : -1,
@@ -932,11 +930,6 @@ class WC_REST_Products_Controller extends WC_REST_Posts_Controller {
 		// Virtual.
 		if ( isset( $request['virtual'] ) ) {
 			update_post_meta( $product->id, '_virtual', true === $request['virtual'] ? 'yes' : 'no' );
-		}
-
-		// Recommended.
-		if ( isset( $request['recommended'] ) ) {
-			update_post_meta( $product->id, '_recommended', true === $request['recommended'] ? 'yes' : 'no' );
 		}
 
 		// Tax status.
@@ -1444,12 +1437,6 @@ class WC_REST_Products_Controller extends WC_REST_Posts_Controller {
 				update_post_meta( $variation_id, '_downloadable', $is_downloadable );
 			} else {
 				$is_downloadable = get_post_meta( $variation_id, '_downloadable', true );
-			}
-
-			// Recommended variation.
-			if ( isset( $variation['recommended'] ) ) {
-				$is_recommended = ( true === $variation['recommended'] ) ? 'yes' : 'no';
-				update_post_meta( $variation_id, '_recommended', $is_recommended );
 			}
 
 			// Shipping data.
@@ -2483,12 +2470,6 @@ class WC_REST_Products_Controller extends WC_REST_Posts_Controller {
 							),
 							'downloadable' => array(
 								'description' => __( 'If the variation is downloadable.', 'woocommerce' ),
-								'type'        => 'boolean',
-								'default'     => false,
-								'context'     => array( 'view', 'edit' ),
-							),
-							'recommended' => array(
-								'description' => __( 'If the variation is recommended.', 'woocommerce' ),
 								'type'        => 'boolean',
 								'default'     => false,
 								'context'     => array( 'view', 'edit' ),

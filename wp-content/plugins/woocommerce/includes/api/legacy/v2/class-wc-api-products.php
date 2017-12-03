@@ -686,7 +686,6 @@ class WC_API_Products extends WC_API_Resource {
 			'status'             => $product->get_post_data()->post_status,
 			'downloadable'       => $product->is_downloadable(),
 			'virtual'            => $product->is_virtual(),
-			'recommended'        => $product->is_recommended(),
 			'permalink'          => $product->get_permalink(),
 			'sku'                => $product->get_sku(),
 			'price'              => wc_format_decimal( $product->get_price(), $prices_precision ),
@@ -772,7 +771,6 @@ class WC_API_Products extends WC_API_Resource {
 				'updated_at'        => $this->server->format_datetime( $post_data->post_modified_gmt ),
 				'downloadable'      => $variation->is_downloadable(),
 				'virtual'           => $variation->is_virtual(),
-				'recommended'       => $variation->is_recommended(),
 				'permalink'         => $variation->get_permalink(),
 				'sku'               => $variation->get_sku(),
 				'price'             => wc_format_decimal( $variation->get_price(), $prices_precision ),
@@ -839,11 +837,6 @@ class WC_API_Products extends WC_API_Resource {
 		// Virtual
 		if ( isset( $data['virtual'] ) ) {
 			update_post_meta( $product_id, '_virtual', ( true === $data['virtual'] ) ? 'yes' : 'no' );
-		}
-
-		// Recommended
-		if ( isset( $data['recommended'] ) ) {
-			update_post_meta( $product_id, '_recommended', ( true === $data['recommended'] ) ? 'yes' : 'no' );
 		}
 
 		// Tax status
@@ -1345,12 +1338,6 @@ class WC_API_Products extends WC_API_Resource {
 			if ( isset( $variation['virtual'] ) ) {
 				$is_virtual = ( true === $variation['virtual'] ) ? 'yes' : 'no';
 				update_post_meta( $variation_id, '_virtual', $is_virtual );
-			}
-
-			// Recommended variation
-			if ( isset( $variation['recommended'] ) ) {
-				$is_recommended = ( true === $variation['recommended'] ) ? 'yes' : 'no';
-				update_post_meta( $variation_id, '_recommended', $is_virtual );
 			}
 
 			// Downloadable variation

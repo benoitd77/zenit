@@ -1,0 +1,171 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/*.wad-rules-table tr td:first-of-type
+{
+    width: 50%;
+}
+
+.wad-rules-table tr td:not(:first-of-type)
+{
+    width: 25%;
+}*/
+
+.wad-rules-table:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+.wad-remove-rule {
+    background: url(../images/sprite.png) -66px -116px no-repeat #fff;
+    display: block;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+#wad-datasource-container input[type='text'], 
+#wad-datasource-container select,
+#wad-datasource-container input[type='number']
+{
+    width: 100%;
+}
+
+.wad-loading
+{
+    background: url(../images/spinner.gif) center center no-repeat;
+    width: 20px;
+    height: 24px;
+}
+
+.remove-rf-row
+{
+    background: url(../images/sprite.png) -66px -116px no-repeat #fff;
+    display: block;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.remove-rf-row:hover
+{
+    background: url(../images/sprite.png) -66px -166px no-repeat #fff;
+}
+
+#wad-options-container
+{
+    max-width: 1200px;
+    /*margin: 0 auto;*/
+    padding: 10px;
+}
+
+#wad-options-container > .o-wrap
+{
+    margin-top: 0;
+}
+
+.wad-discount-status
+{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px; 
+    background-color: grey;
+    display: inline-block;
+}
+
+.wad-discount-status.active
+{
+    background-color: #95F90D;
+}
+.menu-icon-o-discount img
+{
+    max-width: 15px;
+}
+#wad-quantity-pricing-rules label
+{
+    float: none;
+    margin: 0;
+}
+
+#wad-quantity-pricing-rules input[type=text]
+{
+    width: 100%;
+}
+.wad-admin-notice {
+    background: #fff;
+    border-color: #ED494D;
+    border-top: 4px;
+    display: block;
+    min-height: 68px;
+    padding: 10px 40px 10px 145px;
+    position: relative;
+}
+.wad-notice-logo {
+    clear: both;
+    content: "";
+    display: block;
+    background-image: url("../images/80x80.jpg");
+    /*background-size: 125px 83px;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 125px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+}
+.wad-notice-title {
+    font-size: 24px;
+    margin: 0;
+}
+.wad-notice-body {
+    font-weight: normal;
+    margin: 5px 0;
+}
+.wad-notice-body li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.wad-admin-notice a {
+    color: #ED494D;
+}
+.wad-red {
+    color: #ED494D;
+}
+.wad-admin-notice > .dashicons {
+    color: #424242;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+}
+#wad-pro-features
+{
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#wad-pro-features h2
+{
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+#wad-pro-features .o-wrap
+{
+    display: inline-block;
+    margin-top: 10px;
+}
+.wad-info
+{
+    margin: 5px 0 15px;
+    border-left: 4px solid #0074a2;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+}

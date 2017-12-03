@@ -1,0 +1,1021 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WAD\n"
+"POT-Creation-Date: 2017-08-22 17:36+0100\n"
+"PO-Revision-Date: 2017-08-22 17:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: ORION <support@orionorigin.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-wad-admin.php:118
+msgid "Products Lists"
+msgstr "Listes de produits"
+
+#: ../admin/class-wad-admin.php:119
+msgid "Settings"
+msgstr "Préférences"
+
+#: ../admin/class-wad-admin.php:132
+msgid "Woocommerce All Discounts Settings"
+msgstr "Préférences"
+
+#: ../admin/class-wad-admin.php:142
+msgid "App ID"
+msgstr "ID App"
+
+#: ../admin/class-wad-admin.php:145
+msgid "Facebook App ID"
+msgstr "ID App Facebook"
+
+#: ../admin/class-wad-admin.php:150
+msgid "App Secret"
+msgstr "Clé secrète App"
+
+#: ../admin/class-wad-admin.php:153
+msgid "Facebook App Secret"
+msgstr "Clé secrète App Facebook"
+
+#: ../admin/class-wad-admin.php:158
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../admin/class-wad-admin.php:159
+msgid "Facebook APP settings"
+msgstr "Paramètres App Facebook"
+
+#: ../admin/class-wad-admin.php:165 ../admin/class-wad-admin.php:168
+msgid "Client ID"
+msgstr "ID Client"
+
+#: ../admin/class-wad-admin.php:173 ../admin/class-wad-admin.php:176
+msgid "Client Secret"
+msgstr "Clé Secrète"
+
+#: ../admin/class-wad-admin.php:181
+msgid "Instagram"
+msgstr "Instagram"
+
+#: ../admin/class-wad-admin.php:182
+msgid "Instagram Client settings"
+msgstr "Paramètres du Client Instagram"
+
+#: ../admin/class-wad-admin.php:188
+msgid "Twitter Consumer Key"
+msgstr "Clé Client Twitter"
+
+#: ../admin/class-wad-admin.php:191
+msgid "Twitter Client ID"
+msgstr "ID Client Twitter"
+
+#: ../admin/class-wad-admin.php:196
+msgid "Twitter Consumer Secret"
+msgstr "Clé Secrète Client Twitter"
+
+#: ../admin/class-wad-admin.php:199
+msgid "Twitter Client Secret"
+msgstr "Clé Secrète Twitter"
+
+#: ../admin/class-wad-admin.php:211
+msgid "Mailchimp API KEY"
+msgstr "Clé API Mailchimp"
+
+#: ../admin/class-wad-admin.php:214
+msgid ""
+"Used when a MailChimp based discount need to be set. <a href=\"http://kb."
+"mailchimp.com/accounts/management/about-api-keys\" target=\"blank\">How to "
+"find my API Key?</a>"
+msgstr ""
+"Utilisée lorsqu’une réduction basée sur Mailchimp est définie. <a href="
+"\"http://kb.mailchimp.com/accounts/management/about-api-keys\" target=\"blank"
+"\">Où trouver ma clé d’API?</a>"
+
+#: ../admin/class-wad-admin.php:218
+msgid "SendinBlue API KEY"
+msgstr "Clé API SendinBlue"
+
+#: ../admin/class-wad-admin.php:221
+msgid ""
+"Used when a SendinBlue based discount need to be set.<a href=\"https://my."
+"sendinblue.com/advanced/apikey\" target=\"blank\">How to find my API Key?</a>"
+msgstr ""
+"Utilisée lorsqu’une réduction basée sur SendinBlue est définie.<a href="
+"\"https://my.sendinblue.com/advanced/apikey\" target=\"blank\">Où trouver ma "
+"clé d’API?</a>"
+
+#: ../admin/class-wad-admin.php:226
+msgid "Social buttons description"
+msgstr "Description des boutons des réseaux sociaux"
+
+#: ../admin/class-wad-admin.php:230
+msgid ""
+"Description of the social buttons on the cart page to help the customer "
+"understand what to do"
+msgstr ""
+"Descriptions des boutons de réseaux sociaux apparaissant à l’intention du "
+"client sur la page du panier"
+
+#: ../admin/class-wad-admin.php:235
+msgid "Envato Username"
+msgstr "Nom d’utilisateur Envato"
+
+#: ../admin/class-wad-admin.php:238
+msgid "Your envato username"
+msgstr "Votre nom d’utilisateur Envato"
+
+#: ../admin/class-wad-admin.php:243
+msgid "Secret API Key"
+msgstr "Clé Secrète API"
+
+#: ../admin/class-wad-admin.php:246
+msgid ""
+"You can find your secret api key by following the instructions <a href="
+"\"https://www.youtube.com/watch?v=KnwumvnWAIM\" target=\"blank\">here</a>."
+msgstr ""
+"Vous pouvez trouver votre clé secrète en suivant les instructions <a href="
+"\"https://www.youtube.com/watch?v=KnwumvnWAIM\" target=\"blank\">ici</a>."
+
+#: ../admin/class-wad-admin.php:251
+msgid "Purchase Code"
+msgstr "Clé de licence"
+
+#: ../admin/class-wad-admin.php:254
+msgid ""
+"You can find your purchase code by following the instructions <a href="
+"\"https://help.market.envato.com/hc/en-us/articles/202822600-Where-can-I-"
+"find-my-Purchase-Code-\" target=\"blank\">here</a>."
+msgstr ""
+"Vous pouvez trouver votre clé de licence en suivant les instructions <a href="
+"\"https://help.market.envato.com/hc/en-us/articles/202822600-Where-can-I-"
+"find-my-Purchase-Code-\" target=\"blank\">ici</a>."
+
+#: ../admin/class-wad-admin.php:259
+msgid "Cache discounts"
+msgstr "Activer le cache"
+
+#: ../admin/class-wad-admin.php:263
+msgid ""
+"whether or not to store the discounts in the cache to increase the pages "
+"load speed. Cache is valid for 12hours"
+msgstr ""
+"Le stockage dans le cache permet d’améliorer la vitesse de chargement des "
+"pages lorsque les réductions sont active. Valide pour 12heures"
+
+#: ../admin/class-wad-admin.php:268
+msgid "Include shipping in taxes"
+msgstr ""
+
+#: ../admin/class-wad-admin.php:272
+msgid "Wether or not to consider shipping as part of taxes"
+msgstr ""
+
+#: ../admin/class-wad-admin.php:277
+msgid "Disable coupons"
+msgstr "Désactiver les coupons"
+
+#: ../admin/class-wad-admin.php:281
+msgid ""
+"whether or not to disable the coupons usage when a cart discount is active."
+msgstr ""
+"Permet de désactiver l’utilisation des coupons lorsqu’une réduction sur le "
+"sous total du panier est active."
+
+#: ../admin/class-wad-admin.php:285
+msgid "Display cart discounts individually"
+msgstr "Afficher les réductions sur le panier individuellement"
+
+#: ../admin/class-wad-admin.php:289
+msgid ""
+"whether or not to display each cart discount individually on cart pages."
+msgstr "Permet d’afficher les réductions sur le panier de façon individuelle"
+
+#: ../admin/class-wad-admin.php:293
+msgid "Completed Orders Statuses"
+msgstr "Statuts des commandes terminées"
+
+#: ../admin/class-wad-admin.php:297
+msgid ""
+"List of order statuses considered as completed (used when manipulating "
+"previous orders in the discounts conditions)."
+msgstr ""
+"Liste des statuts des commandes considérées comme terminées (utile par "
+"exemple lorsqu’une réduction contient des conditions faisant appel aux "
+"commandes passées)."
+
+#: ../admin/class-wad-admin.php:302
+msgid "Use new extraction algorithm"
+msgstr ""
+
+#: ../admin/class-wad-admin.php:306
+msgid ""
+"Use new extraction algorithm recommanded for slow websites.<br><strong style="
+"\"color:red\">-Beta-</strong>."
+msgstr ""
+
+#: ../admin/class-wad-admin.php:333
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../admin/class-wad-admin.php:358
+msgid "Welcome to WooCommerce All Discounts"
+msgstr "Bienvenue"
+
+#: ../admin/class-wad-admin.php:359
+#, php-format
+msgid ""
+"Thanks for installing! WooCommerce All Discounts %s is more powerful, stable "
+"and secure than ever before. We hope you enjoy using it."
+msgstr ""
+"Merci de nous faire confiance! WooCommerce All Discounts %s est  plus "
+"puissant, plus stable et sécurisé qu’auparavant. Amusez vous bien!"
+
+#: ../admin/class-wad-admin.php:367
+msgid "User Manual"
+msgstr "Manuel utilisateur"
+
+#: ../admin/class-wad-admin.php:372
+msgid "Getting Started"
+msgstr "Démarrer"
+
+#: ../admin/class-wad-admin.php:373
+msgid "Changelog"
+msgstr "Historique"
+
+#: ../admin/class-wad-admin.php:374
+msgid "Follow Us"
+msgstr "Suivez nous"
+
+#: ../admin/class-wad-admin.php:384
+msgid "How to install the demo package?"
+msgstr "Comment installer le package de démonstration?"
+
+#: ../admin/class-wad-admin.php:392
+msgid "How to set the basic settings?"
+msgstr "Comment définir les réglages de base?"
+
+#: ../admin/class-wad-admin.php:400
+msgid "How to create a customizable product?"
+msgstr "Comment créer un produit personnalisable?"
+
+#: ../admin/class-wad-admin.php:408
+msgid "How to manage your designs templates?"
+msgstr ""
+
+#: ../admin/class-wad-admin.php:419
+msgid "Unable to open file!"
+msgstr "Impossible d’ouvrir le fichier!"
+
+#: ../includes/class-wad-discount.php:53 ../includes/class-wad-discount.php:54
+#: ../includes/class-wad-discount.php:787
+msgid "Discount"
+msgstr "Réduction"
+
+#: ../includes/class-wad-discount.php:55 ../includes/class-wad-discount.php:56
+#: ../includes/class-wad-discount.php:58
+msgid "New discount"
+msgstr "Nouvelle réduction"
+
+#: ../includes/class-wad-discount.php:57
+msgid "Edit discount"
+msgstr "Modifier réduction"
+
+#: ../includes/class-wad-discount.php:59
+msgid "View discount"
+msgstr "Voir réduction"
+
+#: ../includes/class-wad-discount.php:61
+msgid "No discount found"
+msgstr "Aucune réduction trouvée"
+
+#: ../includes/class-wad-discount.php:62
+msgid "No discount in the trash"
+msgstr "Aucune réduction dans la corbeille"
+
+#: ../includes/class-wad-discount.php:63
+msgid "Discounts"
+msgstr "Réductions"
+
+#: ../includes/class-wad-discount.php:96
+msgid "Discount settings"
+msgstr "Réglages de la réduction"
+
+#: ../includes/class-wad-discount.php:118
+msgid "Start date"
+msgstr "Date de début"
+
+#: ../includes/class-wad-discount.php:123
+msgid "Date from which the discount is applied."
+msgstr ""
+
+#: ../includes/class-wad-discount.php:128
+msgid "End date"
+msgstr "Date de fin"
+
+#: ../includes/class-wad-discount.php:133
+msgid "Date when the discount ends."
+msgstr ""
+
+#: ../includes/class-wad-discount.php:150
+msgid "days"
+msgstr "jours"
+
+#: ../includes/class-wad-discount.php:151
+msgid "months"
+msgstr "mois"
+
+#: ../includes/class-wad-discount.php:152
+msgid "years"
+msgstr "années"
+
+#: ../includes/class-wad-discount.php:156
+msgid "Repeat every"
+msgstr "Répéter chaque"
+
+#: ../includes/class-wad-discount.php:158
+msgid "Interval to repeat the discount. Leave empty to disable that feature."
+msgstr ""
+"Intervalle de répétition de la réduction. Laissez vide pour désactiver la "
+"fonctionnalité."
+
+#: ../includes/class-wad-discount.php:162
+msgid "Users Limit"
+msgstr "Limite d’utilisateurs"
+
+#: ../includes/class-wad-discount.php:164
+msgid ""
+"Autorized number of customers that can use the discount (leave empty to "
+"disable that feature)."
+msgstr ""
+"Nombre de clients autorisés à bénéficier de cette réduction (laissez vide "
+"pour désactiver la fonctionnalité)."
+
+#: ../includes/class-wad-discount.php:169
+#: ../includes/class-wad-discount.php:1299
+msgid "Action"
+msgstr "Action"
+
+#: ../includes/class-wad-discount.php:173
+msgid "Type of discount to apply."
+msgstr "Type de réduction à appliquer."
+
+#: ../includes/class-wad-discount.php:181
+msgid "Gifts List"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:185
+msgid "List of products the customer can choose his gift from"
+msgstr ""
+"Liste des produits à partir de laquelle le client peut choisir son cadeau"
+
+#: ../includes/class-wad-discount.php:190
+msgid "Gifts Limit"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:194
+msgid ""
+"Maximum number of products the customer can select within the gifts list"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:200
+msgid "Products list"
+msgstr "Liste de produits"
+
+#: ../includes/class-wad-discount.php:205
+msgid "List of products the selected action applies on"
+msgstr "Liste de produits sur laquelle l’action sélectionnée s’exécute"
+
+#: ../includes/class-wad-discount.php:211
+msgid "Disable on products and shop pages"
+msgstr "Désactiver sur les pages produits et catégories"
+
+#: ../includes/class-wad-discount.php:216
+msgid ""
+"Disables the display of discounted prices on all pages except cart and "
+"checkout"
+msgstr ""
+"Désactive l’affichage des prix réduits sur toutes les pages à l’exception du "
+"panier et paiement"
+
+#: ../includes/class-wad-discount.php:225
+msgid "Percentage / Fixed amount"
+msgstr "Pourcentage / Montant fixe"
+
+#: ../includes/class-wad-discount.php:230
+msgid "Percentage or fixed amount to apply."
+msgstr "Pourcentage ou montant fixe à appliquer"
+
+#: ../includes/class-wad-discount.php:235
+msgid "Evaluate per product"
+msgstr "Evaluer par produit"
+
+#: ../includes/class-wad-discount.php:239
+msgid "Run the calculations of each product in the list independantly."
+msgstr ""
+"Permet de faire les calculs produit par produit et non pour tous les "
+"produits ensemble"
+
+#: ../includes/class-wad-discount.php:245
+msgid "Cumulable ?"
+msgstr "Cumulable ?"
+
+#: ../includes/class-wad-discount.php:249
+msgid ""
+"whether or not the discount can be applied if the condition is fullfilled "
+"more than once."
+msgstr ""
+"La réduction doit elle être appliquée plusieurs fois si la condition est "
+"valide plus d’une fois?"
+
+#: ../includes/class-wad-discount.php:257
+msgid "Taxable ?"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:262
+msgid "whether or not the discount should be taxable."
+msgstr ""
+
+#: ../includes/class-wad-discount.php:264
+msgid "Yes"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:265
+msgid "No"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:266
+msgid "Default"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:271
+msgid "Rules groups relationship"
+msgstr "Relation entre les groupes de règles"
+
+#: ../includes/class-wad-discount.php:274
+msgid ""
+"AND: All groups rules must be verified to have the discount action applied."
+msgstr ""
+"ET: Toutes les règles doivent être vérifiées avant que la réduction ne soit "
+"appliquée."
+
+#: ../includes/class-wad-discount.php:274
+msgid ""
+"OR: AT least one group rules must be verified to have the discount action "
+"applied."
+msgstr ""
+"OU: Au moins une des règles doit être vérifiée avant que la réduction ne "
+"soit appliquée."
+
+#: ../includes/class-wad-discount.php:283
+msgid "Rules"
+msgstr "Règles"
+
+#: ../includes/class-wad-discount.php:284
+msgid ""
+"Allows you to define which rules should be checked in order to apply the "
+"discount. Not mandatory."
+msgstr ""
+"Permet de définir quelles règles doivent être vérifiées afin d’appliquer la "
+"réduction. Optionnel."
+
+#: ../includes/class-wad-discount.php:350
+msgid "and"
+msgstr "et"
+
+#: ../includes/class-wad-discount.php:394
+msgid "multiple sepated by ,"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:457
+msgid "IN"
+msgstr "est parmi"
+
+#: ../includes/class-wad-discount.php:458
+msgid "NOT IN"
+msgstr "n’est pas parmi"
+
+#: ../includes/class-wad-discount.php:465
+msgid "is less than"
+msgstr "est inférieur à"
+
+#: ../includes/class-wad-discount.php:466
+msgid "is less or equal to"
+msgstr "est inférieur ou égal à"
+
+#: ../includes/class-wad-discount.php:467
+msgid "equals"
+msgstr "est égal à"
+
+#: ../includes/class-wad-discount.php:468
+msgid "is more than"
+msgstr "est supérieur à"
+
+#: ../includes/class-wad-discount.php:469
+msgid "is more or equal to"
+msgstr "est supérieur ou égal à"
+
+#: ../includes/class-wad-discount.php:470
+msgid "is a multiple of"
+msgstr "est multiple de"
+
+#: ../includes/class-wad-discount.php:565
+msgid "Add rules group"
+msgstr "Ajouter un groupe de règles"
+
+#: ../includes/class-wad-discount.php:708
+msgid "Reductions on cart"
+msgstr "Réductions dans le panier"
+
+#: ../includes/class-wad-discount.php:787
+msgid "Rule "
+msgstr "Règle"
+
+#: ../includes/class-wad-discount.php:787
+msgid " requires at least one parameter selected in the values"
+msgstr "requiert au moins un paramètres sélectionné dans la liste des valeurs"
+
+#: ../includes/class-wad-discount.php:1096
+msgid "If Customer role"
+msgstr "Si le rôle du client"
+
+#: ../includes/class-wad-discount.php:1097
+msgid "If Customer email domain name"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:1098
+msgid "If Customer"
+msgstr "Si le client"
+
+#: ../includes/class-wad-discount.php:1099
+msgid "If Previous orders count"
+msgstr "Si le nombre de commandes précédentes"
+
+#: ../includes/class-wad-discount.php:1100
+msgid "If Total spent in shop"
+msgstr "If le total dépensé dans la boutique"
+
+#: ../includes/class-wad-discount.php:1101
+msgid "Previously ordered products count"
+msgstr "Nombre de produits précédemment achetés"
+
+#: ../includes/class-wad-discount.php:1102
+msgid "Previously ordered products"
+msgstr "Produits précédemment achetés"
+
+#: ../includes/class-wad-discount.php:1103
+msgid "If Order subtotal"
+msgstr "Si le total de la commande"
+
+#: ../includes/class-wad-discount.php:1104
+msgid "If Order subtotal (inc. taxes)"
+msgstr "Si le total de la commande (inc. taxes)"
+
+#: ../includes/class-wad-discount.php:1105
+msgid "If Order items count"
+msgstr "If le nombre de produits dans le panier"
+
+#: ../includes/class-wad-discount.php:1106
+msgid "If Different Order items count"
+msgstr "Si nombre de produits différents commandés"
+
+#: ../includes/class-wad-discount.php:1107
+msgid "If Order products"
+msgstr "Si les produits commandés"
+
+#: ../includes/class-wad-discount.php:1108
+msgid "If Customer reviewed any product"
+msgstr "Si le client a noté n’importe quel produit"
+
+#: ../includes/class-wad-discount.php:1109
+msgid "If Customer reviewed a product"
+msgstr "Si le client a noté un produit"
+
+#: ../includes/class-wad-discount.php:1110
+msgid "If Customer is following us on Facebook"
+msgstr "Si le client nous suit sur Facebook"
+
+#: ../includes/class-wad-discount.php:1111
+msgid "If Customer is following us on Instagram"
+msgstr "Si le client nous suit sur Instagram"
+
+#: ../includes/class-wad-discount.php:1112
+msgid "If Payment gateway"
+msgstr "Si la méthode de paiement"
+
+#: ../includes/class-wad-discount.php:1113
+msgid "If Customer country"
+msgstr "Si le pays du client"
+
+#: ../includes/class-wad-discount.php:1114
+msgid "If Billing state"
+msgstr "Si adresse de facturation"
+
+#: ../includes/class-wad-discount.php:1115
+msgid "If Shipping country"
+msgstr "Si adresse de livraison"
+
+#: ../includes/class-wad-discount.php:1116
+msgid "If Shipping state"
+msgstr "Si région de livraison"
+
+#: ../includes/class-wad-discount.php:1117
+msgid "If Shipping method"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:1118
+msgid "If Customer subscribed to Mailchimp list"
+msgstr "Si client abonné à une liste MailChimp"
+
+#: ../includes/class-wad-discount.php:1119
+msgid "If Customer subscribed to a Sendinblue list"
+msgstr "Si client abonné à une liste SendinBlue"
+
+#: ../includes/class-wad-discount.php:1120
+msgid "If Customer subscribed to a NewsletterPlugin list"
+msgstr "Si client abonné à une liste NewsletterPlugin"
+
+#: ../includes/class-wad-discount.php:1121
+msgid "If Customer is following an affiliation link"
+msgstr "Si client suit un lien d’affiliation"
+
+#: ../includes/class-wad-discount.php:1122
+msgid "If Customer belongs to specified groups"
+msgstr "Si client appartient au groupe spécifié"
+
+#: ../includes/class-wad-discount.php:1123
+msgid "If Customer shared at least one of the products"
+msgstr "Si client partage au moins un produit"
+
+#: ../includes/class-wad-discount.php:1124
+msgid "If shop currency"
+msgstr "Si la monnaie de la boutique"
+
+#: ../includes/class-wad-discount.php:1130
+msgid "Percentage off product price"
+msgstr "Pourcentage du prix produit"
+
+#: ../includes/class-wad-discount.php:1131
+msgid "Fixed amount off product price"
+msgstr "Montant fixe du prix produit"
+
+#: ../includes/class-wad-discount.php:1132
+msgid "Fixed product price"
+msgstr "Prix produit"
+
+#: ../includes/class-wad-discount.php:1133
+msgid "Percentage off order subtotal"
+msgstr "Pourcentage du total du panier"
+
+#: ../includes/class-wad-discount.php:1134
+msgid "Percentage off order subtotal (inc. taxes)"
+msgstr "Pourcentage du total du panier (inc. taxes)"
+
+#: ../includes/class-wad-discount.php:1135
+msgid "Fixed amount off order subtotal"
+msgstr "Montant fixe du total du panier"
+
+#: ../includes/class-wad-discount.php:1136
+msgid "Fixed amount off order subtotal (inc. taxes)"
+msgstr "Montant fixe du total du panier (inc. taxes)"
+
+#: ../includes/class-wad-discount.php:1137
+#: ../includes/class-wad-discount.php:1353
+msgid "Free gift"
+msgstr "Cadeau"
+
+#: ../includes/class-wad-discount.php:1292
+msgid "You earned a free gift!"
+msgstr "Vous avez obtenu un cadeau!"
+
+#: ../includes/class-wad-discount.php:1298
+msgid "Product"
+msgstr "Produit"
+
+#: ../includes/class-wad-discount.php:1329
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: ../includes/class-wad-discount.php:1355
+msgid " offered"
+msgstr "offert"
+
+#: ../includes/class-wad-discount.php:1380
+msgid "Start Date"
+msgstr "Date de début"
+
+#: ../includes/class-wad-discount.php:1381
+msgid "End Date"
+msgstr "Date de fin"
+
+#: ../includes/class-wad-discount.php:1382
+msgid "Active"
+msgstr "Actif"
+
+#: ../includes/class-wad-discount.php:1463
+msgid "Connect to Facebook"
+msgstr "Connexion à Facebook"
+
+#: ../includes/class-wad-discount.php:1469
+msgid "Connect to Instagram"
+msgstr "Connexion à Instragram"
+
+#: ../includes/class-wad-discount.php:1480
+#: ../includes/class-wad-discount.php:1489
+msgid "Quantity Based Pricing"
+msgstr "Prix basé sur la quantité"
+
+#: ../includes/class-wad-discount.php:1501
+msgid "Enabled"
+msgstr "Activé"
+
+#: ../includes/class-wad-discount.php:1505
+msgid "Enable/Disable this feature"
+msgstr "Active/Désactive cette fonctionnalité"
+
+#: ../includes/class-wad-discount.php:1510
+msgid "Discount type"
+msgstr "Type de réduction"
+
+#: ../includes/class-wad-discount.php:1514
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: ../includes/class-wad-discount.php:1515
+msgid "Fixed amount"
+msgstr "Montant fixe"
+
+#: ../includes/class-wad-discount.php:1516
+msgid "Give N for free"
+msgstr "Don de N unités gratuites"
+
+#: ../includes/class-wad-discount.php:1519
+msgid "Apply a percentage or a fixed amount discount"
+msgstr "Applique un pourcentage ou une réduction fixe"
+
+#: ../includes/class-wad-discount.php:1523
+msgid "Rules type"
+msgstr "Type de règles"
+
+#: ../includes/class-wad-discount.php:1527
+msgid "Intervals"
+msgstr "Intervalles"
+
+#: ../includes/class-wad-discount.php:1528
+msgid "Steps"
+msgstr "Toutes les X unités"
+
+#: ../includes/class-wad-discount.php:1531
+msgid ""
+"If Intervals, the intervals rules will be used.<br>If Steps, the steps rules "
+"will be used."
+msgstr " "
+
+#: ../includes/class-wad-discount.php:1535
+#: ../includes/class-wad-discount.php:1689
+msgid "Min"
+msgstr "Min"
+
+#: ../includes/class-wad-discount.php:1542
+#: ../includes/class-wad-discount.php:1690
+msgid "Max"
+msgstr "Max"
+
+#: ../includes/class-wad-discount.php:1549
+msgid "Discount / Nb. Free"
+msgstr "Réduction / Nb cadeaux"
+
+#: ../includes/class-wad-discount.php:1557
+msgid "Intervals rules"
+msgstr "Règles d’intervalles"
+
+#: ../includes/class-wad-discount.php:1558
+msgid ""
+"If quantity ordered between Min and Max, then the discount specified will be "
+"applied. <br>Leave Min or Max empty for any value (joker)."
+msgstr ""
+"Si la quantité commandée est comprises entre Min et Max, alors la réduction "
+"spécifiée sera appliquée. <br>Laissez Min ou Max pour n’importe quelle "
+"valeur (joker)."
+
+#: ../includes/class-wad-discount.php:1566
+msgid "Every X items"
+msgstr "Toutes les X unités"
+
+#: ../includes/class-wad-discount.php:1573
+msgid "Steps Rules"
+msgstr ""
+
+#: ../includes/class-wad-discount.php:1574
+msgid ""
+"If quantity ordered is a multiple of the step, then the discount specified "
+"will be applied."
+msgstr ""
+"Si la quantité commandée est un multiple du pas, alors la réduction "
+"spécifiée sera appliquée."
+
+#: ../includes/class-wad-discount.php:1614
+msgid "Quantity based pricing table"
+msgstr "Grille tarifaire"
+
+#: ../includes/class-wad-discount.php:1656
+msgid "Every multiple of"
+msgstr "Chaque multiple de"
+
+#: ../includes/class-wad-discount.php:1657
+#: ../includes/class-wad-discount.php:1691
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#: ../includes/class-wad-products-list.php:37
+#: ../includes/class-wad-products-list.php:38
+msgid "List"
+msgstr "Liste de produits"
+
+#: ../includes/class-wad-products-list.php:39
+#: ../includes/class-wad-products-list.php:40
+#: ../includes/class-wad-products-list.php:42
+msgid "New list"
+msgstr "Nouvelle liste"
+
+#: ../includes/class-wad-products-list.php:41
+msgid "Edit list"
+msgstr "Modifier liste"
+
+#: ../includes/class-wad-products-list.php:43
+msgid "View list"
+msgstr "Voir liste"
+
+#: ../includes/class-wad-products-list.php:45
+msgid "No list found"
+msgstr "Aucune liste trouvée"
+
+#: ../includes/class-wad-products-list.php:46
+msgid "No list in the trash"
+msgstr "Aucune liste dans la corbeille"
+
+#: ../includes/class-wad-products-list.php:47
+msgid "Lists"
+msgstr "Listes de produits"
+
+#: ../includes/class-wad-products-list.php:80
+msgid "List settings"
+msgstr "Paramètres de la liste"
+
+#: ../includes/class-wad-products-list.php:99
+msgid "Extraction type"
+msgstr "Type d’extraction"
+
+#: ../includes/class-wad-products-list.php:104
+msgid ""
+"How would you like to specify which products you want to include in the list?"
+msgstr ""
+
+#: ../includes/class-wad-products-list.php:123
+msgid "Products IDs"
+msgstr "IDs des produits"
+
+#: ../includes/class-wad-products-list.php:124
+msgid "Values separated by commas"
+msgstr "Valeurs séparées par des virgules"
+
+#: ../includes/class-wad-products-list.php:133
+msgid "Author"
+msgstr "Auteur"
+
+#: ../includes/class-wad-products-list.php:134
+msgid "Retrieves only the elements created by the specified authors"
+msgstr "Retourne uniquement les éléments créés par les auteurs sélectionnés"
+
+#: ../includes/class-wad-products-list.php:144
+msgid "Exclude"
+msgstr "Exclure"
+
+#: ../includes/class-wad-products-list.php:145
+msgid ""
+"Excludes the following elements IDs from the results (values separated by "
+"commas)"
+msgstr ""
+"Exclut les éléments ayant les ID suivants de la liste des résultats (valeurs "
+"séparées par des virgules)"
+
+#: ../includes/class-wad-products-list.php:154
+msgid "Metas relationship"
+msgstr "Relation entre les métis"
+
+#: ../includes/class-wad-products-list.php:167
+msgid "Key"
+msgstr "Clé"
+
+#: ../includes/class-wad-products-list.php:174
+#: ../includes/class-wad-products-list.php:262
+msgid "Operator"
+msgstr "Opérateur"
+
+#: ../includes/class-wad-products-list.php:175
+msgid ""
+"If the operator  is 'IN', 'NOT IN', 'BETWEEN', or 'NOT BETWEEN', make sure "
+"the different values are separated by a comma"
+msgstr ""
+"If l’opérateur est IN', 'NOT IN', 'BETWEEN', or 'NOT BETWEEN', assurez vous "
+"que les différentes valeurs soient séparées par des virgules"
+
+#: ../includes/class-wad-products-list.php:199
+#: ../includes/class-wad-products-list.php:273
+msgid "Value"
+msgstr "Valeur"
+
+#: ../includes/class-wad-products-list.php:206
+msgid "Type"
+msgstr "Type"
+
+#: ../includes/class-wad-products-list.php:231
+msgid "Metas"
+msgstr "Métas"
+
+#: ../includes/class-wad-products-list.php:232
+msgid "Filter by metas"
+msgstr "Filtrer par métas"
+
+#: ../includes/class-wad-products-list.php:241
+msgid "Taxonomies relationship"
+msgstr "Relation entre les taxonomies"
+
+#: ../includes/class-wad-products-list.php:254
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: ../includes/class-wad-products-list.php:281
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#: ../includes/class-wad-products-list.php:282
+msgid "Filter by taxonomies (Categories, Tags, Attributes)"
+msgstr "Filtrer par taxonomies (Catégories, Tags et Attributs)"
+
+#: ../includes/class-wad-products-list.php:308
+msgid "Evaluate"
+msgstr "Evaluer"
+
+#: ../includes/class-wad-products-list.php:405
+msgid " result(s) found"
+msgstr " résultat(s) trouvé(s)"
+
+#: ../includes/functions.php:353
+msgid "Not logged in"
+msgstr ""
+
+#: ../includes/updaters/class-wad-updater.php:53
+msgid "Downloading package from envato market..."
+msgstr "Téléchargement du package d’Envato…"
+
+#: ../includes/updaters/class-wad-updater.php:58
+msgid "Error! Can't connect to filesystem"
+msgstr "Erreur! Impossible d’accéder au système de fichiers"
+
+#: ../includes/updaters/class-wad-updater.php:65
+msgid ""
+"To receive automatic updates license activation is required. Please visit <a "
+"href=\""
+msgstr ""
+"Pour recevoir les mises à jour automatiquement, la licence est obligatoire. "
+"Visitez <a href=\""
+
+#: ../includes/updaters/class-wad-updater.php:70
+msgid "Error! Envato API error"
+msgstr "Erreur de API Envato"
+
+#: ../includes/updaters/class-wad-updater.php:96
+msgid "Error on unzipping package"
+msgstr "Erreur lors de la décompression de l’archive"
+
+#: ../includes/updaters/class-wad-updating-manager.php:198
+msgid "Download new version from CodeCanyon."
+msgstr "Télécharger la nouvelle version de CodeCanyon"
+
+#: ../includes/updaters/class-wad-updating-manager.php:200
+msgid "Update Woocommerce All Discounts now."
+msgstr "Mettre à jour Woocommerce All Discount maintenant."
+
+#: ../includes/utils.php:505
+msgid "Add"
+msgstr "Ajouter"
+
+#~ msgid ""
+#~ "Date from which the discount is applied.<br>Format: <strong>YYYY-MM-DD</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Date à partir de laquelle la réduction sera active.<br>Format: "
+#~ "<strong>YYYY-MM-DD</strong>."
+
+#~ msgid "Date when the discount ends.<br>Format: <strong>YYYY-MM-DD</strong>."
+#~ msgstr ""
+#~ "Date de fin de la réduction.<br>Format: <strong>YYYY-MM-DD</strong>."
+
+#~ msgid "Gifts list"
+#~ msgstr "Liste contenant les cadeaux"

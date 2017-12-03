@@ -33,7 +33,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 	 * * status
 	 * * downloadable
 	 * * virtual
-	 * * recommended
 	 * * sku
 	 * * regular_price
 	 * * sale_price
@@ -106,7 +105,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 	 * * variations.0.updated_at
 	 * * variations.0.downloadable
 	 * * variations.0.virtual
-	 * * variations.0.recommended
 	 * * variations.0.permalink
 	 * * variations.0.sku
 	 * * variations.0.price
@@ -343,7 +341,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 	 * * status
 	 * * downloadable
 	 * * virtual
-	 * * recommended
 	 * * permalink
 	 * * regular_price
 	 * * sale_price_dates_from
@@ -440,7 +437,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 	 * * variations.0.updated_at
 	 * * variations.0.downloadable
 	 * * variations.0.virtual
-	 * * variations.0.recommended
 	 * * variations.0.permalink
 	 * * variations.0.sku
 	 * * variations.0.price
@@ -783,7 +779,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 			'status'             => $product->get_post_data()->post_status,
 			'downloadable'       => $product->is_downloadable(),
 			'virtual'            => $product->is_virtual(),
-			'recommended'        => $product->is_recommended(),
 			'permalink'          => $product->get_permalink(),
 			'sku'                => $product->get_sku(),
 			'price'              => $product->get_price(),
@@ -1031,7 +1026,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 					'updated_at'        => $this->format_datetime( $variation->get_post_data()->post_modified_gmt ),
 					'downloadable'      => $variation->is_downloadable(),
 					'virtual'           => $variation->is_virtual(),
-					'recommended'       => $variation->is_recommended(),
 					'permalink'         => $variation->get_permalink(),
 					'sku'               => $variation->get_sku(),
 					'price'             => $variation->get_price(),
@@ -1095,11 +1089,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 		// Virtual
 		if ( isset( $data['virtual'] ) ) {
 			update_post_meta( $product_id, '_virtual', ( $this->is_true( $data['virtual'] ) ) ? 'yes' : 'no' );
-		}
-
-		// Recommended
-		if ( isset( $data['recommended'] ) ) {
-			update_post_meta( $product_id, '_recommended', ( $this->is_true( $data['recommended'] ) ) ? 'yes' : 'no' );
 		}
 
 		// Tax status
@@ -1622,12 +1611,6 @@ class WC_CLI_Product extends WC_CLI_Command {
 			if ( isset( $variation['virtual'] ) ) {
 				$is_virtual = ( $this->is_true( $variation['virtual'] ) ) ? 'yes' : 'no';
 				update_post_meta( $variation_id, '_virtual', $is_virtual );
-			}
-
-			// Recommended variation
-			if ( isset( $variation['recommended'] ) ) {
-				$is_recommended = ( $this->is_true( $variation['recommended'] ) ) ? 'yes' : 'no';
-				update_post_meta( $variation_id, '_recommended', $is_recommended );
 			}
 
 			// Downloadable variation

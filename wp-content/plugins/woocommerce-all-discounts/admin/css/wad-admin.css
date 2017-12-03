@@ -1,0 +1,159 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/*.wad-rules-table tr td:first-of-type
+{
+    width: 50%;
+}
+
+.wad-rules-table tr td:not(:first-of-type)
+{
+    width: 25%;
+}*/
+
+.wad-rules-table:not(:first-of-type)
+{
+    margin-top: 10px;
+}
+
+.wad-remove-rule {
+    background: url(../images/sprite.png) -66px -116px no-repeat #fff;
+    display: block;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+#wad-datasource-container input[type='text'], 
+#wad-datasource-container select,
+#wad-datasource-container input[type='number']
+{
+    width: 100%;
+}
+
+.wad-loading
+{
+    background: url(../images/spinner.gif) center center no-repeat;
+    width: 20px;
+    height: 24px;
+}
+
+.remove-rf-row
+{
+    background: url(../images/sprite.png) -66px -116px no-repeat #fff;
+    display: block;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.remove-rf-row:hover
+{
+    background: url(../images/sprite.png) -66px -166px no-repeat #fff;
+}
+
+#wad-options-container
+{
+    max-width: 1200px;
+    /*margin: 0 auto;*/
+    padding: 10px;
+}
+
+#wad-options-container > .o-wrap
+{
+    margin-top: 0;
+}
+
+.wad-discount-status
+{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px; 
+    background-color: grey;
+    display: inline-block;
+}
+
+.wad-discount-status.active
+{
+    background-color: #95F90D;
+}
+.menu-icon-o-discount img
+{
+    max-width: 15px;
+}
+#wad-quantity-pricing-rules label
+{
+    float: none;
+    margin: 0;
+}
+
+#wad-quantity-pricing-rules input[type=text]
+{
+    width: 100%;
+}
+/*********Features Lists Styles **********/
+.o-features > div.o-col{
+    min-height: 360px;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.o-features > div.o-col:hover {
+    border: 0 none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.3);
+}
+.list-posts-content .o-features{
+    text-align: center;
+    font-size:0;
+}
+.list-posts-content .o-features img {
+    width: 100px!important;
+/*    padding-top: 10px!important;*/
+}
+.list-posts-content .o-features h3 {
+    font-size: 14px!important;
+    font-family: 'Poppins',sans-serif!important;
+}
+.wad-title {
+    font-family: 'Poppins',sans-serif!important;
+    line-height: normal;
+    color: #3f4e6d;
+    margin-bottom: 0!important;
+}
+.list-posts-content .o-features p {
+    text-align: center;
+    font-family: Droid Serif;
+    font-weight: 400;
+    font-style: normal!important;
+    font-size: 14px!important;
+    margin: 8px auto;
+    color: #818283;
+}
+.list-posts-content{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.o-features .button{
+    box-shadow: none; 
+    line-height: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: #3f4e6d;
+    margin-top: 5px;
+    transition: background-color .2s , color .2s , border-color .2s;
+}
+.o-features > div.o-col:hover .button{
+    background-color: #4D88FF;
+    color:#fff;
+    border-color:#4D88FF;
+}
+.feature-h2{
+    font-size: 23px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[565]]></id>
+		<title><![CDATA[Hibiscus]]></title>
+		<content><![CDATA[]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<date><![CDATA[2017-03-07]]></date>
+		<posttype><![CDATA[product]]></posttype>
+		<permalink><![CDATA[http://localhost:8080/zenit/product/hibiscus/]]></permalink>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<sku><![CDATA[565]]></sku>
+		<price><![CDATA[120]]></price>
+		<regularprice><![CDATA[120]]></regularprice>
+		<saleprice><![CDATA[]]></saleprice>
+		<stockstatus><![CDATA[instock]]></stockstatus>
+		<stock><![CDATA[]]></stock>
+		<visibility><![CDATA[visible]]></visibility>
+		<externalproducturl><![CDATA[]]></externalproducturl>
+		<totalsales><![CDATA[0]]></totalsales>
+		<attributenamepa_roues><![CDATA[[:en]Wheels[:fr]Roues[:]]]></attributenamepa_roues>
+		<attributevaluepa_roues><![CDATA[]]></attributevaluepa_roues>
+		<attributeinvariationspa_roues><![CDATA[no]]></attributeinvariationspa_roues>
+		<attributeisvisiblepa_roues><![CDATA[no]]></attributeisvisiblepa_roues>
+		<attributeistaxonomypa_roues><![CDATA[no]]></attributeistaxonomypa_roues>
+		<attributenamepa_size><![CDATA[Size]]></attributenamepa_size>
+		<attributevaluepa_size><![CDATA[]]></attributevaluepa_size>
+		<attributeinvariationspa_size><![CDATA[no]]></attributeinvariationspa_size>
+		<attributeisvisiblepa_size><![CDATA[no]]></attributeisvisiblepa_size>
+		<attributeistaxonomypa_size><![CDATA[no]]></attributeistaxonomypa_size>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[no]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[no]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[no]]></attributeistaxonomypa_trucks>
+		<shippingclass><![CDATA[]]></shippingclass>
+		<url><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2016/12/Zenit_Longboard_28-01-17-012-Modifier-3-e1488308445773.png|http://localhost:8080/zenit/wp-content/uploads/2016/12/IMG_4438-e1488688295735.jpg|http://localhost:8080/zenit/wp-content/uploads/2017/03/Hibiscus-2.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Hibiscus-1.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Hibiscus.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-097-Modifier-copie.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-096-Modifier-copie.png]]></url>
+		<title_2><![CDATA[Zenit_Longboard_28-01-17-012-Modifier|IMG_4438|Hibiscus|Hibiscus|Hibiscus|Zenit_Longboard_28-01-17-097-Modifier copie|Zenit_Longboard_28-01-17-096-Modifier copie]]></title_2>
+		<caption><![CDATA[||||||]]></caption>
+		<description><![CDATA[||||||]]></description>
+		<alttext><![CDATA[||||||]]></alttext>
+		<url_2><![CDATA[]]></url_2>
+		<producttype><![CDATA[simple]]></producttype>
+		<productcategories><![CDATA[Board|Surfskate]]></productcategories>
+		<producttags><![CDATA[]]></producttags>
+		<status><![CDATA[publish]]></status>
+		<author><![CDATA[3]]></author>
+		<slug><![CDATA[hibiscus]]></slug>
+		<format><![CDATA[]]></format>
+		<template><![CDATA[]]></template>
+		<parentslug><![CDATA[0]]></parentslug>
+		<order><![CDATA[0]]></order>
+		<commentstatus><![CDATA[closed]]></commentstatus>
+		<pingstatus><![CDATA[closed]]></pingstatus>
+		<postmodifieddate><![CDATA[2017-07-29]]></postmodifieddate>
+		<downloadable><![CDATA[no]]></downloadable>
+		<virtual><![CDATA[no]]></virtual>
+		<purchasenote><![CDATA[]]></purchasenote>
+		<featured><![CDATA[no]]></featured>
+		<weight><![CDATA[2.9]]></weight>
+		<length><![CDATA[]]></length>
+		<width><![CDATA[]]></width>
+		<height><![CDATA[]]></height>
+		<salepricedatesfrom><![CDATA[]]></salepricedatesfrom>
+		<salepricedatesto><![CDATA[]]></salepricedatesto>
+		<soldindividually><![CDATA[]]></soldindividually>
+		<managestock><![CDATA[no]]></managestock>
+		<upsells><![CDATA[]]></upsells>
+		<crosssells><![CDATA[]]></crosssells>
+		<downloadablefilespaths><![CDATA[]]></downloadablefilespaths>
+		<downloadablefilesnames><![CDATA[]]></downloadablefilesnames>
+		<downloadlimit><![CDATA[]]></downloadlimit>
+		<downloadexpiry><![CDATA[]]></downloadexpiry>
+		<downloadtype><![CDATA[]]></downloadtype>
+		<buttontext><![CDATA[]]></buttontext>
+		<backorders><![CDATA[no]]></backorders>
+		<taxstatus><![CDATA[taxable]]></taxstatus>
+		<taxclass><![CDATA[standard]]></taxclass>
+		<productimagegallery><![CDATA[]]></productimagegallery>
+		<defaultattributes><![CDATA[]]></defaultattributes>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<productversion><![CDATA[2.6.14]]></productversion>
+		<variationdescription><![CDATA[]]></variationdescription>
+		<wcratingcount><![CDATA[a:0:{}]]></wcratingcount>
+		<wcreviewcount><![CDATA[]]></wcreviewcount>
+		<wcaveragerating><![CDATA[0]]></wcaveragerating>
+		<lienverslecomplete><![CDATA[[:en]Hibiscus Complete[:fr]Hibiscus Complète[:]]]></lienverslecomplete>
+		<buttoncustomize><![CDATA[Customize]]></buttoncustomize>
+		<catgorieslectionne><![CDATA[]]></catgorieslectionne>
+		<calculateyourshippingcost><![CDATA[]]></calculateyourshippingcost>
+		<removeitem><![CDATA[]]></removeitem>
+		<outofstock><![CDATA[]]></outofstock>
+		<section_type><![CDATA[Image|text-fw|Image|Image]]></section_type>
+		<section_titre_menu><![CDATA[Dimensions|Description|[:en]Shape[:fr]Forme[:]|Construction]]></section_titre_menu>
+		<section_title_simple><![CDATA[||[:en]Surf Shape[:fr]Forme de surf[:]|[:en]ROOTS<br/>Construction[:fr]Construction ROOTS[:]]]></section_title_simple>
+		<section_image_simple><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Hibiscus-2.png||http://localhost:8080/zenit/wp-content/uploads/2017/03/Hibiscus.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/rendu_materiaux_site_web_2017_hibiscus.png]]></section_image_simple>
+		<section_image_agrandie><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Hibiscus-1.png|||]]></section_image_agrandie>
+		<section_descriptif><![CDATA[[:en]
+<p class="p1" style="text-align: center;"><span class="s1">Pressed in our surf mold, the Hibiscus is currently the smallest board in our lineup.</span></p>
+<p class="p1" style="text-align: center;"><span class="s1"> </span></p>
+<p style="text-align: center;"><span class="s1">Featuring an all wood construction, epoxy resin, various wheelbase options, functional kicktails and grab rails that merge into wheel wells, the Hibiscus can handle it all: neighborhood cruising, city slashing, and even park skating.</span><span class="s1">Throw on a traditional kingpin or reverse kingpin set-up for serious riding, or even switch to surf skate trucks for a genuine surf feel.</span></p>
+<p style="text-align: center;"><span class="s1">The Hibiscus was designed to cover a wide range of riding styles and setups, for all types of shredders.</span></p>
+ [:fr]
+<p class="p1" style="text-align: center;">Pressé dans notre moule surf, l'Hibiscus est présentement le plus petit modèle de la collection. Celui-ci présente une construction en bois à 100%, de la résine époxy, plusieurs options de montage, un kicktail fonctionnel et  des rails d'appui qui constituent aussi un espace pour les roues. L'Hibiscus est prêt à tout : que ce soit du déplacement urbain, du pump track ou même jusqu’à la rampe la plus proche de chez vous. Vous ne serez pas déçu ! L'Hibiscus, tout comme les autres modèles de la collection surf, a été conçu dans le but de répondre au plus de styles de ride possible. Assemblez la planche avec des trucks de skate traditionnels, des trucks de longboard ou même des trucks de surfskate pour pleinement avoir la sensation surf.</p>
+ [:]|||[:en]
+<p class="p1" style="text-align: center;">7 plies of hard rock Canadian maple glued with high-end epoxy resin. Light, comfortable, traditional.</p>
+ [:fr]
+<p class="p1" style="text-align: center;"><span style="font-weight: 400;">7 couches d’érable dur canadien, collées avec de l’époxy haut de gamme. Léger, confortable, traditionnel.</span></p>
+ [:]]]></section_descriptif>
+		<section_bg_image><![CDATA[|http://localhost:8080/zenit/wp-content/uploads/2016/12/IMG_4450-2.jpg|http://localhost:8080/zenit/wp-content/uploads/2016/09/video-bg.jpg|http://localhost:8080/zenit/wp-content/uploads/2016/09/video-bg.jpg]]></section_bg_image>
+		<section_contenu><![CDATA[|[:en]
+<p class="p1" style="text-align: right;"><span class="s1">Pressed in our surf mold, the Hibiscus is currently the smallest board in our lineup.</span></p>
+<p class="p1" style="text-align: center;"><span class="s1"> </span><span class="s1">Featuring an all wood construction, epoxy resin, various wheelbase options, functional kicktails and grab rails that merge into wheel wells, the Hibiscus can handle it all: neighborhood cruising, city slashing, and even park skating.</span></p>
+
+
+<hr />
+
+<blockquote>
+<p style="text-align: center;"><span class="s1">Throw on a traditional kingpin or reverse kingpin set-up for serious riding, or even switch to surf skate trucks for a genuine surf feel. </span><span class="s1">The Hibiscus was designed to cover a wide range of riding styles and setups, for all types of shredders. </span></p>
+<p style="text-align: center;"><span class="s1"><em>- </em></span></p>
+<p style="text-align: center;"><span class="s1"><em>The Hibiscus weighs 3lb and is suited for people up to 300 pounds.</em> </span></p>
+</blockquote>
+[:fr]
+<p class="p1" style="text-align: center;">Pressé dans notre moule surf, l'Hibiscus est présentement le plus petit modèle de la collection. Celui-ci présente une construction en bois à 100%, de la résine époxy, plusieurs options de montage, un kicktail fonctionnel et  des rails d'appui qui constituent aussi un espace pour les roues. L'Hibiscus est prêt à tout : que ce soit du déplacement urbain, du pump track ou même jusqu’à la rampe la plus proche de chez vous. Vous ne serez pas déçu !</p>
+
+
+<hr />
+<p style="text-align: center;"><span style="font-weight: 400;">Utilisez des trucks à géométrie traditionnelle, à géométrie inversée ou même des trucks de </span><i><span style="font-weight: 400;">surf skate</span></i><span style="font-weight: 400;"> pour une sensation de surf authentique! L’Hibiscus a été conçu pour convenir à un large éventail de planchistes et de configuration.  </span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">- </span></p>
+<p style="text-align: center;"><span style="font-weight: 400;"><em>L’Hibiscus pèse 3lb (1,3 kg) et convient aux utilisateurs pesant jusqu'à 300 livres (130 kg).</em></span></p>
+ [:]||]]></section_contenu>
+		<section_video><![CDATA[||https://www.youtube.com/watch?v=duRJ2dJvr10|https://www.youtube.com/watch?v=duRJ2dJvr10]]></section_video>
+		<section1icone><![CDATA[]]></section1icone>
+		<section2icone><![CDATA[]]></section2icone>
+		<section3icone><![CDATA[]]></section3icone>
+		<section1titre><![CDATA[]]></section1titre>
+		<section2titre><![CDATA[]]></section2titre>
+		<section3titre><![CDATA[]]></section3titre>
+		<section1description><![CDATA[]]></section1description>
+		<section2description><![CDATA[]]></section2description>
+		<section3description><![CDATA[]]></section3description>
+		<texteenblanc><![CDATA[1]]></texteenblanc>
+		<enimagestest><![CDATA[]]></enimagestest>
+		<soustitre><![CDATA[Small, lightweight and stable]]></soustitre>
+		<recommendedsetup><![CDATA[]]></recommendedsetup>
+		<visionneusehaut_image><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-096-Modifier-copie.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-097-Modifier-copie.png]]></visionneusehaut_image>
+		<fonddelentte><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2016/12/IMG_4438-e1488688295735.jpg]]></fonddelentte>
+		<longueurtitre><![CDATA[Height]]></longueurtitre>
+		<longueur><![CDATA[29"]]></longueur>
+		<largeurtitre><![CDATA[Width]]></largeurtitre>
+		<largeur><![CDATA[9"]]></largeur>
+		<wheelbasetitre><![CDATA[Wheelbase]]></wheelbasetitre>
+		<wheelbase><![CDATA[15.5" - 17"]]></wheelbase>
+		<buybutton><![CDATA[Buy]]></buybutton>
+		<spcifications_title><![CDATA[Cruise|Carving|Pumping|Push|Freestyle|Slide|Flex]]></spcifications_title>
+		<spcifications_desc><![CDATA[[:en]Range of smoothness/ease of riding[:fr]Permet une balade agréable.[:]|[:en]Wide, S shaped turns to simulate that surfing feel.[:fr]Faire des virages successifs de gauche à droite. Technique utilisée dans pratiquement tous les sports de planche.[:]|[:en]Combining right and left carves to propel yourself forward.[:fr]Technique où l'on combine les virages de gauche à droite de façon à créer de l'inertie, donc utiliser ce mouvement pour se propulser.[:]|[:en]Skating for transportation and long distances with minimal effort and maximum speed.[:fr]Utilisation de la planche comme moyen de transport, afin de parcourir une grande distance le plus rapidement possible et avec le moins d’effort.[:]|[:en]Technical tricks inspired by street skating: flips, spins and jumps mixed together.[:fr]Figure à basse vitesse ou l'on fait bouger la planche de façon technique et stylisée.[:]|[:en]Method to reduce speed or stop by drifting/sliding on the pavement.[:fr]Technique utilisée pour s’arrêter ou ralentir en dérapant avec sa planche.[:]|[:en]Range of the board's rigidity. (flexy - stiff)[:fr]Variation de la souplesse de la planche (flexible à rigide).[:]]]></spcifications_desc>
+		<spcifications_out_of_ten><![CDATA[8|10|7|4|6|3|3]]></spcifications_out_of_ten>
+		<spcificationennoir><![CDATA[]]></spcificationennoir>
+		<lienverslecomplete_2><![CDATA[[:en]Hibiscus Complete[:fr]Hibiscus Complète[:]]]></lienverslecomplete_2>
+		<buttonaddtocart><![CDATA[Add to cart]]></buttonaddtocart>
+		<buttoncustomize_2><![CDATA[Customize]]></buttoncustomize_2>
+		<boardonly><![CDATA[board only]]></boardonly>
+		<nometnomcomplet><![CDATA[]]></nometnomcomplet>
+		<tagline><![CDATA[]]></tagline>
+		<description_2><![CDATA[]]></description_2>
+		<grosseimage><![CDATA[]]></grosseimage>
+		<positiongographique><![CDATA[]]></positiongographique>
+		<usernameinstagram><![CDATA[]]></usernameinstagram>
+		<map><![CDATA[]]></map>
+		<sectiongauche><![CDATA[]]></sectiongauche>
+		<sectiondroite><![CDATA[]]></sectiondroite>
+		<titrecontactus><![CDATA[]]></titrecontactus>
+		<titrefindus><![CDATA[]]></titrefindus>
+		<titreopeninghours><![CDATA[]]></titreopeninghours>
+		<listedesvidos><![CDATA[]]></listedesvidos>
+		<catgorieslectionne_2><![CDATA[]]></catgorieslectionne_2>
+		<sectionvisionneuse><![CDATA[]]></sectionvisionneuse>
+		<sectiontextedinformationtitre><![CDATA[]]></sectiontextedinformationtitre>
+		<sectiontextedinformationtexte><![CDATA[]]></sectiontextedinformationtexte>
+		<shareyourstory><![CDATA[]]></shareyourstory>
+		<sectionnewsletterheading><![CDATA[]]></sectionnewsletterheading>
+		<sectionnewsletter><![CDATA[]]></sectionnewsletter>
+		<sectionnewsletterimage><![CDATA[]]></sectionnewsletterimage>
+		<newsletteremailfield><![CDATA[]]></newsletteremailfield>
+		<newslettersendbutton><![CDATA[]]></newslettersendbutton>
+		<contactus><![CDATA[]]></contactus>
+	</node>
+	<node>
+		<id><![CDATA[564]]></id>
+		<title><![CDATA[Alaia]]></title>
+		<content><![CDATA[]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<date><![CDATA[2017-03-07]]></date>
+		<posttype><![CDATA[product]]></posttype>
+		<permalink><![CDATA[http://localhost:8080/zenit/product/alaia/]]></permalink>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<sku><![CDATA[564]]></sku>
+		<price><![CDATA[120]]></price>
+		<regularprice><![CDATA[120]]></regularprice>
+		<saleprice><![CDATA[]]></saleprice>
+		<stockstatus><![CDATA[instock]]></stockstatus>
+		<stock><![CDATA[]]></stock>
+		<visibility><![CDATA[visible]]></visibility>
+		<externalproducturl><![CDATA[]]></externalproducturl>
+		<totalsales><![CDATA[1]]></totalsales>
+		<attributenamepa_roues><![CDATA[[:en]Wheels[:fr]Roues[:]]]></attributenamepa_roues>
+		<attributevaluepa_roues><![CDATA[]]></attributevaluepa_roues>
+		<attributeinvariationspa_roues><![CDATA[no]]></attributeinvariationspa_roues>
+		<attributeisvisiblepa_roues><![CDATA[no]]></attributeisvisiblepa_roues>
+		<attributeistaxonomypa_roues><![CDATA[no]]></attributeistaxonomypa_roues>
+		<attributenamepa_size><![CDATA[Size]]></attributenamepa_size>
+		<attributevaluepa_size><![CDATA[]]></attributevaluepa_size>
+		<attributeinvariationspa_size><![CDATA[no]]></attributeinvariationspa_size>
+		<attributeisvisiblepa_size><![CDATA[no]]></attributeisvisiblepa_size>
+		<attributeistaxonomypa_size><![CDATA[no]]></attributeistaxonomypa_size>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[no]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[no]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[no]]></attributeistaxonomypa_trucks>
+		<shippingclass><![CDATA[]]></shippingclass>
+		<url><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2016/12/Zenit_Longboard_28-01-17-018-Modifier-e1488309568158.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Capture-d’écran-2017-03-12-à-00.02.40.jpg|http://localhost:8080/zenit/wp-content/uploads/2017/03/Alaia-2.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Alaia-1.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Alaia.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-101-Modifier-copie.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-099-Modifier-copie.png]]></url>
+		<title_2><![CDATA[Zenit_Longboard_28-01-17-018-Modifier|Capture d’écran 2017-03-12 à 00.02.40|Alaia|Alaia|Alaia|Zenit_Longboard_28-01-17-101-Modifier copie|Zenit_Longboard_28-01-17-099-Modifier copie]]></title_2>
+		<caption><![CDATA[||||||]]></caption>
+		<description><![CDATA[||||||]]></description>
+		<alttext><![CDATA[||||||]]></alttext>
+		<url_2><![CDATA[]]></url_2>
+		<producttype><![CDATA[simple]]></producttype>
+		<productcategories><![CDATA[Board|Surfskate]]></productcategories>
+		<producttags><![CDATA[]]></producttags>
+		<status><![CDATA[publish]]></status>
+		<author><![CDATA[3]]></author>
+		<slug><![CDATA[alaia-copier]]></slug>
+		<format><![CDATA[]]></format>
+		<template><![CDATA[]]></template>
+		<parentslug><![CDATA[0]]></parentslug>
+		<order><![CDATA[1]]></order>
+		<commentstatus><![CDATA[closed]]></commentstatus>
+		<pingstatus><![CDATA[closed]]></pingstatus>
+		<postmodifieddate><![CDATA[2017-07-29]]></postmodifieddate>
+		<downloadable><![CDATA[no]]></downloadable>
+		<virtual><![CDATA[no]]></virtual>
+		<purchasenote><![CDATA[]]></purchasenote>
+		<featured><![CDATA[no]]></featured>
+		<weight><![CDATA[3.1]]></weight>
+		<length><![CDATA[]]></length>
+		<width><![CDATA[]]></width>
+		<height><![CDATA[]]></height>
+		<salepricedatesfrom><![CDATA[]]></salepricedatesfrom>
+		<salepricedatesto><![CDATA[]]></salepricedatesto>
+		<soldindividually><![CDATA[]]></soldindividually>
+		<managestock><![CDATA[no]]></managestock>
+		<upsells><![CDATA[]]></upsells>
+		<crosssells><![CDATA[]]></crosssells>
+		<downloadablefilespaths><![CDATA[]]></downloadablefilespaths>
+		<downloadablefilesnames><![CDATA[]]></downloadablefilesnames>
+		<downloadlimit><![CDATA[]]></downloadlimit>
+		<downloadexpiry><![CDATA[]]></downloadexpiry>
+		<downloadtype><![CDATA[]]></downloadtype>
+		<buttontext><![CDATA[]]></buttontext>
+		<backorders><![CDATA[no]]></backorders>
+		<taxstatus><![CDATA[taxable]]></taxstatus>
+		<taxclass><![CDATA[standard]]></taxclass>
+		<productimagegallery><![CDATA[]]></productimagegallery>
+		<defaultattributes><![CDATA[]]></defaultattributes>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<productversion><![CDATA[2.6.14]]></productversion>
+		<variationdescription><![CDATA[]]></variationdescription>
+		<wcratingcount><![CDATA[a:0:{}]]></wcratingcount>
+		<wcreviewcount><![CDATA[]]></wcreviewcount>
+		<wcaveragerating><![CDATA[0]]></wcaveragerating>
+		<lienverslecomplete><![CDATA[[:en]Alaia Complete[:fr]Alaia Complète[:]]]></lienverslecomplete>
+		<buttoncustomize><![CDATA[Customize]]></buttoncustomize>
+		<catgorieslectionne><![CDATA[]]></catgorieslectionne>
+		<calculateyourshippingcost><![CDATA[]]></calculateyourshippingcost>
+		<removeitem><![CDATA[]]></removeitem>
+		<outofstock><![CDATA[]]></outofstock>
+		<section_type><![CDATA[Image|text-fw|Image|Image|video]]></section_type>
+		<section_titre_menu><![CDATA[Dimensions|Description|[:en]Shape[:fr]Forme[:]|Construction|Video]]></section_titre_menu>
+		<section_title_simple><![CDATA[||[:en]Surf Shape[:fr]Forme de surf[:]|[:en]ROOTS<br/>Construction[:fr]Construction ROOTS[:]|]]></section_title_simple>
+		<section_image_simple><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Alaia-2.png||http://localhost:8080/zenit/wp-content/uploads/2017/03/Alaia.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/rendu_materiaux_site_web_2017_alaia.png|]]></section_image_simple>
+		<section_image_agrandie><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Alaia-1.png||||]]></section_image_agrandie>
+		<section_descriptif><![CDATA[[:en]
+<p class="p1" style="text-align: center;">Pressed in our surf mold, the Alaia is the middle ground in our surf collection.</p>
+<p class="p1" style="text-align: center;">With an all wood construction, epoxy resin, multiple wheelbase options, a functional kicktail and huge wheel wells, the Alaia was meant to be skated in any given situation without compromising comfort, whether it be urban cruising, carving or even ramp riding. Like every Zenit board, the Alaia is equipped with many wheelbase options to accommodate as many styles as possible.</p>
+
+
+<hr />
+<p class="p1" style="text-align: center;">Set it up with traditional or reverse kingpin trucks for regular riding, or even surf skate trucks to fully get the surf feeling.</p>
+[:fr]
+<p class="p1" style="text-align: center;">Pressé dans notre moule surf, le Alaia est l'entre-deux dans la collection surf. Présentant, comme tous les modèles surf, une construction en bois à 100%, de la résine époxy, plusieurs options de montage, un kicktail fonctionnel et d'énormes espaces pour les roues, le Alaia est destiné à être «ridé» dans toutes sortes de situations. Cela sans compromettre votre confort lors de déplacements urbains, de carving ou même sur la rampe la plus proche. Comme toutes planches Zenit, l'Alaia possède plusieurs options de montage dans le but de s’adapter aux divers styles de ride possibles. Assemblez-la avec trucks de skate, de longboard ou même des trucks de surf skate pour pleinement profiter de la sensation surf.</p>
+
+
+<hr />
+<p class="p1" style="text-align: center;"><span style="font-weight: 400;">Utilisez des trucks à géométrie traditionnelle, à géométrie inversée ou même des trucks de </span><i><span style="font-weight: 400;">surf skate</span></i><span style="font-weight: 400;"> pour une sensation de surf authentique! L’Alaia a été conçu pour convenir à un large éventail de planchistes et de configuration.</span></p>
+[:]|||[:en]
+<p class="p1">7 plies of hard rock Canadian maple glued with high-end epoxy resin. Light, comfortable, traditional.</p>
+[:fr]
+<p class="p1"><span style="font-weight: 400;">7 couches d’érable dur canadien, collées avec de l’époxy haut de gamme. Léger, confortable, traditionnel. </span></p>
+[:]|]]></section_descriptif>
+		<section_bg_image><![CDATA[|http://localhost:8080/zenit/wp-content/uploads/2016/12/IMG_4450-2.jpg|http://localhost:8080/zenit/wp-content/uploads/2016/09/video-bg.jpg|http://localhost:8080/zenit/wp-content/uploads/2016/09/video-bg.jpg|http://localhost:8080/zenit/wp-content/uploads/2016/08/160909_ZenitBoards_0610-e1489979271951.jpg]]></section_bg_image>
+		<section_contenu><![CDATA[|[:en]
+<p class="p1" style="text-align: center;">Pressed in our surf mold, the Alaia is the middle ground in our surf collection.</p>
+<p class="p1" style="text-align: center;">With an all wood construction, epoxy resin, multiple wheelbase options, a functional kicktail and huge wheel wells, the Alaia was meant to be skated in any given situations without compromising comfort, whether it be urban cruising, carving or even ramp riding.</p>
+
+
+<hr />
+
+<blockquote>
+<p class="p1" style="text-align: center;">Like every Zenit board, the Alaia is equipped with many wheelbase options to accommodate as many styles as possible. Set it up with traditional or reverse kingpin trucks for regular riding, or even surf skate trucks to fully get the surf feeling.</p>
+<p class="p1" style="text-align: center;"><em>-</em></p>
+<p class="p1" style="text-align: center;"><em>The Alaia weighs 3.3lb and is suited for people up to 300 pounds.</em></p>
+</blockquote>
+[:fr]
+<p class="p1" style="text-align: center;">Pressé dans notre moule surf, l'Alaia est l'entre-deux dans la collection surf. Présentant, comme tous les modèles surf, une construction en bois à 100%, de la résine époxy, plusieurs options de montage, un kicktail fonctionnel et d'énormes espaces pour les roues, le Alaia est destiné à être «ridé» dans toutes sortes de situations. Cela sans compromettre votre confort lors de déplacements urbains, de carving ou même sur la rampe la plus proche.</p>
+
+
+<hr />
+<p class="p1" style="text-align: center;">Comme toutes planches Zenit, l'Alaia possède plusieurs options de montage dans le but de s’adapter aux divers styles de ride possibles. Assemblez-la avec trucks de skate, de longboard ou même des trucks de surf skate pour pleinement profiter de la sensation surf.</p>
+<p class="p1" style="text-align: center;">-</p>
+<p class="p1" style="text-align: center;"><em><span style="font-weight: 400;">L’Alaia pèse 3,3lb (1,5 kg) et conviendra aux utilisateurs pesant jusqu'à 300 livres (130 kg).</span></em></p>
+[:]|||]]></section_contenu>
+		<section_video><![CDATA[||https://www.youtube.com/watch?v=duRJ2dJvr10|https://www.youtube.com/watch?v=duRJ2dJvr10|https://www.youtube.com/watch?v=QvxzoZeJILA]]></section_video>
+		<section1icone><![CDATA[]]></section1icone>
+		<section2icone><![CDATA[]]></section2icone>
+		<section3icone><![CDATA[]]></section3icone>
+		<section1titre><![CDATA[]]></section1titre>
+		<section2titre><![CDATA[]]></section2titre>
+		<section3titre><![CDATA[]]></section3titre>
+		<section1description><![CDATA[]]></section1description>
+		<section2description><![CDATA[]]></section2description>
+		<section3description><![CDATA[]]></section3description>
+		<texteenblanc><![CDATA[1]]></texteenblanc>
+		<enimagestest><![CDATA[]]></enimagestest>
+		<soustitre><![CDATA[Urban cruising, carving or ramp riding.]]></soustitre>
+		<recommendedsetup><![CDATA[]]></recommendedsetup>
+		<visionneusehaut_image><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-099-Modifier-copie.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-101-Modifier-copie.png]]></visionneusehaut_image>
+		<fonddelentte><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/IMG_4442-1.jpg]]></fonddelentte>
+		<longueurtitre><![CDATA[Height]]></longueurtitre>
+		<longueur><![CDATA[31"]]></longueur>
+		<largeurtitre><![CDATA[Width]]></largeurtitre>
+		<largeur><![CDATA[9.75"]]></largeur>
+		<wheelbasetitre><![CDATA[Wheelbase]]></wheelbasetitre>
+		<wheelbase><![CDATA[15.5" - 18"]]></wheelbase>
+		<buybutton><![CDATA[Buy]]></buybutton>
+		<spcifications_title><![CDATA[Cruise|Carving|Pumping|Push|Freestyle|Slide|Flex]]></spcifications_title>
+		<spcifications_desc><![CDATA[[:en]Range of smoothness/ease of riding[:fr]Permet une balade agréable.[:]|[:en]Wide, S shaped turns to simulate that surfing feel.[:fr]Faire des virages successifs de gauche à droite. Technique utilisée dans pratiquement tous les sports de planche.[:]|[:en]Combining right and left carves to propel yourself forward.[:fr]Technique où l'on combine les virages de gauche à droite de façon à créer de l’inertie, donc utiliser ce mouvement pour se propulser.[:]|[:en]Skating for transportation and long distances with minimal effort and maximum speed.[:fr]Utilisation de la planche comme moyen de transport, afin de parcourir une grande distance le plus rapidement possible et avec le moins d’effort.[:]|[:en]Technical tricks inspired by street skating: flips, spins and jumps mixed together.[:fr]Figure à basse vitesse ou l'on fait bouger la planche de façon technique et stylisée.[:]|[:en]Method to reduce speed or stop by drifting/sliding on the pavement.[:fr]Technique utilisée pour s’arrêter ou ralentir en dérapant avec sa planche.[:]|[:en]Range of the board's rigidity. (flexy - stiff)[:fr]Variation de la souplesse de la planche (flexible à rigide).[:]]]></spcifications_desc>
+		<spcifications_out_of_ten><![CDATA[9|10|7|4|6|3|3]]></spcifications_out_of_ten>
+		<spcificationennoir><![CDATA[]]></spcificationennoir>
+		<lienverslecomplete_2><![CDATA[[:en]Alaia Complete[:fr]Alaia Complète[:]]]></lienverslecomplete_2>
+		<buttonaddtocart><![CDATA[Add to cart]]></buttonaddtocart>
+		<buttoncustomize_2><![CDATA[Customize]]></buttoncustomize_2>
+		<boardonly><![CDATA[board only]]></boardonly>
+		<nometnomcomplet><![CDATA[]]></nometnomcomplet>
+		<tagline><![CDATA[]]></tagline>
+		<description_2><![CDATA[]]></description_2>
+		<grosseimage><![CDATA[]]></grosseimage>
+		<positiongographique><![CDATA[]]></positiongographique>
+		<usernameinstagram><![CDATA[]]></usernameinstagram>
+		<map><![CDATA[]]></map>
+		<sectiongauche><![CDATA[]]></sectiongauche>
+		<sectiondroite><![CDATA[]]></sectiondroite>
+		<titrecontactus><![CDATA[]]></titrecontactus>
+		<titrefindus><![CDATA[]]></titrefindus>
+		<titreopeninghours><![CDATA[]]></titreopeninghours>
+		<listedesvidos><![CDATA[]]></listedesvidos>
+		<catgorieslectionne_2><![CDATA[]]></catgorieslectionne_2>
+		<sectionvisionneuse><![CDATA[]]></sectionvisionneuse>
+		<sectiontextedinformationtitre><![CDATA[]]></sectiontextedinformationtitre>
+		<sectiontextedinformationtexte><![CDATA[]]></sectiontextedinformationtexte>
+		<shareyourstory><![CDATA[]]></shareyourstory>
+		<sectionnewsletterheading><![CDATA[]]></sectionnewsletterheading>
+		<sectionnewsletter><![CDATA[]]></sectionnewsletter>
+		<sectionnewsletterimage><![CDATA[]]></sectionnewsletterimage>
+		<newsletteremailfield><![CDATA[]]></newsletteremailfield>
+		<newslettersendbutton><![CDATA[]]></newslettersendbutton>
+		<contactus><![CDATA[]]></contactus>
+	</node>
+	<node>
+		<id><![CDATA[554]]></id>
+		<title><![CDATA[Choka]]></title>
+		<content><![CDATA[]]></content>
+		<excerpt><![CDATA[]]></excerpt>
+		<date><![CDATA[2017-03-05]]></date>
+		<posttype><![CDATA[product]]></posttype>
+		<permalink><![CDATA[http://localhost:8080/zenit/product/choka/]]></permalink>
+		<parentproductid><![CDATA[0]]></parentproductid>
+		<sku><![CDATA[554]]></sku>
+		<price><![CDATA[120]]></price>
+		<regularprice><![CDATA[120]]></regularprice>
+		<saleprice><![CDATA[]]></saleprice>
+		<stockstatus><![CDATA[instock]]></stockstatus>
+		<stock><![CDATA[]]></stock>
+		<visibility><![CDATA[visible]]></visibility>
+		<externalproducturl><![CDATA[]]></externalproducturl>
+		<totalsales><![CDATA[2]]></totalsales>
+		<attributenamepa_roues><![CDATA[[:en]Wheels[:fr]Roues[:]]]></attributenamepa_roues>
+		<attributevaluepa_roues><![CDATA[]]></attributevaluepa_roues>
+		<attributeinvariationspa_roues><![CDATA[no]]></attributeinvariationspa_roues>
+		<attributeisvisiblepa_roues><![CDATA[no]]></attributeisvisiblepa_roues>
+		<attributeistaxonomypa_roues><![CDATA[no]]></attributeistaxonomypa_roues>
+		<attributenamepa_size><![CDATA[Size]]></attributenamepa_size>
+		<attributevaluepa_size><![CDATA[]]></attributevaluepa_size>
+		<attributeinvariationspa_size><![CDATA[no]]></attributeinvariationspa_size>
+		<attributeisvisiblepa_size><![CDATA[no]]></attributeisvisiblepa_size>
+		<attributeistaxonomypa_size><![CDATA[no]]></attributeistaxonomypa_size>
+		<attributenamepa_trucks><![CDATA[Trucks]]></attributenamepa_trucks>
+		<attributevaluepa_trucks><![CDATA[]]></attributevaluepa_trucks>
+		<attributeinvariationspa_trucks><![CDATA[no]]></attributeinvariationspa_trucks>
+		<attributeisvisiblepa_trucks><![CDATA[no]]></attributeisvisiblepa_trucks>
+		<attributeistaxonomypa_trucks><![CDATA[no]]></attributeistaxonomypa_trucks>
+		<shippingclass><![CDATA[]]></shippingclass>
+		<url><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2016/12/Zenit_Longboard_28-01-17-020-Modifier-2-e1488309608381.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Choka-2.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Choka-1.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Choka.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-104-Modifier-copie.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-102-Modifier-copie.png]]></url>
+		<title_2><![CDATA[Zenit_Longboard_28-01-17-020-Modifier|Choka|Choka|Choka|Zenit_Longboard_28-01-17-104-Modifier copie|Zenit_Longboard_28-01-17-102-Modifier copie]]></title_2>
+		<caption><![CDATA[|||||]]></caption>
+		<description><![CDATA[|||||]]></description>
+		<alttext><![CDATA[|||||]]></alttext>
+		<url_2><![CDATA[]]></url_2>
+		<producttype><![CDATA[simple]]></producttype>
+		<productcategories><![CDATA[Board|Surfskate]]></productcategories>
+		<producttags><![CDATA[]]></producttags>
+		<status><![CDATA[publish]]></status>
+		<author><![CDATA[3]]></author>
+		<slug><![CDATA[choka]]></slug>
+		<format><![CDATA[]]></format>
+		<template><![CDATA[]]></template>
+		<parentslug><![CDATA[0]]></parentslug>
+		<order><![CDATA[9]]></order>
+		<commentstatus><![CDATA[closed]]></commentstatus>
+		<pingstatus><![CDATA[closed]]></pingstatus>
+		<postmodifieddate><![CDATA[2017-07-29]]></postmodifieddate>
+		<downloadable><![CDATA[no]]></downloadable>
+		<virtual><![CDATA[no]]></virtual>
+		<purchasenote><![CDATA[]]></purchasenote>
+		<featured><![CDATA[no]]></featured>
+		<weight><![CDATA[3.8]]></weight>
+		<length><![CDATA[]]></length>
+		<width><![CDATA[]]></width>
+		<height><![CDATA[]]></height>
+		<salepricedatesfrom><![CDATA[]]></salepricedatesfrom>
+		<salepricedatesto><![CDATA[]]></salepricedatesto>
+		<soldindividually><![CDATA[]]></soldindividually>
+		<managestock><![CDATA[no]]></managestock>
+		<upsells><![CDATA[]]></upsells>
+		<crosssells><![CDATA[]]></crosssells>
+		<downloadablefilespaths><![CDATA[]]></downloadablefilespaths>
+		<downloadablefilesnames><![CDATA[]]></downloadablefilesnames>
+		<downloadlimit><![CDATA[]]></downloadlimit>
+		<downloadexpiry><![CDATA[]]></downloadexpiry>
+		<downloadtype><![CDATA[]]></downloadtype>
+		<buttontext><![CDATA[]]></buttontext>
+		<backorders><![CDATA[no]]></backorders>
+		<taxstatus><![CDATA[taxable]]></taxstatus>
+		<taxclass><![CDATA[standard]]></taxclass>
+		<productimagegallery><![CDATA[]]></productimagegallery>
+		<defaultattributes><![CDATA[]]></defaultattributes>
+		<productattributes><![CDATA[a:0:{}]]></productattributes>
+		<productversion><![CDATA[2.6.14]]></productversion>
+		<variationdescription><![CDATA[]]></variationdescription>
+		<wcratingcount><![CDATA[a:0:{}]]></wcratingcount>
+		<wcreviewcount><![CDATA[]]></wcreviewcount>
+		<wcaveragerating><![CDATA[0]]></wcaveragerating>
+		<lienverslecomplete><![CDATA[[:en]Choka Complete[:fr]Choka Complète[:]]]></lienverslecomplete>
+		<buttoncustomize><![CDATA[Customize]]></buttoncustomize>
+		<catgorieslectionne><![CDATA[]]></catgorieslectionne>
+		<calculateyourshippingcost><![CDATA[]]></calculateyourshippingcost>
+		<removeitem><![CDATA[]]></removeitem>
+		<outofstock><![CDATA[]]></outofstock>
+		<section_type><![CDATA[Image|text-fw|Image|Image]]></section_type>
+		<section_titre_menu><![CDATA[Dimensions|Description|[:en]Shape[:fr]Forme[:]|Construction]]></section_titre_menu>
+		<section_title_simple><![CDATA[||[:en]Surf Shape[:fr]Forme de surf[:]|[:en]Roots<br/> Construction[:fr]construction ROOTS[:]]]></section_title_simple>
+		<section_image_simple><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Choka-2.png||http://localhost:8080/zenit/wp-content/uploads/2017/03/Choka.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/rendu_materiaux_site_web_2017_choka.png]]></section_image_simple>
+		<section_image_agrandie><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Choka-1.png|||]]></section_image_agrandie>
+		<section_descriptif><![CDATA[[:en]
+<p class="p1" style="text-align: center;">Pressed in our surf mold, the Choka is the big brother of our surf lineup.</p>
+<p class="p1" style="text-align: center;">Featuring an all wood construction, epoxy resin, multiple wheelbase options, a functional kicktail, wheel wells and a long nose, the Choka was meant to be ridden faster and harder.</p>
+
+
+<hr />
+<p class="p1" style="text-align: center;">Equipped with longer wheelbase options, a bigger platform and a big steep nose, it is the most all-purpose board in the surf lineup.</p>
+<p class="p1" style="text-align: center;">Like every Zenit board, the Choka is equipped with many wheelbase options to accommodate as many riding styles as possible. Set it up with traditional kingpins, reverse kingpin trucks or even surf skate trucks to get a true surf feeling.</p>
+[:fr]
+<p class="p1" style="text-align: center;">Pressé dans notre moule surf, le Choka est le grand frère de la collection surf. Présentant, comme tous les modèles surf, une construction en bois à 100%, de la résine époxy, plusieurs options de montage, un kicktail fonctionnel et des espaces machinés pour les roues, le Choka est destiné à être «ridé» dans toutes sortes de situations.</p>
+
+
+<hr />
+<p class="p1" style="text-align: center;">Comme toutes les planches Zenit, le Choka possède plusieurs options de montage dans le but de répondre au plus de styles de ride possibles. Assemblez-la avec des trucks de skate, de longboard ou même avec des trucks de surf skate, pour pofiter pleinement de la sensation surf.</p>
+[:]|||[:en]
+<p class="p1">7 plies of hard rock Canadian maple glued with high-end epoxy resin. Light, comfortable, traditional.</p>
+[:fr]
+<p class="p1"><span style="font-weight: 400;">7 couches d’érable dur Canadien, collées avec de l’époxy haut de gamme. Léger, confortable, traditionnel.</span></p>
+[:]]]></section_descriptif>
+		<section_bg_image><![CDATA[|http://localhost:8080/zenit/wp-content/uploads/2016/12/IMG_4450-2.jpg|http://localhost:8080/zenit/wp-content/uploads/2016/09/video-bg.jpg|http://localhost:8080/zenit/wp-content/uploads/2016/09/video-bg.jpg]]></section_bg_image>
+		<section_contenu><![CDATA[|[:en]
+<p class="p1" style="text-align: center;">Pressed in our surf mold, the Choka is the big brother of our surf lineup. Featuring an all wood construction, epoxy resin, multiple wheelbase options, a functional kicktail, wheel wells and a long nose, the Choka was meant to be ridden faster and harder.</p>
+
+
+<hr />
+<p class="p1" style="text-align: center;">Equipped with longer wheelbase options, a bigger platform and a big steep nose, it is the most all-purpose board in the surf lineup.</p>
+
+<blockquote>
+<p class="p1" style="text-align: center;">Like every Zenit board, the Choka is equipped with many wheelbase options to accommodate as many riding styles as possible. Set it up with traditional kingpins, reverse kingpin trucks or even surf skate trucks to get a true surf feeling.</p>
+<p class="p1" style="text-align: center;"><em>-</em></p>
+<p class="p1" style="text-align: center;"><em>The Choka weighs 3.9lb and is suited for people up to 300 pounds.</em></p>
+</blockquote>
+[:fr]
+<p class="p1" style="text-align: center;">Pressé dans notre moule surf, le Choka est le grand frère de la collection surf. Présentant, comme tous les modèles surf, une construction en bois à 100%, de la résine époxy, plusieurs options de montage, un kicktail fonctionnel et des espaces machinés pour les roues, le Choka est destiné à être «ridé» dans toutes sortes de situations.</p>
+
+
+<hr />
+<p class="p1" style="text-align: center;"><span style="letter-spacing: 0.05em;">Comme toutes les planches Zenit, le Choka possède plusieurs options de montage dans le but de répondre au plus de styles de ride possibles. Assemblez-la avec des trucks de skate, de longboard ou même avec des trucks de surf skate, pour pofiter pleinement de la sensation surf. </span></p>
+<p class="p1" style="text-align: center;"><span style="letter-spacing: 0.05em;">-</span></p>
+<p class="p1" style="text-align: center;"><span style="letter-spacing: 0.05em;"><em><span style="font-weight: 400;">Le Choka pèse 3,9lb (1,7 kg) et conviendra aux utilisateurs pesant jusqu'à 300 livres (130 kg).</span></em></span></p>
+[:]||]]></section_contenu>
+		<section_video><![CDATA[||https://www.youtube.com/watch?v=duRJ2dJvr10|https://www.youtube.com/watch?v=duRJ2dJvr10]]></section_video>
+		<section1icone><![CDATA[]]></section1icone>
+		<section2icone><![CDATA[]]></section2icone>
+		<section3icone><![CDATA[]]></section3icone>
+		<section1titre><![CDATA[]]></section1titre>
+		<section2titre><![CDATA[]]></section2titre>
+		<section3titre><![CDATA[]]></section3titre>
+		<section1description><![CDATA[]]></section1description>
+		<section2description><![CDATA[]]></section2description>
+		<section3description><![CDATA[]]></section3description>
+		<texteenblanc><![CDATA[1]]></texteenblanc>
+		<enimagestest><![CDATA[]]></enimagestest>
+		<soustitre><![CDATA[High pop, carving and commuting]]></soustitre>
+		<recommendedsetup><![CDATA[]]></recommendedsetup>
+		<visionneusehaut_image><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-102-Modifier-copie.png|http://localhost:8080/zenit/wp-content/uploads/2017/03/Zenit_Longboard_28-01-17-104-Modifier-copie.png]]></visionneusehaut_image>
+		<fonddelentte><![CDATA[http://localhost:8080/zenit/wp-content/uploads/2017/03/IMG_4442-1.jpg]]></fonddelentte>
+		<longueurtitre><![CDATA[Height]]></longueurtitre>
+		<longueur><![CDATA[33"]]></longueur>
+		<largeurtitre><![CDATA[Width]]></largeurtitre>
+		<largeur><![CDATA[10"]]></largeur>
+		<wheelbasetitre><![CDATA[Wheelbase]]></wheelbasetitre>
+		<wheelbase><![CDATA[16" - 18.5"]]></wheelbase>
+		<buybutton><![CDATA[Buy]]></buybutton>
+		<spcifications_title><![CDATA[Cruise|Carving|Pumping|Push|Freestyle|Slide|Flex]]></spcifications_title>
+		<spcifications_desc><![CDATA[[:en]Allows a smooth and pleasant ride.[:fr]Permet une balade agréable.[:]|[:en]Making long progressive left to right turns. Technique used in almost all board sports.[:fr]Faire des virages successifs de gauche à droite. Technique utilisée dans pratiquement tous les sports de planche.[:]|[:en]Technique where you combine left to right turns in order to gain momentum and therefore use these movements to propel yourself forward.[:fr]Technique où l'on combine les virages de gauche à droite de façon à créer de l’inertie, donc utiliser ce mouvement pour se propulser.[:]|[:en]Using the board as a mean of transportation, to travel long distances the fastest possible and with the least amount of effort.[:fr]Utilisation de la planche comme moyen de transport, afin de parcourir une grande distance le plus rapidement possible et avec le moins d’effort.[:]|[:en]Low speed figures where you make the board move in a stylized fashion.[:fr]Figure à basse vitesse ou l'on fait bouger la planche de façon technique et stylisée.[:]|[:en]Technique used to slow down or stop by drifting/sliding on the pavement.[:fr]Technique utilisée pour s’arrêter ou ralentir en dérapant avec sa planche.[:]|[:en]Variation of the board's rigidity (stiff to flexy).[:fr]Variation de la souplesse de la planche (flexible à rigide).[:]]]></spcifications_desc>
+		<spcifications_out_of_ten><![CDATA[9|10|7|4|6|3|3]]></spcifications_out_of_ten>
+		<spcificationennoir><![CDATA[]]></spcificationennoir>
+		<lienverslecomplete_2><![CDATA[[:en]Choka Complete[:fr]Choka Complète[:]]]></lienverslecomplete_2>
+		<buttonaddtocart><![CDATA[Add to cart]]></buttonaddtocart>
+		<buttoncustomize_2><![CDATA[Customize]]></buttoncustomize_2>
+		<boardonly><![CDATA[board only]]></boardonly>
+		<nometnomcomplet><![CDATA[]]></nometnomcomplet>
+		<tagline><![CDATA[]]></tagline>
+		<description_2><![CDATA[]]></description_2>
+		<grosseimage><![CDATA[]]></grosseimage>
+		<positiongographique><![CDATA[]]></positiongographique>
+		<usernameinstagram><![CDATA[]]></usernameinstagram>
+		<map><![CDATA[]]></map>
+		<sectiongauche><![CDATA[]]></sectiongauche>
+		<sectiondroite><![CDATA[]]></sectiondroite>
+		<titrecontactus><![CDATA[]]></titrecontactus>
+		<titrefindus><![CDATA[]]></titrefindus>
+		<titreopeninghours><![CDATA[]]></titreopeninghours>
+		<listedesvidos><![CDATA[]]></listedesvidos>
+		<catgorieslectionne_2><![CDATA[]]></catgorieslectionne_2>
+		<sectionvisionneuse><![CDATA[]]></sectionvisionneuse>
+		<sectiontextedinformationtitre><![CDATA[]]></sectiontextedinformationtitre>
+		<sectiontextedinformationtexte><![CDATA[]]></sectiontextedinformationtexte>
+		<shareyourstory><![CDATA[]]></shareyourstory>
+		<sectionnewsletterheading><![CDATA[]]></sectionnewsletterheading>
+		<sectionnewsletter><![CDATA[]]></sectionnewsletter>
+		<sectionnewsletterimage><![CDATA[]]></sectionnewsletterimage>
+		<newsletteremailfield><![CDATA[]]></newsletteremailfield>
+		<newslettersendbutton><![CDATA[]]></newslettersendbutton>
+		<contactus><![CDATA[]]></contactus>
+	</node>
+</data>

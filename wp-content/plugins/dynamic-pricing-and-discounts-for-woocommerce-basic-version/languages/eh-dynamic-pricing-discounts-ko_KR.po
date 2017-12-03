@@ -1,0 +1,1179 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Dynamic&nbsp;Pricing and Discounts for WooCommerce\n"
+"POT-Creation-Date: 2017-11-07 07:57+0000\n"
+"PO-Revision-Date: 2017-11-10 04:43+0900\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: eh-dynamic-pricing-discounts.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ko\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-admin-actions-function.php:29
+msgid "Dynamic Pricing"
+msgstr "묶음수량 가격"
+
+#: admin/data/BOGO_category_rules/save-options.php:73
+#: admin/data/buy_get_free_rules/save-options.php:68
+#: admin/data/cart_rules/save-options.php:55
+#: admin/data/cat_combinational_rules/save-options.php:63
+#: admin/data/category_rules/save-options.php:58
+#: admin/data/combinational_rules/save-options.php:65
+#: admin/data/product_rules/save-options.php:80
+#: admin/data/settings_page/save-options.php:33
+msgid "Saved Successfully"
+msgstr "성공적으로 저장되었습니다"
+
+#: admin/data/BOGO_category_rules/save-options.php:79
+#: admin/data/buy_get_free_rules/save-options.php:74
+#: admin/data/cart_rules/save-options.php:61
+#: admin/data/cat_combinational_rules/save-options.php:69
+#: admin/data/category_rules/save-options.php:64
+#: admin/data/combinational_rules/save-options.php:71
+#: admin/data/product_rules/save-options.php:86
+#: admin/data/settings_page/save-options.php:39
+msgid "Please Enter All Fields!! Then Save"
+msgstr "모든 분야를 입력해주세요! 그런 다음 저장"
+
+#: admin/data/BOGO_category_rules/update-options.php:53
+#: admin/data/buy_get_free_rules/update-options.php:48
+#: admin/data/cart_rules/update-options.php:32
+#: admin/data/cat_combinational_rules/update-options.php:48
+#: admin/data/category_rules/update-options.php:32
+#: admin/data/combinational_rules/update-options.php:42
+#: admin/data/product_rules/update-options.php:51
+msgid "Updated Successfully"
+msgstr "성공적으로 업데이트됐습니다!"
+
+#: admin/data/BOGO_category_rules/update-options.php:59
+#: admin/data/buy_get_free_rules/update-options.php:54
+#: admin/data/cart_rules/update-options.php:38
+#: admin/data/cat_combinational_rules/update-options.php:54
+#: admin/data/category_rules/update-options.php:38
+#: admin/data/combinational_rules/update-options.php:48
+#: admin/data/product_rules/update-options.php:57
+msgid "Please Enter All Fields ,Then Try To Update!!"
+msgstr "모든 분야를 입력 한 다음 업데이트를 시도하십시오!"
+
+#: admin/eha_importer.php:15
+msgid "Please upload a valid .json file"
+msgstr "유효한 .json 파일을 업로드 하십시오."
+
+#: admin/eha_importer.php:19
+msgid "Please upload a file to import"
+msgstr "가져올 파일을 첨부하세요."
+
+#: admin/eha_importer.php:42
+msgid "Imported Successfully!"
+msgstr "데이터 불러오기가 성공했습니다."
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:27
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:269
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:313
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:89
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:151
+msgid "Any category"
+msgstr "모든 항목"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:94
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:99
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:52
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:58
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:52
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:74
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:72
+msgid "Rule"
+msgstr "규칙"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:99
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:104
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:57
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:63
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:57
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:79
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:77
+msgid "Adjustments"
+msgstr "정정"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:104
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:109
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:62
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:68
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:62
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:84
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:82
+msgid "Allowed Roles & Date"
+msgstr "허가된 규칙과 날짜"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:109
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:114
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:67
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:73
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:67
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:89
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:87
+msgid "Restrictions"
+msgstr "제약사항"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:119
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:124
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:77
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:83
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:77
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:99
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:97
+msgid "Offer name"
+msgstr "제안"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:120
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:125
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:78
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:84
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:78
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:100
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:98
+msgid "Enter a descriptive offer name"
+msgstr "설명이 가능한 오퍼명을 입력해 주세요"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:121
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:126
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:79
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:85
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:79
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:101
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:99
+msgid ""
+"Name/Text of the offer to be displayed in the Offer Table. We suggest a "
+"detailed description of the discount."
+msgstr ""
+"쿠폰테이블에 표시 될 쿠폰의 이름/텍스트.  할인에 대한 자세한 설명을 제안합니"
+"다."
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:136
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:141
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:154
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:131
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:171
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:147
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:232
+msgid "Adjustment amount"
+msgstr "조정 금액"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:137
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:142
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:155
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:132
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:172
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:148
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:233
+msgid "Adjust final discount amount by this amount"
+msgstr "이 금액으로 최종 할인 금액 조정"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:149
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:154
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:167
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:144
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:184
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:160
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:251
+msgid "All"
+msgstr "모두"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:152
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:157
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:170
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:147
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:187
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:163
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:17
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:18
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:21
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:19
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:21
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:20
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:23
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:254
+msgid "Allowed Roles"
+msgstr "허용된 역할"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:161
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:166
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:179
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:156
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:196
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:172
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:263
+msgid "Valid from date"
+msgstr "날짜로부터 유효 함"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:173
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:178
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:191
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:168
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:208
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:183
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:275
+msgid "Expiry date"
+msgstr "만료 기간"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:188
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:193
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:206
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:183
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:223
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:197
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:290
+msgid "Allowed Email Ids"
+msgstr "허용 된 이메일 ID"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:189
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:194
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:207
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:184
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:224
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:198
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:291
+msgid "Enter Email ids seperated by commas"
+msgstr "이메일 아이디를 쉼표로 구분하여 입력하십시오."
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:190
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:195
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:208
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:185
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:225
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:199
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:292
+msgid ""
+"Enter Email ids seperated by commas, for which you want to allow this rule. "
+"and leave blank to allow for all"
+msgstr ""
+"이 규칙을 허용하려는 이메일 ID를 쉼표로 구분하여 입력하십시오. 모든 것을 허용"
+"하기 위해 비워 두십시오."
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:197
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:202
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:215
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:192
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:232
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:206
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:299
+msgid "Minimum number of orders (previous orders)"
+msgstr "최소 주문 수 (이전 주문)"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:198
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:203
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:216
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:193
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:233
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:207
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:300
+msgid "Minimum count of preivious orders required for this rule to be executed"
+msgstr "이 규칙을 실행하는 데 필요한 우선 순위의 최소 개수"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:210
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:215
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:228
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:205
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:245
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:219
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:312
+msgid "Minimum total spending (previous orders)"
+msgstr "최소 총 지출 (이전 주문)"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:211
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:216
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:229
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:206
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:246
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:220
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:313
+msgid ""
+"Minimum amount the user has spent till now for the rule to execute. total "
+"calculated from all previous orders"
+msgstr ""
+"규칙이 실행될 때까지 사용자가 소비 한 최소 금액입니다. 모든 이전 주문에서 계"
+"산 된 합계"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:238
+msgid "Products need to be purchased"
+msgstr "제품을 구매하셔야합니다."
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:240
+msgid "Enter products customer needs to buy to get their free products"
+msgstr "고객은 그들의 자유로운 제품을 살 필요가 제품 입력하세요"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:247
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:368
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:252
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:365
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:283
+msgid "Row no"
+msgstr "행넘버"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:248
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:238
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:14
+msgid "Category Name"
+msgstr "카테고리 명"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:249
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:15
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:15
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:17
+msgid "Check on"
+msgstr "확인하다"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:250
+msgid "Check min"
+msgstr "최소 수량을 체크합니다"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:347
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:331
+msgid "Add Category"
+msgstr "카테고리 추가"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:348
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:332
+msgid "Delete Category"
+msgstr "카테고리 삭제"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:360
+msgid "Product to be set as free"
+msgstr "무료로 설정된 제품"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:362
+msgid ""
+"Enter the products which will be set as free if all above products in "
+"respective quantities are purchased"
+msgstr "정해진 수량 이상 추가로 구입된 제품은 무료로 설정 됩니다"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:369
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:253
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:366
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:284
+msgid "Product Name"
+msgstr "상품 이름"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:370
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:254
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:367
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:239
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:285
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:15
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:16
+msgid "Quantity"
+msgstr "수량"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:390
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:399
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:433
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:438
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:274
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:283
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:317
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:322
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:387
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:396
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:430
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:435
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:234
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:249
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:306
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:319
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:348
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:351
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:119
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:134
+#: includes/common-functions.php:99 includes/common-functions.php:119
+msgid "Search for a product&hellip;"
+msgstr "제품&hellip 검색"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:460
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:344
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:457
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:368
+msgid "Add Product"
+msgstr "제품 추가"
+
+#: admin/view/tabs/selected-tab-content/BOGO_category_rule-tab.php:461
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:345
+#: admin/view/tabs/selected-tab-content/buy_get_free_rule-tab.php:458
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:369
+msgid "Delete Product"
+msgstr "제품 삭제"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:18
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:14
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:18
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:13
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:18
+msgid "Discount percentage"
+msgstr "할인"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:88
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:105
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:166
+msgid "Check for"
+msgstr "에 대 한 확인"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:94
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:111
+msgid ""
+"The rules can be based on No. of items/Weight/Price/Total Units. \"No. of "
+"items\" denotes the number of distinct products. Whereas \"Total Units\" "
+"denotes the total no. of units of any product."
+msgstr ""
+"규칙은 항목 수 / 중량 / 가격 / 총 단위를 기반으로 할 수 있습니다. \"품목 수"
+"\"는 개별 제품 수를 나타냅니다. 반면에 \"Total Units\"은 총 수를 의미합니다. "
+"모든 제품 단위의"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:99
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:116
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:176
+msgid "Minimum"
+msgstr "최소"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:100
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:117
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:177
+msgid "Minimum value to check"
+msgstr "할인이 적용될 수 있는 최소한의 장바구니 상품수"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:109
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:126
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:186
+msgid "Maximum"
+msgstr "최대"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:110
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:127
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:187
+msgid "Maximum value to check, set it empty for no limit"
+msgstr ""
+"최대할인 수량을 체크하거나, 최대수량 제한을 없게 하려면 0을 입력하거나 비워둡"
+"니다."
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:119
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:96
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:136
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:112
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:197
+msgid "Discount type"
+msgstr "할인 타입"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:124
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:101
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:141
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:117
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:202
+msgid ""
+"Three types of discounts can be applied – “Percentage Discount/Flat Discount/"
+"Fixed Price”"
+msgstr "3가지의 할인 방식이 적용됩니다 - %할인/일정한(Flat) 할인/고정할인"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:129
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:106
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:146
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:122
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:207
+#: public/class-xa-dynamic-pricing-plugin-public.php:123
+#: public/xa-single-product-pricing-table.php:90
+#: public/xa-single-product-pricing-table.php:92
+msgid "Discount"
+msgstr "할인"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:130
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:107
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:147
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:123
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:208
+msgid ""
+"If you select “Percentage Discount”, the given percentage (value) would be "
+"discounted on each unit of the product in the cart.\n"
+"If you select “Flat Discount”, the given amount (value) would be discounted "
+"at subtotal level in the cart\n"
+"If you select “Fixed Price”, the original price of the product is replaced "
+"by the given fixed price (value)."
+msgstr ""
+"만약 당신이 퍼센트 할인을 선택했다면, 카트안의 구매 예정인 각 제품에 할인이 "
+"주어진 값(%)만큼 적용될 것입니다.\n"
+"만약 당신이 플랫 할인을 선택했다면, 카트안의 sub-total에 주어진 값만큼 할인률"
+"로 적용될 것입니다. \n"
+"만약 당신이 고정가격 할인을 선택했다면, 상품의 원래가격이 고적가격값으로 변"
+"경 될 것입니다."
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:145
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:122
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:162
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:138
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:223
+msgid "Maximum discount amount"
+msgstr "최대할인가"
+
+#: admin/view/tabs/selected-tab-content/cart-rule-tab.php:146
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:123
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:163
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:139
+msgid ""
+"After Calculation Discount Value Must Not Exceeed This Amount For This Rule"
+msgstr "이 규칙에 의거 계산된 가격이 이가격을 초과할수 없습니다. "
+
+#: admin/view/tabs/selected-tab-content/cat-combinational-rule-tab.php:237
+msgid "#Row no"
+msgstr "행넘버"
+
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:88
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:150
+msgid "Product categories"
+msgstr "상품 카테고리"
+
+#: admin/view/tabs/selected-tab-content/category-rule-tab.php:100
+msgid "Select the category for which the rule would be applied."
+msgstr "이룰이 적용된 카테고릐를 선택하십시오."
+
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:233
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:248
+msgid "Apply discounts only on these products"
+msgstr "이러한 제품만 할인을 적용하십시오"
+
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:244
+#: admin/view/tabs/selected-tab-content/combinational-rule-tab.php:260
+msgid ""
+"Instead of applying discount on all items in this combination , you can "
+"apply discount only on some products of this combination"
+msgstr ""
+"이런 조합의 모든 제품을 할인적용을 하는 것 보다, 이러한 조합의 몇 제품에 할인"
+"을 적용할 수 있습니다"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:10
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:11
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:12
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:11
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:11
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:12
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:12
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:207
+msgid "Options"
+msgstr "옵션"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:11
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:12
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:13
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:12
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:12
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:13
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:13
+msgid "Rule no."
+msgstr "규칙 넘버 "
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:12
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:13
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:14
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:13
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:13
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:14
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:14
+msgid "Offer Name"
+msgstr "제안"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:13
+msgid "Purchased Category"
+msgstr "구입한 카테고리"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:14
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:15
+msgid "Purchased Quantity"
+msgstr "구매수량"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:15
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:16
+msgid "Free Product"
+msgstr "무료 제품"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:16
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:17
+msgid "Free Quantity"
+msgstr "무료로 구매하수량"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:18
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:19
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:22
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:20
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:22
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:21
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:24
+msgid "From Date"
+msgstr "날짜부터"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:19
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:20
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:23
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:21
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:23
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:22
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:25
+msgid "To Date"
+msgstr "현재까지"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:20
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:21
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:24
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:22
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:24
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:23
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:26
+msgid "Adjustment"
+msgstr "조정"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:21
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:22
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:25
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:23
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:25
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:24
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:27
+msgid "For Emails"
+msgstr "이메일에 대한"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:22
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:23
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:26
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:24
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:26
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:25
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:28
+msgid "Min Order Count"
+msgstr "최소 주문 수량을 세어본다 "
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:23
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:24
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:27
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:25
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:27
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:26
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:29
+msgid "Min Order Amt"
+msgstr "최소 주문량"
+
+#: admin/view/tabs/selected-tab-content/display-saved-BOGO_category_rules-table.php:33
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:34
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:37
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:35
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:37
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:36
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:40
+msgid ""
+"There are no rules created to create a rule click the \"Add New Rule\" "
+"button on top left-hand side."
+msgstr "왼쪽 상위 버튼에 \"새로운 규칙 설정\" 을 하기 위한 규칙은 없습니다"
+
+#: admin/view/tabs/selected-tab-content/display-saved-buy_get_free_rules-table.php:14
+msgid "Purchased Product"
+msgstr "구매 상품"
+
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:16
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:16
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:18
+msgctxt "최소"
+msgid "Min"
+msgstr "최소"
+
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:17
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:17
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:19
+msgid "Max"
+msgstr "최대"
+
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:18
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:16
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:18
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:17
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:20
+msgid "Discount Type"
+msgstr "할인 유형"
+
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:19
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:17
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:19
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:18
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:21
+msgid "Value"
+msgstr "값"
+
+#: admin/view/tabs/selected-tab-content/display-saved-cart_rules-table.php:20
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:18
+#: admin/view/tabs/selected-tab-content/display-saved-category_rules-table.php:20
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:19
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:22
+msgid "Max Discount"
+msgstr "최대 할인 "
+
+#: admin/view/tabs/selected-tab-content/display-saved-cat_combinational_rules-table.php:14
+msgid "Category"
+msgstr "카테고리"
+
+#: admin/view/tabs/selected-tab-content/display-saved-combinational_rules-table.php:15
+msgid "Product"
+msgstr "제품 "
+
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:15
+msgid "Rule on"
+msgstr "에 대한 규칙"
+
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:16
+msgid "Product/Category"
+msgstr "제품/카테고리"
+
+#: admin/view/tabs/selected-tab-content/display-saved-product_rules-table.php:30
+msgid "Repeat"
+msgstr "반복하다 "
+
+#: admin/view/tabs/selected-tab-content/import_export-tab.php:12
+msgid "Export Settings"
+msgstr "내보내기 설정"
+
+#: admin/view/tabs/selected-tab-content/import_export-tab.php:14
+msgid "Export the plugin settings to a JSON format (.json) file"
+msgstr "플러그인 세팅을 JSON 폼(.json) 파일로 내보내기 "
+
+#: admin/view/tabs/selected-tab-content/import_export-tab.php:27
+msgid "Export"
+msgstr "내보내기 "
+
+#: admin/view/tabs/selected-tab-content/import_export-tab.php:34
+msgid "Import Settings"
+msgstr "불러오기 세팅 "
+
+#: admin/view/tabs/selected-tab-content/import_export-tab.php:36
+msgid "Import the plugin settings from a .json file."
+msgstr ".json파일로 부터 플러그인 설정을 가져오기 "
+
+#: admin/view/tabs/selected-tab-content/import_export-tab.php:59
+msgid "Import"
+msgstr "가져오기기"
+
+#: admin/view/tabs/selected-tab-content/import_export-tab.php:66
+msgid "Restore Tabs"
+msgstr "복원탭 "
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:107
+msgid "Rule applicable on"
+msgstr "적용된 규칙"
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:112
+msgid ""
+"Decide whether the rule has to be applied product wise or category wise."
+msgstr ""
+"그 룰이 카테고리 형식으로 적용되어야 하는지 아니면 제품 형식으로 적용되어야 "
+"하는지 결정하세요 "
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:118
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:133
+msgid "Products"
+msgstr "제품들 "
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:129
+msgid "The rule would be applied to the selected products individually."
+msgstr "그 규칙은 선택된 제품들에 개별적으로 적용됩니다"
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:145
+msgid "Rule to be applied on which products"
+msgstr "그 제품들에 적용된 규칙"
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:161
+msgid ""
+"This is different from the “Category Rule”. In this case, the rule would be "
+"individually applied to all the products in the category."
+msgstr ""
+"이건 카테고리 규칙과는 다릅니다. 이경우엔 규칙이 그 카테고리에 있는 모든 제품"
+"들에 개별적으로 적용될 것입니다"
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:171
+msgid "The rules can be applied based on “Quantity/Price/Weight”"
+msgstr "이 규칙은 수량/가격/중량을 근거로 적용될 수 있습니다"
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:224
+msgid ""
+"This value is used to set up a limit for the discount. This is usually left "
+"blank if you do not want to limit the discount."
+msgstr ""
+"이 값은 할인적용을 제한 하기 위해서 만들어진 값입니다만. 할인을 제한하지 않"
+"고 싶다면 비워 놓으면 됩니다 "
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:241
+msgid "Allow repeat execution"
+msgstr "반복 실행이 가능합니다"
+
+#: admin/view/tabs/selected-tab-content/product-rule-tab.php:242
+msgid ""
+"This rule will be executed if the total quantity of the product is a "
+"multiple of the min/max quantity set in the “Rule” section. Note that for "
+"this to work the min and the max quantity has to be equal."
+msgstr ""
+"만약 이 제품의 총 수량이 규칙 세션에 적용된 최소/최대 수량의 배수라면, 규칙"
+"은 실행될 것입니다. 이 규칙이 실행되게 하려면 최소 수량과 최대 수량이 똑 같아"
+"야 합니다."
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:154
+msgid "Execution Order"
+msgstr "주문을 실행"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:272
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:306
+msgid "Before Product"
+msgstr "제품 전에"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:273
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:307
+msgid "After Product"
+msgstr "제품 후"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:274
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:308
+msgid "Before Product Summary"
+msgstr "제품 요약 하기 전에"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:275
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:309
+msgid "In Product Summary"
+msgstr "제품 요약ㅇ"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:276
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:310
+msgid "After Product Summary"
+msgstr "상품 요약 후"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:277
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:311
+msgid "Before Add To Cart Button"
+msgstr "'장바구니에 담기'버튼을 누르기 전에"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:278
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:312
+msgid "After Add To Cart Button"
+msgstr "장바구니에 추가 버튼을 클릭 한 후"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:279
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:313
+msgid "Before Add To Cart Form"
+msgstr "장바구니폼에 추가 하기 전에"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:280
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:314
+msgid "After Add To Cart Form"
+msgstr "장바구니폼에 추가 하기 후에"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:281
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:315
+msgid "Product Thumbnails"
+msgstr "상품 썸네일"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:282
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:316
+msgid "Product Meta Start"
+msgstr "제품 메타 시작"
+
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:283
+#: admin/view/tabs/selected-tab-content/settings_page-tab.php:317
+msgid "Product Meta End"
+msgstr "제품 메타 끝"
+
+#: admin/view/tabs/tabs-html-render.php:1
+msgid "Dynamic Pricing Main Page"
+msgstr "묶음수량 가격 메인 페이지"
+
+#: admin/view/tabs/tabs-html-render.php:146
+msgid "Discount Rules"
+msgstr "할인 규칙들"
+
+#: admin/view/tabs/tabs-html-render.php:147
+msgid "Settings"
+msgstr "설정"
+
+#: admin/view/tabs/tabs-html-render.php:148
+msgid "Licence"
+msgstr "라이센스"
+
+#: admin/view/tabs/tabs-html-render.php:149
+msgid "Import/Export"
+msgstr "가져오기/내보내기"
+
+#: admin/view/tabs/tabs-html-render.php:158
+msgid "Product Rules"
+msgstr "제품 규칙들"
+
+#: admin/view/tabs/tabs-html-render.php:160
+msgid "Combinational Rules"
+msgstr "조합적인 규칙들 "
+
+#: admin/view/tabs/tabs-html-render.php:162
+msgid "Category Rules"
+msgstr "범주 규칙"
+
+#: admin/view/tabs/tabs-html-render.php:164
+msgid "Category Combinational Rules"
+msgstr "카테고리 조합 규칙"
+
+#: admin/view/tabs/tabs-html-render.php:166
+msgid "Cart Rules"
+msgstr "카트 규칙"
+
+#: admin/view/tabs/tabs-html-render.php:168
+msgid "BOGO Rules"
+msgstr "Buy One Get One 규칙들 "
+
+#: admin/view/tabs/tabs-html-render.php:170
+msgid "BOGO Category Rules"
+msgstr "Buy One Get One 범주 규칙들 "
+
+#: admin/view/tabs/tabs-html-render.php:200
+msgid ""
+"Note - In this section every rule is executed individually for every "
+"product. Each product is a distinct entity."
+msgstr ""
+"이 섹션에 모든 규칙은 개개의 제품에 대해서 개별적으로 적용되며 각각의 제품은 "
+"뚜렷이 독립된 제품이다 "
+
+#: admin/view/tabs/tabs-html-render.php:268
+msgid "All Rules Deleted Successfully!"
+msgstr "모든 규칙들이 성공적으로 삭제되었습니다. "
+
+#: admin/view/tabs/tabs-html-render.php:280
+msgid "Update Rule"
+msgstr "규칙을 갱신하다 "
+
+#: admin/view/tabs/tabs-html-render.php:283
+msgid "Save Rule"
+msgstr "규칙을 저장하다 "
+
+#: eh-dynamic-pricing-discounts.php:40
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete Dynamic Pricing and "
+"Discounts for WooCommerce Basic Version and then try again"
+msgstr ""
+"웁쓰, 당신은 비활성화 하고 기본 버전을 삭제 하지 않고 프리미엄 버전을 설치 하"
+"려고 했습니다. 비활성화 및 WooCommerce 기본 버전에 대 한 동적 가격 및 할인을 "
+"삭제하고 다시 시도해 주십시오"
+
+#: eh-dynamic-pricing-discounts.php:124
+msgid "Documentation"
+msgstr "문서"
+
+#: eh-dynamic-pricing-discounts.php:125
+msgid "Support"
+msgstr "지원"
+
+#: includes/common-functions.php:287
+#, php-format
+msgctxt "Price range: from-to"
+msgid "%1$s &ndash; %2$s"
+msgstr "가격범위 %1$s 부터 %2$s 까지"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:347
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s에 대한 라이센스 키가 만료되었습니다. 당신은 활성화 또는 계정에서 라이센스 "
+"키를 구입할 수 있습니다 <a href=\"%s\" target=\"_blank\">대시 보드</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:357
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s 에 대한 등록은 대기입니다. 당신은 계정 <a href=\"%s\" target=\"_blank\">대"
+"시보드</a>에서 구독을 다시 활성화할 수 있습니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:367
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"%s 에 대한 구독취소 되었습니다. 계정 <a href=\"%s\" target=\"_blank\">대시보"
+"드</a>에서 구독을 갱신할 수 있습니다. 주문이 완료 된 후 새로운 라이센스 키를 "
+"당신에 게 이메일로 될발송될 것입니다"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:377
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s 에 대한 구독이 만료 되었습니다. 당신은 계정 <a href=\"%s\" target=\"_blank"
+"\">대시보드</a>에서 구독을 다시 활성화할 수 있습니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:387
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"%s 에 대한 구독이 중단되었습니다. 당신은 계정 <a href=\"%s\" target=\"_blank"
+"\">대시보드</a>에서 구독을 다시 활성화할 수 있습니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:397
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"%s 에 대한 구독이 만료 되었습니다. 당신은 계정 <a href=\"%s\" target=\"_blank"
+"\">대시보드</a>에서 구독을 다시 활성화할 수 있습니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:407
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s 대 한 구독이 중단되었습니다. 당신은 계정 <a href=\"%s\" target=\"_blank\">"
+"대시보드</a>에서 구독을 다시 활성화할 수 있습니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s 에 대한 구독이 만료 되었습니다. 당신은 계정 <a href=\"%s\" target=\"_blank"
+"\">대시보드</a>에서 구독을 다시 활성화할 수 있습니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:427
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"%s에 대한 라이센스 키를 찾을 수 없는 경우, 아마도  %s을 (를) 설정할때, 또는 "
+"키가 귀하의 계정에서 비활성화 될 때 어쩌면 당신은 라이센스 키를 입력하는 것"
+"을 잊었기 때문일 수 있지만,  당신은 라이센스키를 플러그인 <a href=\"%s\" "
+"target=\"_blank\">설정페이지</a> 에서 다시 활성화 할 수 있습니다"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:437
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"라이센스키나, 구독기간이 갱신이 되지 않아 %s 대 한 다운로드를 할수 없을때, 당"
+"신은 계정 <a href=\"%s\" target=\"_blank\">대시보드</a>에서 구독을 다시 활성"
+"화할 수 있습니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:447
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s이 활성화되지 않았습니다. 플러그인<a href=\"%s\" target=\"_blank\">설정페이"
+"지</a>로 이동을 해셔, %s을 (를) 활성화 할 수있는 라이센스 키 및 라이센스 이메"
+"일을 입력합니다."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:457
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"당신은 %s 위하여 구독을 변경하였기 때문에 설정페이지에 새로운  API 라이센스키"
+"를 입력해야 하며, 라이센스키는 이메일 받은 편지 체크해 보면 찾을 수 있는데, "
+"혹 찾지 못하면, 당신의 계정 <a href=\"%s\" target=\"_blank\"> 대시보드에서 찾"
+"을 수 있습니다.   "
+
+#: public/class-xa-dynamic-pricing-plugin-public.php:126
+msgid "Discount Adjustment"
+msgstr "할인가 정정"
+
+#: public/new_calculation_handler.php:243
+#, php-format
+msgctxt "Price range: from-to"
+msgid "%1$s&ndash;%2$s"
+msgstr "가격 범위 %1$s&ndash;%2$s"
+
+#: public/new_calculation_handler.php:247
+msgid "Free!"
+msgstr "무료로 설정된 제품"
+
+#: public/xa-single-product-offer-table.php:27
+msgid "Offers"
+msgstr "대량주문 오퍼"
+
+#: public/xa-single-product-pricing-table.php:38
+msgid "Bulk Product Offers"
+msgstr "대량주문 오퍼"
+
+#: public/xa-single-product-pricing-table.php:41
+msgid "Min Buy"
+msgstr "최소 수량"
+
+#: public/xa-single-product-pricing-table.php:41
+msgid "Max Buy"
+msgstr "최대 수량"
+
+#: public/xa-single-product-pricing-table.php:41
+msgid "Offer"
+msgstr "제안(Offer)"
+
+#: public/xa-single-product-pricing-table.php:48
+msgid "nos"
+msgstr "개"
+
+#: public/xa-single-product-pricing-table.php:87
+msgid " "
+msgstr ""
+
+#: public/xa-single-product-pricing-table.php:94
+msgid "Fixed Price"
+msgstr "고정가겨"
+
+#. Plugin Name of the plugin/theme
+msgid "Dynamic&nbsp;Pricing and Discounts for WooCommerce"
+msgstr "우커머스용 다이나믹 가격과 할인 플러그인 "
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.xadapter.com/product/dynamic-pricing-discounts-woocommerce/"
+msgstr ""
+"https://www.xadapter.com/product/dynamic-pricing-discounts-woocommerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin helps you to set discounts and pricing dynamically based on "
+"minimum quantity,weight,price and allow you to set maximum allowed discounts "
+"on every rule."
+msgstr ""
+"이 플러그인은 최소수량, 중량, 등을 근거로 가격과 할인가를 정할 수 있으며 또"
+"한 개개의 규칙을 근거로 할인률이 적용된 최대수량을 설정하는데 유용하다"
+
+#. Author of the plugin/theme
+msgid "xadapter"
+msgstr "xadapter"
+
+#. Author URI of the plugin/theme
+msgid "https://www.xadapter.com"
+msgstr "https://www.xadapter.com"
