@@ -51,7 +51,12 @@
 							<div class="section-top">
 								<h3><?php echo get_the_title(); ?></h3>
 
-								<p itemprop="price" class="price"><?php echo $product->get_price_html(); ?></p>
+								<p itemprop="price" class="price <?php echo $_product->is_in_stock() ? '' : 'no-stock'; ?>">
+									<?php echo $product->get_price_html(); ?>
+									<?php if (!$_product->is_in_stock()) : ?>
+										<span class="out-of-stock <?php echo $currentLang; ?>"></span>
+									<?php endif; ?>
+								</p>
 							</div>
 							<div class="image-product">
 								<?php

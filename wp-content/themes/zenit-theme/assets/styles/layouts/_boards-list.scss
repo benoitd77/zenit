@@ -428,7 +428,7 @@
                     border: 0;
                     transition: 0.5s opacity;
                     background-color: #aa7341;
-                    margin-left: 20px;
+                    margin-left: 10px;
 
                     &:first-child {
                         margin-left: 0;
@@ -630,6 +630,16 @@
             font-size: 12px;
             margin-bottom: 15px;
         }
+
+        .board {
+            .hover {
+                .btn-boards {
+                    button {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -651,12 +661,15 @@
                     padding: 0 12px;
                 }
 
-                .btn-boards button {
-                    padding: 10px 15px;
-                    margin-left: 15px;
+                .btn-boards {
+                    button {
+                        font-size: 14px;
+                        padding: 10px 15px;
+                        margin-left: 15px;
 
-                    &:first-child {
-                        margin-left: 0;
+                        &:first-child {
+                            margin-left: 0;
+                        }
                     }
                 }
             }
@@ -680,6 +693,13 @@
                         }
                     }
                 }
+
+                .btn-boards {
+                    button {
+                        font-size: 13px;
+                        padding: 10px 10px;
+                    }
+                }
             }
         }
     }
@@ -701,11 +721,32 @@
     #boards-list {
         .board {
             .hover {
+                .spec-top {
+                    li {
+                        span {
+                            font-size: 16px;
+                            width: auto;
+                        }
+                    }
+                }
+
+                .meter.single li {
+                    height: 6px;
+                    width: 16px;
+                }
+
                 .spec-bottom {
-                    margin: 0px auto;
+                    margin: 15px auto;
 
                     li {
-                        display: block;
+                        font-size: 14px;
+                    }
+                }
+
+                .btn-boards {
+                    button {
+                        padding: 15px 25px;
+                        font-size: 18px;
                     }
                 }
             }
