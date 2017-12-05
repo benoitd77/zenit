@@ -256,6 +256,23 @@ body.page-template-page-accueil{
 	}
 }
 
+body.cart,
+body.panier {
+    .main {
+        .page-header {
+            display: none;
+        }
+
+        .container {
+            margin-top: 125px;
+
+            form.woocommerce-shipping-calculator {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
 @media (max-width: 768px) {
 	.woocommerce .quantity .qty{
 		text-align:right;
@@ -287,5 +304,14 @@ body.page-template-page-accueil{
         margin-top: 40px!important;
         margin-left: auto!important;
         margin-right: auto!important;
+    }
+}
+
+@media (max-width: 512px) {
+    body.cart,
+    body.panier {
+        ul#shipping_method li label {
+            font-size: 16px;
+        }
     }
 }
