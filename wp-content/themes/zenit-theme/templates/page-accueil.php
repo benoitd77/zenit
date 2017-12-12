@@ -54,9 +54,16 @@
 	<div class="container">
 		<h3 class="wht"><?php echo get_field('newsletter_heading'); ?></h3>
 		<?php echo get_field('newsletter'); ?>
-		<form>
-			<input type="text" placeholder="<?php echo get_field('newsletter_email_field'); ?>" />
-			<input type="submit" value="<?php echo get_field('newsletter_send_button'); ?>" />
-		</form>
+
+		<div class="tnp tnp-subscription">
+			<form method="post" action="<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>?na=s" onsubmit="return newsletter_check(this)">
+				<div class="tnp-field tnp-field-email" style="display: inline-block">
+					<input class="tnp-email" type="email" name="ne" placeholder="<?php echo get_field('newsletter_email_field'); ?>" required>
+				</div>
+				<div class="tnp-field tnp-field-button" style="display: inline-block">
+					<input class="tnp-submit" type="submit" value="<?php echo get_field('newsletter_send_button'); ?>">
+				</div>
+			</form>
+		</div>
 	</div>
 </section>
