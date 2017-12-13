@@ -36,6 +36,9 @@
 
             // Fire common finalize JS
             UTIL.fire('common', 'finalize');
+
+            // Set the Newsletter
+            setNewsletter();
         }
     };
 
@@ -50,6 +53,38 @@
         }
     }
 
+    function setNewsletter() {
+        if (!$('body').hasClass('home')) {
+            return;
+        }
+
+        setPlaceholder();
+        scrollPage();
+    }
+
+    function setPlaceholder() {
+        var email = 'Email';
+
+        if ($('body').hasClass('fr')) {
+            email = 'Courriel';
+        }
+
+        $('.tnp-email').attr("placeholder", email);
+    }
+
+    function scrollPage() {
+        var na = getUrlParameter('na');
+        var nm = getUrlParameter('nm');
+
+        if (na != undefined || nm != undefined) {
+            setTimeout(function(){
+                $('html,body').animate({
+                    scrollTop: $("footer").offset().top
+                }, 500);
+            }, 1000);
+        }
+    }
+
     function timeConverter(UNIX_timestamp) {
         var a = new Date(UNIX_timestamp * 1000);
         var months = ['Janvier', 'Février', 'Mars', 'Avris', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
@@ -58,6 +93,21 @@
         var date = a.getDate();
         var time = date + ' ' + month + ' ' + year;
         return time;
+    }
+
+    function getUrlParameter(sParam) {
+        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : sParameterName[1];
+            }
+        }
     }
 
     function configurer() {
