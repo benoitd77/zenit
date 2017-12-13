@@ -160,7 +160,8 @@ body.page-template-page-accueil{
 	    margin-right: auto;
 	    margin-bottom: 25px;
 
-        &:nth-of-type(2) {
+        &:nth-of-type(2),
+        a {
             font-size: 26px;
         }
     }
