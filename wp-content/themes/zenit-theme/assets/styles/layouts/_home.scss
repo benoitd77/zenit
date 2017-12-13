@@ -147,12 +147,12 @@ body.page-template-page-accueil{
     text-align: center;
     text-shadow: 1px 1px 1px #000;
 
-    h3{
+    h3 {
     	font-size: 40px;
     	margin-bottom: 10px
     }
 
-    p{
+    p {
     	color: #fff;
 	    max-width: 50%;
 	    text-align: center;
@@ -160,24 +160,24 @@ body.page-template-page-accueil{
 	    margin-right: auto;
 	    margin-bottom: 25px;
 
-        &:nth-child(2) {
+        &:nth-of-type(2) {
             font-size: 26px;
         }
     }
 
-    form{
+    form {
         display: table;
         margin-left: auto;
         margin-right: auto;
         position: relative;
 
-        input{
+        input {
             border-radius: 5px;
             border: 2px solid #fff;
             background-color: transparent;
             width: 179px;
             text-align: center;
-            color:white;
+            color: white;
         }
 
         input[type=submit] {
