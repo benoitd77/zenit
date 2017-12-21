@@ -102,6 +102,10 @@
                 max-height: 1000px;
                 opacity: 1;
             }
+
+            .slick-dots li button:before {
+                display: none;
+            }
         }
 
         .slider {

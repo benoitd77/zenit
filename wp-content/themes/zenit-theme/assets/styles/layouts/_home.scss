@@ -186,7 +186,7 @@ body.page-template-page-accueil{
             background-color: white;
             color: black;
             font-weight: 800;
-            margin-left: 30px;
+            margin-left: 30px !important;
             float: none;
             border-color: transparent;
             -webkit-transition:  500ms ease-in-out ;
@@ -204,6 +204,10 @@ body.page-template-page-accueil{
             margin-left: 30px;
             float: none;
             border-color: transparent;
+        }
+
+        @media (max-width: 320px) {
+            margin-left: 10px !important;
         }
     }
 

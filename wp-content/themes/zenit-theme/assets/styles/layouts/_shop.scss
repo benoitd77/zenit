@@ -23,66 +23,165 @@
 }
 
 
-.cont-woocommerce-message{
-	position: fixed;
-    top: 140px;
-    right: 20px;
+.bg-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.cart-overlay{
+    background-color: #f7f6f7;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -241px 0 0 -370px;
+    padding: 0 30px;
+    text-align: center;
+    width: 740px;
     z-index: 99;
-    background-color:#f7f6f7;
 
-    .woocommerce-message{
-    	padding:2em!important;
-    	padding-bottom:0!important;
-    	margin-bottom:0!important;
-    	padding-top:4em!important;
-	    &:before{
-	    	display:none;
-	    }
-	    .button{
-	    	margin-left:30px!important;
-	    	margin-top:-5px!important;
-	    }
+    .close-message{
+        width: 25px;
+        height: 25px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 5px;
+        z-index: 2;
+        cursor: pointer;
+
+        &:after,&:before{
+            width: 75%;
+            height: 2.5px;
+            position: absolute;
+            transform-origin: center center;
+            content: '';
+            display: block;
+            background-color: black;
+            top: 7px;
+        }
+
+        &:after{
+            transform: rotate(-45deg);
+        }
+
+        &:before{
+            transform: rotate(45deg);
+        }
+    }
+
+    .inner-top {
+        height: 190px;
+        position: relative;
+    }
+
+    .woocommerce-message {
+        border: 0;
+        font-family: 'apercu', helvetica, arial, sans-serif;
+        font-size: 22px;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding: 30px !important;
+        position: initial;
+
+        &:before {
+            display: none;
+        }
+
+        a.button {
+            bottom: 30px;
+            font-size: 15px;
+            padding: 15px;
+            position: absolute;
+            text-transform: uppercase;
+
+            &.wc-forward {
+                background-color: #bd9a5c !important;
+                color: #fff !important;
+                right: 40px;
+                width: 275px;
+
+                &:hover {
+                    opacity: 0.4;
+                    background-color: #aa7341 !important;
+                }
+            }
+
+            &.keep-shopping {
+                background-color: #fff;
+                border: 1px solid #000;
+                color: #000;
+                left: 40px;
+                width: 275px;
+
+                &:hover {
+                    background-color: #000 !important;
+                    color: #fff !important;
+                    opacity: 0.75;
+                }
+            }
+        }
 	}
 
-	.cart-items{
-		padding:2em!important;
-		padding-top:0!important;
-	}
+    .inner-bottom {
+        border-top: 1px solid #000;
+        padding: 20px 0;
 
-	hr{
-		margin-top: 2em;
-   		margin-bottom: 2em;
-	}
+        ul {
+            display: flex;
 
-	.close-message{
-		width:25px;
-		height:25px;
-		display:block;
-		position:absolute;
-		top: 15px;
-	    right: 5px;
-	    z-index: 2;
-	    cursor: pointer;
+            li {
+                display: inline-block;
+                padding: 10px;
+            }
+        }
+    }
 
-	    &:after,&:before{
-	    	width:75%;
-	    	height:2.5px;
-	    	position:absolute;
-	    	transform-origin:center center;
-	    	content:'';
-	    	display:block;
-	    	background-color:black;
-	    	top:7px;
-	    }
+    .upsell-title {
+        font-family: 'apercu', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 
-	    &:after{
-	    	transform:rotate(-45deg);
-	    }
+    .upsell-wrapper {
+        padding-top: 5px;
 
-	    &:before{
-	    	transform:rotate(45deg);
-	    }
-	}
+        .upsell-item {
+            width: 170px;
+
+            a {
+                color: #000;
+                display: block;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            h4 {
+                font-family: 'apercu', Helvetica, Arial, sans-serif;
+                font-size: 12px;
+                font-weight: normal;
+                height: 26px;
+                overflow: hidden;
+                margin: 10px 0 5px;
+                text-transform: none;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 14px;
+            }
+        }
+    }
+
+
 }
 
 

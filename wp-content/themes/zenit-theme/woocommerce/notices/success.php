@@ -24,29 +24,57 @@ if ( ! $messages ){
 	return;
 }
 
+global $product;
+
+$currentProduct = new WC_Product($product->id);
+
+$upsells = $currentProduct->get_upsells();
+
 ?>
 
 <?php foreach ( $messages as $message ) : ?>
-	<div class="cont-woocommerce-message">
+	<div class="cart-overlay">
 		<span class="close-message"></span>
-		<div class="woocommerce-message"><?php echo wp_kses_post( $message ); ?></div>
-		<div class="cart-items">
-			<hr>
-			<h5><?php _e('Actuellement dans votre panier : '); ?></h5>
-			<?php
-			    global $woocommerce;
-			    $items = $woocommerce->cart->get_cart();
-
-			        foreach($items as $item => $values) { 
-			            $_product = $values['data']->post;
-			            $price = get_post_meta($values['product_id'] , '_price', true);
-			            echo '<p>';
-			            _e($_product->post_title);
-			            echo ' x '.$values['quantity'].'</p>';
-						//.' = '.$price*$values['quantity'].'$</p>'; 
-			        } 
-			?>
-
+		<div class="inner-top">
+			<div class="woocommerce-message">
+				<?php echo wp_kses_post( $message ); ?>
+			</div>
+			<div class="woocommerce-message">
+				<a href="javascript:void(0)" class="button keep-shopping">Continue shopping</a>
+			</div>
 		</div>
+		<?php if (count($upsells) > 0) : ?>
+			<div class="inner-bottom">
+				<p class="upsell-title">You may also like</p>
+				<div class="upsell-wrapper">
+					<ul>
+						<?php foreach($upsells as $upsell_prod_id) :
+							$_product = new WC_Product_Variable($upsell_prod_id);
+							$_product_name  = $_product->post->post_title;
+							$_product_url   = get_permalink($upsell_prod_id);
+							$_image_source  = get_the_post_thumbnail( $upsell_prod_id, array(150, 150) );
+							$_product_price = $_product->get_regular_price();
+
+							// Check if product_price is empty
+							// If it's empty it means it has variable prices, use get_price_html instead
+							if (empty($_product_price)) {
+								$_product_price = $_product->get_price_html();
+							} else {
+								$_product_price = number_format(floatval($_product_price), 2);
+								$_product_price .= get_woocommerce_currency_symbol();
+							}
+							?>
+							<li class="upsell-item">
+								<a href="<?php echo $_product_url; ?>">
+									<?php echo $_image_source; ?>
+									<h4><?php echo $_product_name; ?></h4>
+									<p><?php echo $_product_price; ?></p>
+								</a>
+							</li>
+						<?php endforeach; ?>
+					</ul>
+				</div>
+			</div>
+		<?php endif; ?>
 	</div>
 <?php endforeach; ?>

@@ -25,6 +25,8 @@
             // Make height adjustments to the bottom sale section
             adjustColHeight();
 
+            setCartOverlay();
+
             // Fire common init JS
             UTIL.fire('common');
 
@@ -51,6 +53,22 @@
                 colMenu.css('height', colRight.height);
             }
         }
+    }
+
+    function setCartOverlay() {
+        if ($('.cart-overlay').length > 0) {
+            var overlayHtml = '<div class="bg-overlay"></div>';
+
+            $('body').append(overlayHtml);
+
+            $('.bg-overlay').append($('.cart-overlay'));
+        }
+
+        $('body').on('click', '.bg-overlay', function(e) {
+            if (e.target.className === 'bg-overlay') {
+                $('.bg-overlay').fadeOut();
+            }
+        });
     }
 
     function setNewsletter() {
@@ -128,9 +146,9 @@
             }
         });
 
-        if ($('.cont-woocommerce-message').length > 0) {
-            $('.cont-woocommerce-message .close-message').click(function() {
-                $(this).parent().fadeOut();
+        if ($('.cart-overlay').length > 0) {
+            $('.cart-overlay .close-message, .cart-overlay .keep-shopping').click(function() {
+                $(this).closest('.bg-overlay').fadeOut();
             });
         }
 
@@ -211,22 +229,24 @@
                             top: event.pageY - 75,
                             left: event.pageX + 75
                         });
-
                     } else {
                         // The element doesn't exist, create it
                         var boardName = $(this).attr('data-name');
                         var boardDesc = $(this).attr('data-desc');
                         var imgSource = thisElement.find('img').attr('src');
-                        zoomedElement = '<div class="zoom-wrapper'+valSelect+' zoomed-elmnt"><img src="'+imgSource+'"><p>'+boardName+'</p><p>'+boardDesc+'</p></div>';
 
-                        // Append the element to the body
-                        $('body').append(zoomedElement);
+                        if (boardName.length > 0 && boardDesc.length > 0 && imgSource.length > 0) {
+                            zoomedElement = '<div class="zoom-wrapper'+valSelect+' zoomed-elmnt"><img src="'+imgSource+'"><p>'+boardName+'</p><p>'+boardDesc+'</p></div>';
 
-                        // Position the element relatively to the mouse cursor
-                        $('.zoomed-elmnt').css({
-                            top: event.pageY - 75,
-                            left: event.pageX + 75
-                        });
+                            // Append the element to the body
+                            $('body').append(zoomedElement);
+
+                            // Position the element relatively to the mouse cursor
+                            $('.zoomed-elmnt').css({
+                                top: event.pageY - 75,
+                                left: event.pageX + 75
+                            });
+                        }
                     }
                 }
             });
