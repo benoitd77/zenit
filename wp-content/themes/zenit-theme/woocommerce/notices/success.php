@@ -30,6 +30,8 @@ $currentProduct = new WC_Product($product->id);
 
 $upsells = $currentProduct->get_upsells();
 
+$currentLang = qtrans_getLanguage();
+
 ?>
 
 <?php foreach ( $messages as $message ) : ?>
@@ -40,12 +42,12 @@ $upsells = $currentProduct->get_upsells();
 				<?php echo wp_kses_post( $message ); ?>
 			</div>
 			<div class="woocommerce-message">
-				<a href="javascript:void(0)" class="button keep-shopping">Continue shopping</a>
+				<a href="javascript:void(0)" class="button keep-shopping"><?php echo ($currentLang === 'fr') ? 'Continuer à magasiner' : 'Continue shopping'; ?></a>
 			</div>
 		</div>
 		<?php if (count($upsells) > 0) : ?>
 			<div class="inner-bottom">
-				<p class="upsell-title">You may also like</p>
+				<p class="upsell-title"><?php echo ($currentLang === 'fr') ? 'Vous pourriez aussi aimer' : 'You may also like'; ?></p>
 				<div class="upsell-wrapper">
 					<ul>
 						<?php foreach($upsells as $upsell_prod_id) :
