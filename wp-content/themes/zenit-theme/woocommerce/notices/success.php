@@ -41,7 +41,7 @@ $currentLang = qtrans_getLanguage();
 			<div class="woocommerce-message">
 				<?php echo wp_kses_post( $message ); ?>
 			</div>
-			<div class="woocommerce-message">
+			<div class="woocommerce-message-fake">
 				<a href="javascript:void(0)" class="button keep-shopping"><?php echo ($currentLang === 'fr') ? 'Continuer à magasiner' : 'Continue shopping'; ?></a>
 			</div>
 		</div>

@@ -1,9 +1,11 @@
-.woocommerce-error, .woocommerce-info, .woocommerce-message{
-	border-top-color:black!important;
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+    border-top-color: black!important;
 }
 
 .woocommerce button.button.alt.disabled{
-	background-color:black!important;
+	background-color: black!important;
 }
 
 .woocommerce div.product {
@@ -34,6 +36,7 @@
 }
 
 .cart-overlay {
+    display: none;
     background-color: #f7f6f7;
     position: fixed;
     left: 50%;
@@ -79,7 +82,8 @@
         position: relative;
     }
 
-    .woocommerce-message {
+    .woocommerce-message,
+    .woocommerce-message-fake {
         border: 0;
         font-family: 'apercu', helvetica, arial, sans-serif;
         font-size: 22px;
@@ -416,7 +420,8 @@ body.panier {
             height: 170px;
         }
 
-        .woocommerce-message {
+        .woocommerce-message,
+        .woocommerce-message-fake {
             font-size: 18px;
             line-height: 20px;
             padding-bottom: 20px!important;
@@ -460,7 +465,8 @@ body.panier {
             height: 210px;
         }
 
-        .woocommerce-message {
+        .woocommerce-message,
+        .woocommerce-message-fake {
             font-size: 16px;
             line-height: 18px;
 
@@ -502,7 +508,8 @@ body.panier {
             right: 3px;
         }
 
-        .woocommerce-message {
+        .woocommerce-message,
+        .woocommerce-message-fake {
             font-size: 14px;
             line-height: 16px;
             padding: 35px 20px 20px 20px!important;

@@ -62,6 +62,8 @@
             $('body').append(overlayHtml);
 
             $('.bg-overlay').append($('.cart-overlay'));
+
+            $('.cart-overlay').show();
         }
 
         $('body').on('click', '.bg-overlay', function(e) {
