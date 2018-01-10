@@ -146,7 +146,7 @@
 
     .upsell-title {
         font-family: 'apercu', Helvetica, Arial, sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -428,7 +428,7 @@ body.panier {
 
             a.button {
                 font-size: 14px;
-                width: 205px;
+                width: 235px;
 
                 &.wc-forward {
                     right: 15px;
@@ -516,11 +516,11 @@ body.panier {
 
             a.button {
                 &.wc-forward {
-                    right: 37px;
+                    right: 22px;
                 }
 
                 &.keep-shopping {
-                    left: 38px;
+                    left: 23px;
                 }
             }
         }
