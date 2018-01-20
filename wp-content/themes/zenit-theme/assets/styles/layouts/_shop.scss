@@ -412,9 +412,10 @@ body.panier {
     }
 
     .cart-overlay {
-        margin-left: -250px;
-        padding: 0 20px;
+        margin: -339px 0 0 -250px;
+        padding: 0 20px 10px;
         width: 500px;
+        height: 678px;
 
         .inner-top {
             height: 170px;
@@ -427,8 +428,8 @@ body.panier {
             padding-bottom: 20px!important;
 
             a.button {
-                font-size: 14px;
-                width: 235px;
+                font-size: 13px;
+                width: 205px;
 
                 &.wc-forward {
                     right: 15px;
@@ -440,15 +441,20 @@ body.panier {
             }
         }
 
-        .inner-bottom ul li {
-            margin: 0 30px;
+        .inner-bottom ul {
+            display: block;
+
+            li {
+                float: left;
+                margin: 0 30px;
+            }
         }
 
         .upsell-wrapper {
             .upsell-item {
                 &:nth-child(3),
                 &:nth-child(4) {
-                    display: none;
+                    //display: none;
                 }
             }
         }
@@ -471,20 +477,27 @@ body.panier {
             line-height: 18px;
 
             a.button {
+                font-size: 14px;
+                width: 235px;
+
                 &.wc-forward {
-                    right: 87px;
+                    right: 72px;
                     bottom: 20px;
                 }
 
                 &.keep-shopping {
-                    left: 88px;
+                    left: 73px;
                     bottom: 75px;
                 }
             }
         }
 
         .inner-bottom ul li {
-            margin: 0 10px;
+            margin: 0 20px;
+        }
+
+        .upsell-wrapper .upsell-item {
+            width: 150px;
         }
     }
 }
@@ -500,19 +513,21 @@ body.panier {
 
 @media (max-width: 480px) {
     .cart-overlay {
-        margin-left: -150px;
+        height: 480px;
+        margin: -240px 0 0 -150px;
+        overflow: scroll;
         width: 300px;
 
         .close-message {
-            top: 12px;
-            right: 3px;
+            top: 10px;
+            right: 0;
         }
 
         .woocommerce-message,
         .woocommerce-message-fake {
             font-size: 14px;
             line-height: 16px;
-            padding: 35px 20px 20px 20px!important;
+            padding: 25px 20px 20px 20px!important;
 
             a.button {
                 &.wc-forward {
@@ -525,8 +540,24 @@ body.panier {
             }
         }
 
-        .inner-bottom ul li {
-            margin: 0;
+        .inner-top {
+            height: 195px;
+        }
+
+        .inner-bottom {
+            padding: 15px 0 5px;
+
+            ul li {
+                margin: 0;
+            }
+        }
+
+        .upsell-wrapper {
+            pading-top: 0;
+
+            .upsell-item {
+                width: 140px;
+            }
         }
     }
 }
