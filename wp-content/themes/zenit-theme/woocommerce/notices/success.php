@@ -48,8 +48,8 @@ $currentLang = qtrans_getLanguage();
 		<?php if (count($upsells) > 0) : ?>
 			<div class="inner-bottom">
 				<p class="upsell-title"><?php echo ($currentLang === 'fr') ? 'Vous pourriez aussi aimer' : 'You may also like'; ?></p>
-				<div class="upsell-wrapper clearfix">
-					<ul>
+				<div class="upsell-wrapper">
+					<ul class="clearfix">
 						<?php foreach($upsells as $upsell_prod_id) :
 							$_product = new WC_Product_Variable($upsell_prod_id);
 							$_product_name  = $_product->post->post_title;

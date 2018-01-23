@@ -37,7 +37,7 @@
 
 .cart-overlay {
     display: none;
-    background-color: #f7f6f7;
+    background-color: #ffffff;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -84,6 +84,7 @@
 
     .woocommerce-message,
     .woocommerce-message-fake {
+        background-color: #ffffff;
         border: 0;
         font-family: 'apercu', helvetica, arial, sans-serif;
         font-size: 22px;
@@ -168,9 +169,8 @@
 
             h4 {
                 font-family: 'apercu', Helvetica, Arial, sans-serif;
-                font-size: 12px;
+                font-size: 11px;
                 font-weight: normal;
-                height: 26px;
                 overflow: hidden;
                 margin: 10px 0 5px;
                 text-transform: none;
@@ -186,7 +186,7 @@
 }
 
 .return-to-shop{
-	margin-top:15px;
+	margin-top: 15px;
 }
 
 .dd-select{
@@ -553,7 +553,7 @@ body.panier {
         }
 
         .upsell-wrapper {
-            pading-top: 0;
+            padding-top: 0;
 
             .upsell-item {
                 width: 140px;
