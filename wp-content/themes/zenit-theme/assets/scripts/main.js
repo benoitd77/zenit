@@ -69,11 +69,13 @@
 
             $('.bg-overlay').append($('.cart-overlay'));
 
+            $('body').addClass('no-scroll');
             $('.cart-overlay').show();
         }
 
         $('body').on('click', '.bg-overlay', function(e) {
             if (e.target.className === 'bg-overlay') {
+                $('body').removeClass('no-scroll');
                 $('.bg-overlay').fadeOut();
             }
         });
@@ -157,6 +159,7 @@
         if ($('.cart-overlay').length > 0) {
             $('.cart-overlay .close-message, .cart-overlay .keep-shopping').click(function() {
                 $(this).closest('.bg-overlay').fadeOut();
+                $('body').removeClass('no-scroll');
             });
         }
 

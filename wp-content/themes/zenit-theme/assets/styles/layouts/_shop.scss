@@ -370,6 +370,13 @@ body.panier {
     }
 }
 
+body.no-scroll {
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
 @media (max-width: 858px) {
     .cart-overlay {
         margin-left: -360px;
