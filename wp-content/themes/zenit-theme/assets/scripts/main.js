@@ -61,6 +61,12 @@
 
             $('body').append(overlayHtml);
 
+            if ($('.cart-overlay .inner-bottom').length < 1) {
+                var topSectionHeight = $('.cart-overlay .inner-top').height();
+                var marginTop = 0 - topSectionHeight / 2;
+                $('.cart-overlay').css({height:topSectionHeight,marginTop:marginTop})
+            }
+
             $('.bg-overlay').append($('.cart-overlay'));
 
             $('.cart-overlay').show();
