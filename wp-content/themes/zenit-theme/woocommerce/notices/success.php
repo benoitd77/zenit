@@ -31,6 +31,7 @@ $currentProduct = new WC_Product($product->id);
 $upsells = $currentProduct->get_upsells();
 
 $currentLang = qtrans_getLanguage();
+$langTag     = "[:" . $currentLang . "]";
 
 ?>
 
@@ -52,7 +53,16 @@ $currentLang = qtrans_getLanguage();
 					<ul class="clearfix">
 						<?php foreach($upsells as $upsell_prod_id) :
 							$_product = new WC_Product_Variable($upsell_prod_id);
-							$_product_name  = $_product->post->post_title;
+							$_product_name_str  = $_product->post->post_title;
+
+							if (strpos($_product_name_str, $langTag) !== false) {
+								$_product_name_arr = explode($langTag, $_product_name_str);
+								$_product_name  = substr($_product_name_arr[1], 0, strpos($_product_name_arr[1], '[:'));
+								$_product_name  = trim($_product_name);
+							} else {
+								$_product_name = $_product_name_str;
+							}
+
 							$_product_url   = get_permalink($upsell_prod_id);
 							$_image_source  = get_the_post_thumbnail( $upsell_prod_id, array(150, 150) );
 							$_product_price = $_product->get_regular_price();
