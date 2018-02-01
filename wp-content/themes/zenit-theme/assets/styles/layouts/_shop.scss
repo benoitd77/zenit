@@ -163,6 +163,17 @@
                 display: block;
             }
 
+            .thumb-wrapper {
+                height: 150px;
+                width: 150px;
+
+                span {
+                    display: inline-block;
+                    height: 100%;
+                    vertical-align: middle;
+                }
+            }
+
             img {
                 width: 100%;
             }
@@ -500,11 +511,7 @@ body.no-scroll {
         }
 
         .inner-bottom ul li {
-            margin: 0 20px;
-        }
-
-        .upsell-wrapper .upsell-item {
-            width: 150px;
+            margin: 0 10px;
         }
     }
 }
@@ -564,6 +571,11 @@ body.no-scroll {
 
             .upsell-item {
                 width: 140px;
+
+                .thumb-wrapper {
+                    height: 124px;
+                    width: 124px;
+                }
             }
         }
     }

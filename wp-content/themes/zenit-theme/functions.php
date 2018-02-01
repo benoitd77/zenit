@@ -71,8 +71,7 @@ add_filter('tiny_mce_before_init', 'ikreativ_tiny_mce_fix');
 
 unset($file, $filepath);
 
-add_image_size( 'custom-size', 480, 640, true );
+add_image_size( 'custom-size', 480, 640, false );
 add_image_size( 'custom-size500', 500, 500, false );
-add_image_size( 'custom-size720', 540, 720, true );
-add_image_size( 'custom-size720', 375, 500, true );
-add_image_size( 'custom-size150', 150, 150, false );
+add_image_size( 'custom-size540', 540, 720, false );
+add_image_size( 'custom-size375', 375, 500, false );

@@ -78,7 +78,7 @@ $langTag     = "[:" . $currentLang . "]";
 							?>
 							<li class="upsell-item">
 								<a href="<?php echo $_product_url; ?>">
-									<?php echo $_image_source; ?>
+									<div class="thumb-wrapper"><span></span><?php echo $_image_source; ?></div>
 									<h4><?php echo $_product_name; ?></h4>
 									<p><?php echo $_product_price; ?></p>
 								</a>
