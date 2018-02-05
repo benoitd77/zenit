@@ -56,7 +56,7 @@
 								</div>
 
 								<div class="image-board">
-									<?php the_post_thumbnail(); ?>
+									<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url(); ?>">
 								</div>
 
 								<div class="hover">

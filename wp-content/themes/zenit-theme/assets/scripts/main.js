@@ -24,7 +24,7 @@
         loadEvents: function() {
             // Make height adjustments to the bottom sale section
             adjustColHeight();
-
+            initLazyLoading();
             setCartOverlay();
 
             // Fire common init JS
@@ -53,6 +53,12 @@
                 colMenu.css('height', colRight.height);
             }
         }
+    }
+
+    function initLazyLoading() {
+        $("img.lazy").lazyload({
+            threshold : 200
+        });
     }
 
     function setCartOverlay() {
@@ -333,6 +339,18 @@
             }
         });
 
+        function lazyBgImg(slide) {
+            var lazyImage     = $(slide).next(),
+                lazyImageData = lazyImage.data('image');
+
+            if (!lazyImage.hasClass('loaded')) {
+                lazyImage.css({
+                    'background-image': 'url(' + lazyImageData + ')'
+                });
+                lazyImage.addClass('loaded');
+            }
+        }
+
         $('#btMenu').on('click', function() {
             $('.nav-primary').toggleClass('visually-visible');
             $('body').toggleClass('no-scroll');
@@ -346,6 +364,12 @@
 
             // On before slide change
             $('#splash .slider-fullscreen').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+
+                // Lazy load the slides
+                if ( currentSlide !== nextSlide ) {
+                    lazyBgImg( $(slick.$slides.get(nextSlide)) );
+                }
+
                 $('#splash .slider-fullscreen .slide:eq(' + currentSlide + ') .content').removeClass('visible-text');
             });
 

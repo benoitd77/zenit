@@ -45,7 +45,8 @@
 			<div class="col-sm-3 team-member" data-id="<?php echo get_the_ID(); ?>">
 				<div class="content">
 					<div class="image">
-						<?php the_post_thumbnail(); ?>
+						<?php //the_post_thumbnail(); ?>
+						<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url(); ?>" width="650" height="650">
 						<div class="text-content">
 						<h3><?php the_title(); ?></h3>
 						</div>

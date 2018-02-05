@@ -9,10 +9,12 @@
 		<?php
 			// check if the repeater field has rows of data
 			if( have_rows('slider_home') ):
+				$counter = 0;
 			    // loop through the rows of data
-			    while ( have_rows('slider_home') ) : the_row();
-				?>
-					<div class="slide" style="background-image:url('<?php echo get_sub_field('background_image'); ?>')">
+			    while ( have_rows('slider_home') ) : the_row();	?>
+					<div class="slide<?php echo ($counter === 0 || $counter === 1) ? ' loaded' : ''; ?>"
+					     data-image="<?php echo get_sub_field('background_image'); ?>"
+					     style="<?php echo ($counter === 0 || $counter === 1) ? 'background-image:url('. get_sub_field('background_image') .')' : ''; ?>">
 						<div class="content">
 							<?php
 						        // display a sub field value
@@ -25,7 +27,8 @@
 					        ?>
 			            </div>
 			        </div>
-			    <?php
+			        <?php
+				    $counter++;
 			    endwhile;
 			endif;
 		?>
@@ -33,10 +36,10 @@
 </section>
 
 <section id="info-home" class="row">
-		<div class="col-sm-6 col-sm-push-3">
-			<h2><?php echo get_field('info_titre') ?></h2>
-			<p><?php echo get_field('info_texte') ?></p>
-		</div>
+	<div class="col-sm-6 col-sm-push-3">
+		<h2><?php echo get_field('info_titre'); ?></h2>
+		<p><?php echo get_field('info_texte'); ?></p>
+	</div>
 </section>
 
 <section id="instagram">

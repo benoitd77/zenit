@@ -203,6 +203,10 @@
         a {
             display: block;
         }
+
+        &.active {
+            display: none;
+        }
     }
 
     label {
