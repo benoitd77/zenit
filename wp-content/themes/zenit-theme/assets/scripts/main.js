@@ -834,7 +834,7 @@
         $('.board-select-item').on('click', toggleBoardSelect);
 
         // Stupid hack for lazy load to work properly
-        if ($(body).hasClass('page-template-page-team')) {
+        if ($('body').hasClass('page-template-page-team')) {
             $(window).scrollTop(1);
         }
     }
