@@ -148,6 +148,9 @@
         // Make height adjustments to the bottom sale section
         adjustColHeight();
 
+        // Stupid hack for lazy load to work properly
+        $(window).scrollTop(1);
+
         $(function() {
             // initialize skrollr if the window width is large enough
             if ($(win).width() > 768) {
