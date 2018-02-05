@@ -72,7 +72,7 @@ if($wheelsQuery->have_posts()) {
 					<div class="board-setup <?php echo $counter == 1 ? 'selected-setup' : ''; ?>"
 					     data-trucks="<?php echo $recommended_setup['attributes']['attribute_pa_trucks']; ?>"
 					     data-wheels="<?php echo $recommended_setup['attributes']['attribute_pa_roues']; ?>">
-						<img class="lazy" data-original="<?php echo $recommended_setup['image_src']; ?>">
+						<img src="<?php echo $recommended_setup['image_src']; ?>">
 						<h4><?php echo $recommended_setup['variation_description']; ?></h4>
 						<span><?php echo $recommended_setup['price_html']; ?></span>
 					</div>
@@ -118,7 +118,7 @@ if($wheelsQuery->have_posts()) {
 									<div class="variation col-sm-4 col-xs-6" data-name="<?php _e($value->name); ?>" data-desc="<?php _e($value->description); ?>" data-slug="<?php echo $value->slug; ?>" data-list="<?php echo $value->taxonomy; ?>">
 										<div class='variation-cont'>
 											<?php if ( ! empty( $image ) ) : ?>
-												<img class="lazy" data-original="<?php echo esc_url( $image ); ?>" />
+												<img src="<?php echo esc_url( $image ); ?>" />
 												<p><?php _e($value->name); ?></p>
 												<p class="variation-price"><?php echo ($currencySymbol == '&euro;') ? $currencySymbol . ' ' . $variation_price : $variation_price . $currencySymbol; ?></p>
 											<?php endif; ?>
