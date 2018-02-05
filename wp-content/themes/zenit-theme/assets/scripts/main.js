@@ -148,9 +148,6 @@
         // Make height adjustments to the bottom sale section
         adjustColHeight();
 
-        // Stupid hack for lazy load to work properly
-        $(window).scrollTop(1);
-
         $(function() {
             // initialize skrollr if the window width is large enough
             if ($(win).width() > 768) {
@@ -835,6 +832,11 @@
         }
 
         $('.board-select-item').on('click', toggleBoardSelect);
+
+        // Stupid hack for lazy load to work properly
+        if ($(body).hasClass('page-template-page-team')) {
+            $(window).scrollTop(1);
+        }
     }
 
     win.onload = configurer;
