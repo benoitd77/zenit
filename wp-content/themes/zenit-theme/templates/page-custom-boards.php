@@ -63,7 +63,7 @@
 									//the_post_thumbnail();
 									//echo get_the_post_thumbnail( $product->ID, array(375, 500) );
 								?>
-								<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url(); ?>" width="375" height="500">
+								<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url($product->ID, array(375, 500)); ?>" width="375" height="500">
 							</div>
 
 							<div class="hover">
