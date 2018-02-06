@@ -57,6 +57,8 @@
 
     function initLazyLoading() {
         $("img.lazy").lazyload({
+            effect: "fadeIn",
+            effectTime: 1000,
             threshold : 200
         });
     }
