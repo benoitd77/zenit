@@ -11,7 +11,7 @@
 		<?php endif; ?>
 
 		<?php if(get_sub_field('image_agrandie')) : ?>
-			<img class="elevate-zoom lazy" data-original="<?php echo get_sub_field('image_simple'); ?>" alt="<?php echo get_the_title(); ?>" data-zoom-image="<?php echo get_sub_field('image_agrandie'); ?>"/>
+			<img class="elevate-zoom" src="<?php echo get_sub_field('image_simple'); ?>" alt="<?php echo get_the_title(); ?>" data-zoom-image="<?php echo get_sub_field('image_agrandie'); ?>"/>
 		<?php else : ?>
 			<img class="lazy" data-original="<?php echo get_sub_field('image_simple'); ?>" alt="<?php echo get_the_title(); ?>" />
 		<?php endif; ?>
