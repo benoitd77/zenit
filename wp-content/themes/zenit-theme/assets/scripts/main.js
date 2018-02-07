@@ -24,6 +24,11 @@
         loadEvents: function() {
             // Make height adjustments to the bottom sale section
             adjustColHeight();
+
+            // Adjust Bottom sales image alignment
+            adjustBottomSales();
+            setDelayedAdjustments();
+
             initLazyLoading();
             setCartOverlay();
 
@@ -53,6 +58,32 @@
                 colMenu.css('height', colRight.height);
             }
         }
+    }
+
+    function adjustBottomSales() {
+        if ($('body').attr('id') !== 'page-board' || !$('body').hasClass('single-product')) {
+            return;
+        }
+
+        var boardOnly = document.getElementById('container-boardonly');
+        var complete  = document.getElementById('container-complete');
+        var boardOnlyImg = null;
+        var completeImg  = null;
+
+        if (boardOnly != null && complete != null) {
+            boardOnlyImg = boardOnly.getElementsByTagName('img')[0];
+            completeImg  = complete.getElementsByTagName('img')[0];
+        }
+
+        if (boardOnlyImg != null && completeImg != null) {
+            boardOnlyImg.style.marginTop = (completeImg.height - boardOnlyImg.height) + "px";
+        }
+    }
+
+    function setDelayedAdjustments() {
+        setTimeout(function(){
+            adjustBottomSales();
+        }, 1000);
     }
 
     function initLazyLoading() {
@@ -149,6 +180,9 @@
     function configurer() {
         // Make height adjustments to the bottom sale section
         adjustColHeight();
+
+        // Adjust Bottom sales image alignment
+        adjustBottomSales();
 
         $(function() {
             // initialize skrollr if the window width is large enough
@@ -395,6 +429,9 @@
         $(win).resize(function() {
             // Make height adjustments to the bottom sale section
             adjustColHeight();
+
+            // Adjust Bottom sales image alignment
+            adjustBottomSales();
         });
 
         function adjustBoardSummary() {

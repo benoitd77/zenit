@@ -8,40 +8,6 @@
 	}
 ?>
 
-<script language="javascript">
-
-function adjustBottomSales() {
-	var boardOnly = document.getElementById('container-boardonly');
-	var complete  = document.getElementById('container-complete');
-	var boardOnlyImg = null;
-	var completeImg  = null;
-
-	if (boardOnly != null && complete != null) {
-		boardOnlyImg = boardOnly.getElementsByTagName('img')[0];
-		completeImg  = complete.getElementsByTagName('img')[0];
-	}
-
-	if (boardOnlyImg != null && completeImg != null) {
-		boardOnlyImg.style.marginTop = (completeImg.height - boardOnlyImg.height) + "px";
-	}
-}
-
-setTimeout(function(){
-	adjustBottomSales();
-}, 1000);
-
-setTimeout(function(){
-	adjustBottomSales();
-}, 5000);
-
-if(window.addEventListener) {
-    window.addEventListener('resize', function() {
-        adjustBottomSales();
-    }, true);
-}
-
-</script>
-
 <div id="header-product" <?php echo $classHeader; ?>>
 	<?php wc_print_notices(); ?>
 
@@ -50,7 +16,6 @@ if(window.addEventListener) {
 			<?php
 				// check if the repeater field has rows of data
 				if( have_rows('visionneuse_haut') ):
-
 				    // loop through the rows of data
 				    while ( have_rows('visionneuse_haut') ) : the_row(); ?>
 						<div class="cont-img">
@@ -68,21 +33,21 @@ if(window.addEventListener) {
 		if (get_field('specification_en_noir') && get_field('specification_en_noir') == 1) {
 			$classStats = "class='black'";
 		} else {
-			$classStats="";
+			$classStats = "";
 		}
 	?>
 
 	<div id="stats" class="stats-single"  style="background-image:url('<?php echo get_field('background-image'); ?>')">
 		<h1><?php echo get_the_title(); ?></h1>
 
-		<?php if (get_field('s-titre')){ ?>
+		<?php if (get_field('s-titre')) : ?>
 			<h3><?php echo get_field('s-titre'); ?></h3>
-		<?php } ?>
+		<?php endif; ?>
 
 		<div class="description"><?php echo get_the_content(); ?></div>
 
 		<?php
-			$url = do_shortcode('[add_to_cart_url id="'.$product->ID.'"]');
+			$url = do_shortcode('[add_to_cart_url id="' . $product->ID . '"]');
 			$_product = wc_get_product( get_the_id() );
 		?>
 
@@ -91,6 +56,7 @@ if(window.addEventListener) {
 		<?php else : ?>
 			<a href="#" class="button disabled"><?php echo _e('Out of stock','zenit'); ?></a>
 		<?php endif; ?>
+
 		<ul id="specs" <?php echo $classStats; ?>>
 			<?php
 				// check if the repeater field has rows of data
@@ -112,56 +78,52 @@ if(window.addEventListener) {
 								<li></li>
 								<li></li>
 							</ul>
-
 							<span class="title-meter" data-id="<?php echo $i; ?>" ><?php echo get_sub_field('title'); ?></span>
-							<!--<span class="description-meter" data-id-desc="<?php //echo $i; ?>"><?php// echo get_sub_field('desc'); ?></span>-->
 						</li>
 						<span class="description-meter" data-id-desc="<?php echo $i; ?>"><?php echo get_sub_field('desc'); ?></span>
-						<?php $i++; ?>
-					<?php endwhile;
+						<?php $i++;
+					endwhile;
 				endif;
 			?>
 		</ul>
 	</div>
 </div>
 
-<?php $cpt = 0; ?>
 <div id="page-builder" class="container-fluid">
 	<?php
+		$cpt = 0;
 		// check if the repeater field has rows of data
-		if( have_rows('section') ):
-		    // loop through the rows of data
-		    while ( have_rows('section') ) : the_row();
-		        $type = get_sub_field('type');
+		if( have_rows('section') ) {
+			// loop through the rows of data
+			while ( have_rows( 'section' ) ) : the_row();
+				$type = get_sub_field( 'type' );
 
-		        if($type == 'Image' ){
-		            set_query_var( 'cpt', $cpt );
-		            get_template_part('templates/content-image');
-		        }
+				if ( $type == 'Image' ) {
+					set_query_var( 'cpt', $cpt );
+					get_template_part( 'templates/content-image' );
+				}
 
-		        if($type == 'image_texte' ){
-		            set_query_var( 'cpt', $cpt );
-		            get_template_part('templates/content-image-fw');
-		        }
+				if ( $type == 'image_texte' ) {
+					set_query_var( 'cpt', $cpt );
+					get_template_part( 'templates/content-image-fw' );
+				}
 
-		        if($type == 'video' ){
-		            set_query_var( 'cpt', $cpt );
-		            get_template_part('templates/content-video');
-		        }
+				if ( $type == 'video' ) {
+					set_query_var( 'cpt', $cpt );
+					get_template_part( 'templates/content-video' );
+				}
 
-		        if($type == 'text-fw'){
-		            set_query_var( 'cpt', $cpt );
-		            get_template_part('templates/content-text-fw');
-		        }
+				if ( $type == 'text-fw' ) {
+					set_query_var( 'cpt', $cpt );
+					get_template_part( 'templates/content-text-fw' );
+				}
 
-		        if(get_sub_field('titre_menu')){
-		            $cpt++;
-		        }
+				if ( get_sub_field( 'titre_menu' ) ) {
+					$cpt ++;
+				}
 
-		    endwhile;
-		else :
-		    // no rows found
-		endif;
+			endwhile;
+		}
 	?>
 </div>
 
@@ -181,7 +143,7 @@ if(window.addEventListener) {
 				<div class="image-board">
 					<?php $url = do_shortcode('[add_to_cart_url id="'.$_product->ID.'"]');  ?>
 
-					<img src="<?php echo $arrVis[0]['image']; ?>" />
+					<img class="lazy" data-original="<?php echo $arrVis[0]['image']; ?>" />
 
 					<?php if ($_product->is_in_stock()) : ?>
 						<a href="<?php echo $url; ?>" class="button"><?php echo get_field('button_add_to_cart'); ?></a>
@@ -192,10 +154,9 @@ if(window.addEventListener) {
 			</div>
 		</div>
 		<div id="container-complete" class="col-sm-6">
-			<?php if (get_field('link_complete')) : ?>
-				<?php
-					$id_complete = get_field('link_complete');
-					$id_complete = $id_complete[0];
+			<?php if (get_field('link_complete')) :
+				$id_complete = get_field('link_complete');
+				$id_complete = $id_complete[0];
 				?>
 
 				<div class="board">
@@ -205,9 +166,9 @@ if(window.addEventListener) {
 					<p itemprop="price" class="price"><?php echo $_product->get_price_html(); ?></p>
 
 					<div class="image-board">
-						<?php echo get_the_post_thumbnail( $id_complete ); ?>
+						<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url($id_complete); ?>">
 
-						<?php $url = do_shortcode('[add_to_cart_url id="'.$id_complete.'"]');  ?>
+						<?php $url = do_shortcode('[add_to_cart_url id="' . $id_complete . '"]');  ?>
 
 						<?php if ($_product->is_in_stock()) : ?>
 							<a href="<?php echo $url; ?>" class="button"><?php echo get_field('button_customize'); ?></a>
