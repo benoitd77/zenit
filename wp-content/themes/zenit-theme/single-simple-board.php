@@ -143,7 +143,7 @@
 				<div class="image-board">
 					<?php $url = do_shortcode('[add_to_cart_url id="'.$_product->ID.'"]');  ?>
 
-					<img class="lazy" data-original="<?php echo $arrVis[0]['image']; ?>" />
+					<img src="<?php echo $arrVis[0]['image']; ?>" />
 
 					<?php if ($_product->is_in_stock()) : ?>
 						<a href="<?php echo $url; ?>" class="button"><?php echo get_field('button_add_to_cart'); ?></a>
@@ -166,7 +166,7 @@
 					<p itemprop="price" class="price"><?php echo $_product->get_price_html(); ?></p>
 
 					<div class="image-board">
-						<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url($id_complete); ?>">
+						<img src="<?php echo get_the_post_thumbnail_url($id_complete); ?>">
 
 						<?php $url = do_shortcode('[add_to_cart_url id="' . $id_complete . '"]');  ?>
 
