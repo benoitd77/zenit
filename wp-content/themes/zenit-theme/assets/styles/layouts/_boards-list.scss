@@ -48,7 +48,8 @@
         color: #9a9a9a;
         font-weight: bold;
         font-size: 15px;
-        margin-bottom: 25px;
+        margin: 0 auto 25px;
+        max-width: 900px;
     }
 
     .board-container {
@@ -62,7 +63,7 @@
 
         &.surfskate {
             .content-board {
-                height: 648px;
+                height: 638px;
             }
         }
 
@@ -72,9 +73,27 @@
             }
         }
 
+        &.pintail {
+            .content-board {
+                height: 685px;
+            }
+        }
+
         &.shredder {
             .content-board {
                 height: 702px;
+            }
+        }
+
+        &.push {
+            .content-board {
+                height: 659px;
+            }
+        }
+
+        &.danceur {
+            .content-board {
+                height: 822px;
             }
         }
     }
@@ -353,10 +372,9 @@
     .board {
         .content-board {
             position: relative;
-            background-color: #f2f2f2;
             padding: 30px 30px 25px;
             overflow: hidden;
-            height:100%;
+            height: 100%;
 
             .section-top {
                 margin-bottom: 30px;
@@ -365,7 +383,13 @@
             }
 
             .image-board {
+                background: #f2f2f2 url('../images/spinner.gif') 50% no-repeat;
                 margin: 0 auto;
+                height: calc(100% - 67px);
+
+                &.img-loaded {
+                    background: #f2f2f2;
+                }
 
                 img {
                     transition: 0.5s transform;
@@ -381,7 +405,8 @@
             min-height: 100%;
             left: 0;
             width: 100%;
-            background-color: rgba(242, 242, 242, 0.9);
+            background: rgb(242, 242, 242);
+            background: rgba(242, 242, 242, 0.9);
             transition: 0.5s opacity;
             overflow-y: auto;
             padding: 100px 15px 0;

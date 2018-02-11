@@ -68,6 +68,8 @@
         color: #9a9a9a;
         font-weight: bold;
         font-size: 15px;
+        max-width: 900px;
+        margin: 0 auto;
     }
 
     .spec-top {
@@ -113,7 +115,12 @@
                 display: table;
                 position: relative;
                 margin-top: 15px;
-                background-color: #f2f2f2;
+                min-height: 152px;
+                background: #f2f2f2 url('../images/spinner.gif') 50% no-repeat;
+
+                &.img-loaded {
+                    background: #f2f2f2;
+                }
 
                 img {
                     display: block;
@@ -130,7 +137,8 @@
             min-height: 100%;
             left: 0;
             width: 100%;
-            background-color: rgba(242, 242, 242, 0.9);
+            background: rgb(242, 242, 242);
+            background: rgba(242, 242, 242, 0.9);
             transition: 0.5s opacity;
             overflow-y: auto;
             padding: 80px 15px 50px;
@@ -428,6 +436,55 @@
                         display: block;
 
                     }
+                }
+            }
+        }
+    }
+}
+
+
+#product-list {
+    .default-product {
+        .content-default {
+            .image-product {
+                @media (min-width: 1901px) {
+                    min-height: 368px;
+                }
+                @media (max-width: 1900px) {
+                    min-height: 333px;
+                }
+                @media (max-width: 1760px) {
+                    min-height: 293px;
+                }
+                @media (max-width: 1600px) {
+                    min-height: 253px;
+                }
+                @media (max-width: 1440px) {
+                    min-height: 234px;
+                }
+                @media (max-width: 1300px) {
+                    min-height: 203px;
+                }
+                @media (max-width: 1176px) {
+                    min-height: 153px;
+                }
+                @media (max-width: 976px) {
+                    min-height: 376px;
+                }
+                @media (max-width: 968px) {
+                    min-height: 337px;
+                }
+                @media (max-width: 760px) {
+                    min-height: 269px;
+                }
+                @media (max-width: 624px) {
+                    min-height: 197px;
+                }
+                @media (max-width: 480px) {
+                    min-height: 153px;
+                }
+                @media (max-width: 370px) {
+                    min-height: 126px;
                 }
             }
         }

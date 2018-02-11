@@ -18,12 +18,12 @@ body.page-template-page-team{
 	padding-left:2.5px;
 	padding-right:2.5px;
 	margin-bottom:5px;
-	cursor:pointer;
+	cursor: pointer;
 
 	.image{
 		position:relative;
 		text-align:center;
-		background-color:#4b4c4b;
+        background: #ffffff url('../images/spinner.gif') 50% no-repeat;
 
 		img{
 			opacity:0.5;
@@ -45,6 +45,18 @@ body.page-template-page-team{
 				opacity:0.33;
 			}
 		}
+
+        .text-content {
+            display: none;
+        }
+
+        &.img-loaded {
+            background: #4b4c4b;
+
+            .text-content {
+                display: block;
+            }
+        }
 	}
 }
 
@@ -88,6 +100,7 @@ body.page-template-page-team{
 		color:#959595;
 		font-weight:bold;
 		font-size:13px;
+
 		p{
 			font-size:13px;
 		}
@@ -95,6 +108,7 @@ body.page-template-page-team{
 
 	.instagram{
 		margin-bottom:45px;
+
 		img{
 			width:22.5px;
 			height:22.5px;
@@ -118,7 +132,7 @@ body.page-template-page-team{
 	.close-team{
 		position:absolute;
 		top:40px;
-		cursor:pointer;
+		cursor: pointer;
 		right:33px;
 		transition:0.5s opacity;
 		opacity:1;
@@ -152,6 +166,7 @@ body.page-template-page-team{
 
 #candidature{
 	padding:160px 15px 90px;
+
 	h3{
 		margin-bottom:15px;
 		text-align:center;
@@ -175,29 +190,62 @@ body.page-template-page-team{
 }
 
 
+.team-member {
+    .image {
+        @media (min-width: 320px) {
+            min-height: 345px;
+        }
+        @media (min-width: 375px) {
+            min-height: 400px;
+        }
+        @media (min-width: 768px) {
+            min-height: 190px;
+        }
+        @media (min-width: 1024px) {
+            min-height: 254px;
+        }
+        @media (min-width: 1080px) {
+            min-height: 268px;
+        }
+        @media (min-width: 1280px) {
+            min-height: 318px;
+        }
+        @media (min-width: 1366px) {
+            min-height: 339px;
+        }
+        @media (min-width: 1440px) {
+            min-height: 358px;
+        }
+        @media (min-width: 1903px) {
+            min-height: 478px;
+        }
+    }
+}
+
+
 @media (max-width: 768px) {
-   body.page-template-page-team{
-		padding-top:80px;
+    body.page-template-page-team{
+        padding-top:80px;
 
-	   .wpcf7-checkbox{
-	   	span{
-	   		font-size:12px;
-	   	}
-	   }
+        .wpcf7-checkbox{
+            span{
+                font-size:12px;
+            }
+        }
 
-	   .wpcf7-list-item{
-	   	margin-bottom:15px!important;
-	   }
-	}
+        .wpcf7-list-item{
+            margin-bottom:15px!important;
+        }
+    }
 
-   .fat-team-section{
-   	.background-image-team{
-   		min-height:250px;
-   	}
-   	.close-team{
-   		top:30px;
-   		right:40px;
-   	}
-   }
+    .fat-team-section{
+        .background-image-team{
+            min-height:250px;
+        }
 
+        .close-team{
+            top:30px;
+            right:40px;
+        }
+    }
 }

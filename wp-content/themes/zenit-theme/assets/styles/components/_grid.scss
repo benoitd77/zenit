@@ -99,6 +99,15 @@
   .col-sm-bottom {
     vertical-align: bottom;
   }
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 769px) {
+  .container {
+    width: 490px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -122,6 +131,9 @@
   .col-md-bottom {
     vertical-align: bottom;
   }
+  .container {
+      width: 610px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -144,5 +156,8 @@
   }
   .col-lg-bottom {
     vertical-align: bottom;
+  }
+  .container {
+    width: 930px;
   }
 }

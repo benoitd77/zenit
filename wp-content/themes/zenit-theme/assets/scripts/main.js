@@ -86,11 +86,18 @@
         }, 1000);
     }
 
+    function setLoadClass(element, el_left, settings) {
+        $(this).load(function() {
+            $(this).parent().addClass('img-loaded');
+        });
+    }
+
     function initLazyLoading() {
         $("img.lazy").lazyload({
             effect: "fadeIn",
             effectTime: 1000,
-            threshold : 200
+            threshold : 150,
+            load: setLoadClass
         });
     }
 
