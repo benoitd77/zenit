@@ -22,7 +22,7 @@
 						$translation  = trim($translation);
 					?>
 
-					<h2><?php echo $term->name; ?></h2>
+					<h2><?php echo $currentLang === 'fr' ? 'Vêtements Zenit' : 'Zenit\'s Clothing'; ?></h2>
 					<?php if($term->description): ?>
 						 <p class="description"><?php echo !empty($translation) ? $translation : $term->description; ?></p>
 					<?php endif; ?>
@@ -53,7 +53,8 @@
 								<p itemprop="price" class="price"><?php echo $product->get_price_html(); ?></p>
 							</div>
 							<div class="image-product">
-								<?php the_post_thumbnail(); ?>
+								<?php // the_post_thumbnail(); ?>
+								<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url($product->ID); ?>">
 							</div>
 
 							<div class="hover">
