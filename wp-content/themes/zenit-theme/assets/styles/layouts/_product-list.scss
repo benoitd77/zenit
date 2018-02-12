@@ -27,8 +27,7 @@
     }
 
     .col-sm-4{
-        float:none;
-        background-color: #f2f2f2;
+        float: none;
         border: 15px solid white;
         border-bottom: 0;
     }
@@ -101,7 +100,6 @@
 
         .content-default {
             position: relative;
-            background-color: #f2f2f2;
             padding: 30px 30px 50px;
             overflow: hidden;
             height: 100%;
@@ -109,6 +107,7 @@
             .section-top {
                 position: relative;
                 z-index: 2;
+                text-align: center;
             }
 
             .image-product {

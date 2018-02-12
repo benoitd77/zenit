@@ -383,12 +383,12 @@
             }
 
             .image-board {
-                background: #f2f2f2 url('../images/spinner.gif') 50% no-repeat;
+                background: url('../images/spinner.gif') 50% no-repeat;
                 margin: 0 auto;
                 height: calc(100% - 67px);
 
                 &.img-loaded {
-                    background: #f2f2f2;
+                    background: none;
                 }
 
                 img {
