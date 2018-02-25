@@ -19,41 +19,48 @@ if ( post_password_required() ) {
 
 $currentLang = qtrans_getLanguage();
 $currencySymbol = get_woocommerce_currency_symbol();
-
-
 global $product;
 
-$variations = new WC_Product_Variable( $product->id);
+//---------------------------------------------------------------------------------
+// Recommended Setup
+//---------------------------------------------------------------------------------
+$variations = new WC_Product_Variable($product->id);
 $variables = $variations->get_available_variations();
 
 $recommended_setups = [];
-
 foreach ($variables as $variable) {
 	if ($variable['is_recommended']) {
 		$recommended_setups[] = $variable;
 	}
 }
 
-/* Get the trucks */
-$truckQuery = new WP_Query(array('product_cat' => 'trucks', 'post_type' => 'product', 'orderby' => 'title'));
-$trucksNwheels = [];
+//---------------------------------------------------------------------------------
+// Get the Trucks
+//---------------------------------------------------------------------------------
+$truckQuery = new WP_Query(array('product_cat' => 'trucks', 'post_type' => 'product', 'orderby' => 'title', 'posts_per_page' => -1));
+$trucksArray = [];
 if($truckQuery->have_posts()) {
 	foreach ($truckQuery->posts as $truck) {
 		$_truck = wc_get_product($truck->ID);
 		$truckPrice = $_truck->get_price();
-		$trucksNwheels[$truck->post_name]['price'] = $truckPrice;
+		$trucksArray[$truck->post_name]['price'] = $truckPrice;
 	}
 }
 
-/* Get the wheels */
-$wheelsQuery = new WP_Query(array('product_cat' => 'wheels', 'post_type' => 'product', 'orderby' => 'title'));
+//---------------------------------------------------------------------------------
+// Get the Wheels
+//---------------------------------------------------------------------------------
+$wheelsQuery = new WP_Query(array('product_cat' => 'wheels', 'post_type' => 'product', 'orderby' => 'title', 'posts_per_page' => -1));
+$wheelsArray = [];
 if($wheelsQuery->have_posts()) {
 	foreach ($wheelsQuery->posts as $wheel) {
 		$_wheel = wc_get_product($wheel->ID);
 		$wheelPrice = $_wheel->get_price();
-		$trucksNwheels[$wheel->post_name]['price'] = $wheelPrice;
+		$wheelsArray[$wheel->post_name]['price'] = $wheelPrice;
 	}
 }
+
+$trucksAndWheels = array_merge($trucksArray, $wheelsArray);
 
 ?>
 
@@ -110,7 +117,7 @@ if($wheelsQuery->have_posts()) {
 								$image_id = get_term_meta( $value->term_id, 'image', true );
 								$image_data = wp_get_attachment_image_src( $image_id, 'full' );
 								$image = $image_data[0];
-								$variation_price = $trucksNwheels[$value->slug]['price'];
+								$variation_price = $trucksAndWheels[$value->slug]['price'];
 								$variation_price = number_format($variation_price,2);
 
 								if (!$out_of_stock[0]) : ?>
