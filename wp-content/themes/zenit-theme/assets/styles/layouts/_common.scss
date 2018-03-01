@@ -101,3 +101,19 @@
         }
     }
 }
+
+
+#page-board.postid-31157 #page-builder,
+#page-board.joe #page-builder {
+    &.container-fluid {
+        padding: 0;
+    }
+    .row.image {
+        margin: 0;
+        padding: 85px 0 !important;
+
+        > div {
+            padding: 0;
+        }
+    }
+}
