@@ -189,10 +189,59 @@
                 font-family: $apercu;
                 font-weight: bold;
                 position: relative;
-                margin-right: 120px;
+                margin: 0 50px;
+                width: 83px;
 
-                @media (max-width: 1380px) {
-                    margin-right: 50px;
+                @media (max-width: 1860px) {
+                    margin: 0 45px;
+                }
+
+                @media (max-width: 1770px) {
+                    margin: 0 40px;
+                }
+
+                @media (max-width: 1680px) {
+                    margin: 0 35px;
+                }
+
+                @media (max-width: 1592px) {
+                    margin: 0 30px;
+                }
+
+                @media (max-width: 1504px) {
+                    margin: 0 25px;
+                }
+
+                @media (max-width: 1410px) {
+                    margin: 0 20px;
+                    width: 73px;
+                    font-size: 16px;
+                }
+
+                @media (max-width: 1230px) {
+                    margin: 0 15px;
+                }
+
+                @media (max-width: 1138px) {
+                    margin: 0 10px;
+                }
+
+                @media (max-width: 1052px) {
+                    margin: 0 8px;
+                    width: 65px;
+                    font-size: 14px;
+                }
+
+                @media (max-width: 940px) {
+                    margin: 0 4px;
+                }
+
+                @media (max-width: 868px) {
+                    margin: 0;
+                }
+
+                @media (max-width: 768px) {
+                    width: auto;
                 }
 
                 span {
@@ -211,8 +260,7 @@
                         width: 10px;
                         background-color: white;
                         height: 25px;
-                        margin-bottom: 2px;
-                        margin-right: 0;
+                        margin: 0 0 2px 0;
                         opacity: 0.33;
 
                         &:first-of-type {
