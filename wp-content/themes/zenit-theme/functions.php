@@ -49,6 +49,23 @@ add_filter( 'woocommerce_add_error', function( $message ) {
     return $message;
 });
 
+
+function new_excerpt_length($len) {
+	return 40;
+}
+add_filter('excerpt_length', 'new_excerpt_length');
+
+function custom_read_more() {
+	return '... <a class="read-more" href="'.get_permalink(get_the_ID()).'">more&nbsp;&raquo;</a>';
+}
+function excerpt($limit) {
+	$excerpt = get_the_excerpt();
+	$parts = explode('&hellip;', $excerpt);
+	$theExcerpt = $parts[0];
+
+	return wp_trim_words($theExcerpt, $limit, custom_read_more());
+}
+
 // stop wp removing div tags
 function ikreativ_tiny_mce_fix( $init )
 {
@@ -75,3 +92,7 @@ add_image_size( 'custom-size', 480, 640, false );
 add_image_size( 'custom-size500', 500, 500, false );
 add_image_size( 'custom-size540', 540, 720, false );
 add_image_size( 'custom-size375', 375, 500, false );
+
+// Blog post image sizes
+add_image_size( 'custom-size600x360', 600, 360, false );
+add_image_size( 'custom-size375x225', 375, 225, false );

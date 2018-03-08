@@ -1,14 +1,31 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<?php
+//-------------------------------------------------------------------
+// Page de la liste des articles
+//-------------------------------------------------------------------
+?>
 
-<?php if (!have_posts()) : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'sage'); ?>
-  </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
+<div id="blog" class="container-fluid">
+	<?php
+		$counter = 0;
+		while (have_posts()) {
+			the_post();
 
-<?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-<?php endwhile; ?>
+			if ($counter === 0) {
+				// Most Recent Article
+				get_template_part( 'templates/content', 'article-main' );
+			} else {
+				// Remaining Articles
+				if ($counter % 3 === 0) : ?>
+					<div class="article-last">
+						<?php get_template_part( 'templates/content', 'article-default' ); ?>
+					</div> <?php
+				else:
+					get_template_part( 'templates/content', 'article-default' );
+				endif;
+			}
 
-<?php the_posts_navigation(); ?>
+			$counter++;
+		}
+	?>
+</div>
+

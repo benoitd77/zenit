@@ -1,0 +1,132 @@
+body.blog {
+    margin-top: 88px;
+
+    @media (max-width: 768px) {
+        margin-top: 40px;
+    }
+
+    #blog {
+        padding-top: 60px;
+        width: 1290px;
+    }
+
+    .main-article {
+        margin-bottom: 60px;
+        padding: 20px 0;
+        width: 100%;
+        float: left;
+
+        .main-article-image {
+            a {
+                display: block;
+                background: url('../images/spinner.gif') 50% no-repeat;
+                float: left;
+                width: 600px;
+                height: 360px;
+            }
+        }
+
+        .main-article-content {
+            float: left;
+            width: 600px;
+            padding-left: 30px;
+
+            h2 a {
+                display: inline-block;
+                font-size: 24px;
+                line-height: 26px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .default-article {
+        margin-right: 67px;
+        padding: 10px 0;
+        width: 375px;
+        float: left;
+
+        .article-image {
+            a {
+                display: block;
+                background: url('../images/spinner.gif') 50% no-repeat;
+                height: 225px;
+                width: 375px;
+            }
+        }
+
+        .article-content {
+            height: 182px;
+            padding: 20px 0;
+
+            h2 a {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: inline-block;
+                width: 375px;
+            }
+
+            p {
+                font-size: 15px;
+                height: 109px;
+            }
+        }
+    }
+
+    .article-last {
+        .default-article {
+            margin-right: 0;
+        }
+    }
+}
+
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// Page Single Article Style
+//----------------------------------------------------------------------------------------------------------------------
+body.post-template-default.single-post {
+    margin-top: 88px;
+
+    @media (max-width: 768px) {
+        margin-top: 40px;
+    }
+
+    .article-full {
+        margin: 0 auto;
+        padding-top: 60px;
+        width: 1260px;
+
+        .post {
+            header {
+                margin-bottom: 20px;
+            }
+
+            a:hover {
+                opacity: 1;
+            }
+
+            img {
+                margin: 20px 0;
+            }
+        }
+
+
+        // Comments Section
+        .comments {
+            h2 {
+                margin: 30px 0;
+            }
+        }
+
+        .comment-list {
+            margin-bottom: 30px;
+
+            li.comment,
+            article {
+                margin-bottom: 7px;
+            }
+        }
+    }
+}
