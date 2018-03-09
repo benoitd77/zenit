@@ -95,12 +95,16 @@ body.post-template-default.single-post {
 
     .article-full {
         margin: 0 auto;
-        padding-top: 60px;
+        padding: 60px 0;
         width: 1260px;
 
         .post {
             header {
                 margin-bottom: 20px;
+            }
+
+            p {
+                margin-bottom: 10px;
             }
 
             a:hover {
