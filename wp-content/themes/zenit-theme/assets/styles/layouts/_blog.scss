@@ -103,10 +103,6 @@ body.post-template-default.single-post {
                 margin-bottom: 20px;
             }
 
-            .entry-content p:last-child {
-                padding-bottom: 15px;
-            }
-
             p {
                 margin-bottom: 15px;
             }
@@ -117,6 +113,10 @@ body.post-template-default.single-post {
 
             img {
                 margin: 20px 0;
+            }
+
+            .nc_socialPanel {
+                margin-top: 30px!important;
             }
         }
 
