@@ -103,8 +103,12 @@ body.post-template-default.single-post {
                 margin-bottom: 20px;
             }
 
+            .entry-content p:last-child {
+                padding-bottom: 15px;
+            }
+
             p {
-                margin-bottom: 10px;
+                margin-bottom: 15px;
             }
 
             a:hover {
@@ -131,6 +135,14 @@ body.post-template-default.single-post {
             article {
                 margin-bottom: 7px;
             }
+        }
+    }
+}
+
+body.fr {
+    .article-full {
+        .swp_label {
+            font-size: 8px !important;
         }
     }
 }
