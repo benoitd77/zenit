@@ -392,6 +392,13 @@
                 }
             }
 
+            &.image-fw {
+                .col-sm-12 {
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            }
+
             &.video {
                 .play-video {
                     width: 75px;
@@ -549,6 +556,17 @@
         div.single-product.col2-layout {
             width: 100%;
             float: none;
+        }
+
+        #page-builder {
+            .row {
+                &.image-fw {
+                    .col-sm-12 {
+                        background-size: contain;
+                        height: 500px;
+                    }
+                }
+            }
         }
 
         #header-product{
