@@ -13,19 +13,16 @@
 			if ($counter === 0) {
 				// Most Recent Article
 				get_template_part( 'templates/content', 'article-main' );
+				echo '<div class="secondary-articles">';
 			} else {
 				// Remaining Articles
-				if ($counter % 3 === 0) : ?>
-					<div class="article-last">
-						<?php get_template_part( 'templates/content', 'article-default' ); ?>
-					</div> <?php
-				else:
-					get_template_part( 'templates/content', 'article-default' );
-				endif;
+				get_template_part( 'templates/content', 'article-default' );
 			}
 
 			$counter++;
 		}
+
+		echo '</div>';
 	?>
 </div>
 

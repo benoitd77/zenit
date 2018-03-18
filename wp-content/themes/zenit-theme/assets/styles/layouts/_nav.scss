@@ -231,14 +231,18 @@
     }
 }
 
-@media (max-width: 1048px) {
+@media (max-width: 1168px) {
     .nav-primary {
         li {
             a {
                 font-size: 13px;
             }
         }
+    }
+}
 
+@media (max-width: 1048px) {
+    .nav-primary {
         .menu-second-level {
             > .sub-menu > li {
                 width: 23%;
@@ -247,7 +251,7 @@
     }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 998px) {
     .nav-primary{
     	#logo{
     		left:30px;
@@ -288,7 +292,7 @@
     }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 898px) {
     .nav-primary{
     	#logo{
     		left:50%;
