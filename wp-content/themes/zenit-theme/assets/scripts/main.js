@@ -197,6 +197,7 @@
                 var s = skrollr.init({
                     forceHeight: false,
                     mobileDeceleration: 1,
+                    edgeStrategy: 'set',
                     mobileCheck: function mobileOff() {
                         //hack - forces mobile version to be off
                         //return true;
