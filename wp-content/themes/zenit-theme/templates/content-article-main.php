@@ -8,7 +8,7 @@
 	<article class="clearfix">
 		<div class="main-article-image">
 			<a href="<?php the_permalink(); ?>">
-				<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url($product->ID, array(600, 360)); ?>" width="600" height="360">
+				<img class="lazy" data-original="<?php echo get_the_post_thumbnail_url($product->ID, array(1260, 756)); ?>" width="600" height="360">
 			</a>
 		</div>
 		<div class="main-article-content">
