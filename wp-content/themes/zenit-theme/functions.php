@@ -97,3 +97,4 @@ add_image_size( 'custom-size375', 375, 500, false );
 // Blog post image sizes
 add_image_size( 'custom-size600x360', 600, 360, false );
 add_image_size( 'custom-size375x225', 375, 225, false );
+add_image_size( 'custom-size1260x756', 1260, 756, false );
