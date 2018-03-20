@@ -18,12 +18,14 @@ body.blog {
 
         .main-article-image {
             float: left;
-            background: url('../images/spinner.gif') 50% no-repeat;
             width: 600px;
             height: 360px;
 
             a {
                 display: block;
+                background: url('../images/spinner.gif') 50% no-repeat;
+                width: 600px;
+                height: 360px;
             }
         }
 
