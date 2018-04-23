@@ -32,6 +32,9 @@ $catSlug  = '';
 
 foreach ($category as $cat) {
 	$catSlug = $cat->slug;
+	var_dump("********************************************************");
+	var_dump("$catSlug");
+	var_dump("********************************************************");
 	if ($catSlug === 'custom-boards' || $catSlug === 'bgrade-board') {
 		$isCustomBrd = true;
 	}
