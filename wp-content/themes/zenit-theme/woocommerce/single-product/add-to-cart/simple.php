@@ -32,7 +32,7 @@ $catSlug  = '';
 
 foreach ($category as $cat) {
 	$catSlug = $cat->slug;
-	if ($catSlug === 'custom-boards') {
+	if ($catSlug === 'custom-boards' || $catSlug === 'bgrade-board') {
 		$isCustomBrd = true;
 	}
 }
